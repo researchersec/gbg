@@ -19,14 +19,14 @@ os.makedirs('reports', exist_ok=True)
 # Download the reports
 for hit in sorted_hits:
     sags_nummer = hit['_source']['sagsNummer']
-    cvr = hit['_source']['cvrNummer']
+    cvr = str(hit['_source']['cvrNummer'])
     documents = hit['_source']['dokumenter']
 
     for doc in documents:
         url = doc['dokumentUrl']
         mime_type = doc['dokumentMimeType']
         ext = mime_type.split('/')[-1]
-        os.makedirs(str(cvr), exist_ok=True)
+        os.makedirs(cvr, exist_ok=True)
         file_name = f"reports/{cvr}/{sags_nummer}_{documents.index(doc)}.{ext}"
 
         # Download the document
