@@ -24,10 +24,15 @@ jobs:
         pip install requests
 
     - name: Download JSON data
-      run: curl -XGET 'http://distribution.virk.dk/offentliggoerelser/_search' -H 'Content-Type: application/json' -d '{"query": {"bool": {"must": [{"term": {"dokumenter.dokumentMimeType": "application"}},{"term": {"dokumenter.dokumentMimeType": "xml"}},{"range": {"offentliggoerelsesTidspunkt": {"gt": "2018-06-21T00:00:00.001Z", "lt": "2018-06-21T23:59:59.505Z"}}}]}},"size": 2999}' -o output.json
+      run: |
+        curl -f -XGET 'http://distribution.virk.dk/offentliggoerelser/_search' \
+          -H 'Content-Type: application/json' \
+          -d '{"query": {"bool": {"must": [{"term": {"dokumenter.dokumentMimeType": "application"}},{"term": {"dokumenter.dokumentMimeType": "xml"}},{"range": {"offentliggoerelsesTidspunkt": {"gt": "2018-06-21T00:00:00.001Z", "lt": "2018-06-21T23:59:59.505Z"}}}]}},"size": 2999}' \
+          -o output.json
+        cat output.json # Debugging output
 
     - name: Run Python script
-      run: python script.py  # Replace with the path to your Python script
+      run: python script.py
 
     - name: Commit and push reports
       run: |
