@@ -26,8 +26,8 @@ for hit in sorted_hits:
         url = doc['dokumentUrl']
         mime_type = doc['dokumentMimeType']
         ext = mime_type.split('/')[-1]
-        os.makedirs(cvr, exist_ok=True)
-        file_name = f"reports/{cvr}/{sags_nummer}_{documents.index(doc)}.{ext}"
+        #os.makedirs(cvr, exist_ok=True)
+        file_name = f"reports/{sags_nummer}_{documents.index(doc)}.{ext}"
 
         # Download the document
         response = requests.get(url)
