@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38488902</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-03-14</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38488902</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-03-14</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c2">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38488902</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-03-14</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c3">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38488902</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2017-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="u0">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2018-05-30</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Brian Dahm Ebbesen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">BE Developed IVS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Bellahøjvej</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">14</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">6000</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Kolding</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">38488902</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2017-03-14</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2017-12-31</gsd:ReportingPeriodEndDate>
+   <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;pre xmlns="http://www.w3.org/1999/xhtml"&gt;
+Ledelsen aflægger hermed årsrapport for 2017 for BE Developed IVS.
+ 
+Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.
+Årsregnskabet giver et retvisende billede af virksomhedens aktiver 
+og passiver, finansielle stilling samt resultatet.
+
+Selskabet har fravlgt revision. Ledelsen bekræfter at betingelserne
+for fravalg af revision fortsat er opfyldt.
+
+Årsrapporten indstilles til generalforsamlingens godkendelse.
+&lt;/pre&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Kolding</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport contextRef="c0">2018-05-30</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Brian Dahm Ebbesen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Fravalg af revision for det kommende regnskabsår.</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+   <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;pre xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;Hovedaktivitet 
+&lt;/strong&gt;Selskabets hovedaktivitet er  at drive virksomhed med investering i aktier 
+og anparter, samt enhver i forbindelse hermed stående virksomhed.
+
+&lt;strong&gt;Begivenheder efter regnskabets afslutning
+&lt;/strong&gt;Efter regnskabsårets afslutning er der ikke indtruffet
+begivenheder, der vil kunne forrykke selskabets
+finansielle stilling væsentligt.
+&lt;/pre&gt;</mrv:ManagementsReview>
+   <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;pre xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;strong&gt;
+  &lt;span style="font-size:24px"&gt;Generelt om indregning og måling
+  &lt;/span&gt;
+&lt;/strong&gt;
+I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, 
+herudover indregnes værdireguleringer af finansielle aktiver og 
+forpligtelser. 
+
+I resultatopgørelsen indregnes ligeledes alle 
+omkostninger, herunder afskrivninger og nedskrivninger.
+
+Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige 
+økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles 
+pålideligt.
+
+Forpligtelser indregnes i balancen, når det er sandsynligt, at 
+fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens 
+værdi kan måles pålideligt.
+
+Ved første indregning måles aktiver og forpligtelser til kostpris. 
+Efterfølgende måles aktiver og forpligtelser som beskrevet for hver 
+enkelt regnskabspost nedenfor.
+
+Visse finansielle aktiver og forpligtelser måles til amortiseret 
+kostpris, hvorved der indregnes en konstant effektiv rente over 
+løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med
+fradrag af eventuelle afdrag samt tillæg/fradrag af den akkumulerede 
+amortisering af forskellen mellem kostpris og nominelt beløb.
+
+Ved indregning og måling tages hensyn til forudsigelige tab og risici,
+der fremkommer, inden årsrapporten aflægges, og som be- eller afkræfter 
+forhold, der eksisterede på balancedagen.
+
+&lt;span style="font-size:18px"&gt;
+  &lt;strong&gt;Resultatopgørelsen
+  &lt;/strong&gt;
+&lt;/span&gt;
+&lt;strong&gt;Skat af årets resultat
+&lt;/strong&gt;Skat af årets resultat, som består af årets aktuelle skat og 
+forskydning i udskudt skat, indregnes i resultatopgørelsen 
+med den del, der kan henføres til årets resultat, og direkte 
+på egenkapitalen med den del, der kan henføres til posteringer 
+direkte på egenkapitalen.
+
+&lt;span style="font-size:18px"&gt;
+  &lt;strong&gt;Balancen&lt;/strong&gt;
+&lt;/span&gt;
+
+&lt;strong&gt;Kapitalandele
+&lt;/strong&gt;Kapitalandele i dattervirksomheder og associerede virksomheder
+indregnes til kostpris. Hvis genindvindingsværdien er lavere nedskrives
+denne.
+
+&lt;strong&gt;Skyldig skat og udskudt skat
+&lt;/strong&gt;Aktuelle skatteforpligtelser og tilgodehavende aktuel skat 
+indregnes i balancen som beregnet skat af årets skattepligtige 
+indkomst reguleret for skat af tidligere års skattepligtige 
+indkomster samt for betalte acontoskatter.
+Udskudt skat måles efter den balanceorienterede gældsmetode 
+af midlertidige forskelle mellem regnskabsmæssig og skattemæssig 
+værdi af aktiver og forpligtelser, opgjort på grundlag af den
+planlagte anvendelse af aktivet, henholdsvis afvikling af 
+forpligtelsen.
+Udskudt skat måles på grundlag af de skatteregler og skattesatser, 
+der med balancedagens lovgivning vil være gældende, når den 
+udskudte skat forventes udløst som aktuel skat. I de tilfælde, 
+hvor opgørelse af skatteværdien kan foretages efter alternative 
+beskatningsregler, måles udskudt skat på grundlag af den
+planlagte anvendelse af aktivet, henholdsvis afvikling af
+forpligtelsen.
+Ændring i udskudt skat, som følge af ændringer i skattesatser, 
+indregnes i resultatopgørelsen. For indeværende år er anvendt 
+en skattesats på 22,0%.
+
+&lt;strong&gt;Gældsforpligtelser
+&lt;/strong&gt;Gældsforpligtelser er målt til amortiseret kostpris svarende 
+til nominel værdi.
+&lt;/pre&gt;</fsa:DisclosureOfAccountingPolicies>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">0</fsa:GrossResult>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">0</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">0</fsa:TaxExpense>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c3" decimals="0" unitRef="u0">5000</fsa:LongtermInvestmentsInGroupEnterprises>
+   <fsa:LongtermInvestmentsAndReceivables contextRef="c3" decimals="0" unitRef="u0">5000</fsa:LongtermInvestmentsAndReceivables>
+   <fsa:NoncurrentAssets contextRef="c3" decimals="0" unitRef="u0">5000</fsa:NoncurrentAssets>
+   <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="c3" decimals="0" unitRef="u0">32208</fsa:ShorttermReceivablesFromGroupEnterprises>
+   <fsa:ShorttermReceivables contextRef="c3" decimals="0" unitRef="u0">32208</fsa:ShorttermReceivables>
+   <fsa:CurrentAssets contextRef="c3" decimals="0" unitRef="u0">32208</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c3" decimals="0" unitRef="u0">37208</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c3" decimals="0" unitRef="u0">5000</fsa:ContributedCapital>
+   <fsa:Equity contextRef="c3" decimals="0" unitRef="u0">5000</fsa:Equity>
+   <fsa:ShorttermTaxPayables contextRef="c3" decimals="0" unitRef="u0">32208</fsa:ShorttermTaxPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c3" decimals="0" unitRef="u0">32208</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c3" decimals="0" unitRef="u0">32208</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c3" decimals="0" unitRef="u0">37208</fsa:LiabilitiesAndEquity>
+   <sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc contextRef="c0" xml:lang="da">false</sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc>
+   <fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB contextRef="c0" xml:lang="da">false</fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB>
+   <fsa:SelectedElementsFromReportingClassC contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassC>
+   <fsa:SelectedElementsFromReportingClassD contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassD>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">eBogholderen</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Bagsværdvej 149 A</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">2880 Bagsværd</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

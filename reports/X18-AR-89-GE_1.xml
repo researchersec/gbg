@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38480383</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-03-07</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38480383</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2017-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="u0">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2018-06-21</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Susanne Lind Rasmussen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">Lind &amp; Co IVS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Montebello Alle</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">14, st</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">3000</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Helsingør</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:TelephoneNumberOfReportingEntity contextRef="c0" xml:lang="da">21486842</gsd:TelephoneNumberOfReportingEntity>
+   <gsd:EmailOfReportingEntity contextRef="c0" xml:lang="da">Lindrasmussen@gmail.com</gsd:EmailOfReportingEntity>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">38480383</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2017-03-07</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2017-12-31</gsd:ReportingPeriodEndDate>
+   <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">Nordea</gsd:NameOfFinancialInstitution>
+   <gsd:AddressOfFinancialStreetName contextRef="c0" xml:lang="da">Stengade</gsd:AddressOfFinancialStreetName>
+   <gsd:AddressOfFinancialStreetBuildingIdentifier contextRef="c0" xml:lang="da">45</gsd:AddressOfFinancialStreetBuildingIdentifier>
+   <gsd:AddressOfFinancialPostCodeIdentifier contextRef="c0" xml:lang="da">3000</gsd:AddressOfFinancialPostCodeIdentifier>
+   <gsd:AddressOfFinancialDistrictName contextRef="c0" xml:lang="da">Helsingør</gsd:AddressOfFinancialDistrictName>
+   <gsd:AddressOfFinancialCountryIdentificationCode contextRef="c0" xml:lang="da">DK</gsd:AddressOfFinancialCountryIdentificationCode>
+   <gsd:AddressOfFinancialCountry contextRef="c0" xml:lang="da">Danmark</gsd:AddressOfFinancialCountry>
+   <fsa:Revenue contextRef="c0" decimals="0" unitRef="u0">0</fsa:Revenue>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">0</fsa:GrossResult>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">0</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">0</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:Goodwill contextRef="c1" decimals="0" unitRef="u0">0</fsa:Goodwill>
+   <fsa:IntangibleAssets contextRef="c1" decimals="0" unitRef="u0">0</fsa:IntangibleAssets>
+   <fsa:LandAndBuildings contextRef="c1" decimals="0" unitRef="u0">0</fsa:LandAndBuildings>
+   <fsa:PlantAndMachinery contextRef="c1" decimals="0" unitRef="u0">0</fsa:PlantAndMachinery>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c1" decimals="0" unitRef="u0">0</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c1" decimals="0" unitRef="u0">0</fsa:PropertyPlantAndEquipment>
+   <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInGroupEnterprises>
+   <fsa:LongtermInvestmentsInAssociates contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInAssociates>
+   <fsa:OtherLongtermInvestments contextRef="c1" decimals="0" unitRef="u0">0</fsa:OtherLongtermInvestments>
+   <fsa:LongtermInvestmentsAndReceivables contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsAndReceivables>
+   <fsa:NoncurrentAssets contextRef="c1" decimals="0" unitRef="u0">0</fsa:NoncurrentAssets>
+   <fsa:RawMaterialsAndConsumables contextRef="c1" decimals="0" unitRef="u0">0</fsa:RawMaterialsAndConsumables>
+   <fsa:ManufacturedGoodsAndGoodsForResale contextRef="c1" decimals="0" unitRef="u0">0</fsa:ManufacturedGoodsAndGoodsForResale>
+   <fsa:Inventories contextRef="c1" decimals="0" unitRef="u0">0</fsa:Inventories>
+   <fsa:ShorttermTradeReceivables contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermTradeReceivables>
+   <fsa:ContractWorkInProgress contextRef="c1" decimals="0" unitRef="u0">0</fsa:ContractWorkInProgress>
+   <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermReceivablesFromGroupEnterprises>
+   <fsa:ShorttermReceivablesFromAssociates contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermReceivablesFromAssociates>
+   <fsa:ShorttermTaxReceivables contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermTaxReceivables>
+   <fsa:OtherShorttermReceivables contextRef="c1" decimals="0" unitRef="u0">0</fsa:OtherShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermReceivables>
+   <fsa:OtherShorttermInvestments contextRef="c1" decimals="0" unitRef="u0">0</fsa:OtherShorttermInvestments>
+   <fsa:ShorttermInvestments contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermInvestments>
+   <fsa:CashAndCashEquivalents contextRef="c1" decimals="0" unitRef="u0">1000</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets contextRef="c1" decimals="0" unitRef="u0">1000</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c1" decimals="0" unitRef="u0">1000</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c1" decimals="0" unitRef="u0">1000</fsa:ContributedCapital>
+   <fsa:OtherReserves contextRef="c1" decimals="0" unitRef="u0">0</fsa:OtherReserves>
+   <fsa:RetainedEarnings contextRef="c1" decimals="0" unitRef="u0">0</fsa:RetainedEarnings>
+   <fsa:ProposedDividendRecognisedInEquity contextRef="c1" decimals="0" unitRef="u0">0</fsa:ProposedDividendRecognisedInEquity>
+   <fsa:Equity contextRef="c1" decimals="0" unitRef="u0">1000</fsa:Equity>
+   <fsa:ProvisionsForDeferredTax contextRef="c1" decimals="0" unitRef="u0">0</fsa:ProvisionsForDeferredTax>
+   <fsa:Provisions contextRef="c1" decimals="0" unitRef="u0">0</fsa:Provisions>
+   <fsa:LongtermMortgageDebt contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermMortgageDebt>
+   <fsa:LongtermDebtToBanks contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermDebtToBanks>
+   <fsa:LongtermTaxPayables contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermTaxPayables>
+   <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c1" decimals="0" unitRef="u0">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermMortgageDebt contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermMortgageDebt>
+   <fsa:ShorttermDebtToBanks contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermDebtToBanks>
+   <fsa:ShorttermTradePayables contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermTradePayables>
+   <fsa:ShorttermPayablesToGroupEnterprises contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermPayablesToGroupEnterprises>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c1" decimals="0" unitRef="u0">0</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c1" decimals="0" unitRef="u0">0</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c1" decimals="0" unitRef="u0">1000</fsa:LiabilitiesAndEquity>
+   <fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabet har siden sin stiftelse ikke haft noget aktivitet, hvorfor der ikke er nogen omsætning eller udgift i selskabet. Selskabet er hvilende og hvis der ikke igangsættes aktiviteter i indeværende år påtænkes selskabet afviklet/lukket.&lt;/p&gt;</fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters>
+   <fsa:DisclosureOfApplicationOfExceptionsForMicroUndertakings contextRef="c0" xml:lang="da">
+    
+        &lt;div xmlns="http://www.w3.org/1999/xhtml" style="margin-bottom: 10px;"&gt;
+            Mikrovirksomheden anvender undtagelsen om at give oplysning om anvendt regnskabspraksis
+        &lt;/div&gt;
+    
+    
+
+    
+    
+</fsa:DisclosureOfApplicationOfExceptionsForMicroUndertakings>
+   <sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc contextRef="c0" xml:lang="da">true</sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B, mikrovirksomhed</fsa:ClassOfReportingEntity>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Lind &amp; Co IVS</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Montebello Allé 14.b</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">3000 Helsingør</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+   <fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutAccountingPolicies contextRef="c0" xml:lang="da">true</fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutAccountingPolicies>
+   <fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutLiabilitiesDueForPaymentMoreThanFiveYearsAfterTheBalanceSheetDate contextRef="c0" xml:lang="da">false</fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutLiabilitiesDueForPaymentMoreThanFiveYearsAfterTheBalanceSheetDate>
+   <fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutCertainSpecialItems contextRef="c0" xml:lang="da">false</fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutCertainSpecialItems>
+   <fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutNumberOfEmployees contextRef="c0" xml:lang="da">false</fsa:TheMicroUndertakingAppliesTheExceptionConcerningFilingInformationAboutNumberOfEmployees>
+</xbrli:xbrl>

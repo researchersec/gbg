@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38434179</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-02-22</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38434179</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-02-22</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+            <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c2">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38434179</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-02-22</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c3">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38434179</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-02-22</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+            <cmn:auditorIdentifier>2</cmn:auditorIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c4">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38434179</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-02-22</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c5">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38434179</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2017-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="u0">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2018-06-20</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Lasse Hindborg Hansen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">Firma MH ApS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">H.C. Ørsteds Vej</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">5</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">6000</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">Kolding</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:TelephoneNumberOfReportingEntity contextRef="c0" xml:lang="da">91804017</gsd:TelephoneNumberOfReportingEntity>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">38434179</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2017-02-22</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2017-12-31</gsd:ReportingPeriodEndDate>
+   <cmn:NameOfAuditFirm contextRef="c1" xml:lang="da">Sædding Revision ApS</cmn:NameOfAuditFirm>
+   <gsd:AddressOfAuditorStreetName contextRef="c1" xml:lang="da">Snedkervej</gsd:AddressOfAuditorStreetName>
+   <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="c1" xml:lang="da">17</gsd:AddressOfAuditorStreetBuildingIdentifier>
+   <gsd:AddressOfAuditorPostCodeIdentifier contextRef="c1" xml:lang="da">6710</gsd:AddressOfAuditorPostCodeIdentifier>
+   <gsd:AddressOfAuditorDistrictName contextRef="c1" xml:lang="da">Esbjerg V</gsd:AddressOfAuditorDistrictName>
+   <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Direktionen har dags dato aflagt årsrapporten for 2017 for Firma MH ApS&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Vi anser den valgte regnskabspraksis for hensigtsmæssig, således at årsrapporten giver et retvisende billede af selskabets aktiver og passiver, finansielle stilling samt resultat.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">Kolding</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport contextRef="c0">2018-06-20</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c2" xml:lang="da">Lasse Hindborg Hansen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption contextRef="c0" xml:lang="da">Ja</sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption>
+   <arr:IndependentAuditorsReportsAudit contextRef="c0" xml:lang="da">Den uafhængige revisors revisionspåtegning</arr:IndependentAuditorsReportsAudit>
+   <arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements contextRef="c0" xml:lang="da">T</arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements>
+   <arr:TypeOfModifiedOpinionOnAuditedFinancialStatements contextRef="c0" xml:lang="da">Konklusion med forbehold</arr:TypeOfModifiedOpinionOnAuditedFinancialStatements>
+   <arr:OpinionOnAuditedFinancialStatements contextRef="c0" xml:lang="da">Revisorerklæring					
+								
+								
+Til kapitalejerne i Firma MH ApS								
+ 								
+Konklusion med forbehold								
+Vi har revideret årsregnskabet for Firma MH ApS for regnskabsåret 22. februar 2017 - 31. december 								
+2017, der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet								
+udarbejdes efter årsregnskabsloven.								
+ 								
+Det er vores opfattelse, at årsregnskabet, bortset fra indvirkningerne af det forhold, der er beskrevet								
+i afsnittet "Grundlaget for konklusion med forbehold", giver et retvisende billede af selskabets aktiver, 								
+passiver og finansielle stilling pr. 31. december 2017, samt af resultatet af selskabets aktiviteter for 								
+regnskabsåret 22. februar 2017 - 31. december 2017 i overensstemmelse med årsregnskabsloven.								
+ 								
+Grundlag for konklusion med forbehold 								
+								
+Vi blev valgt som revisorer for selskabet efter statusdagen, og har således ikke observeret tilstede-								
+værelsen af  selskabets Anlægsaktiver. Vi har ikke på anden vis været i stand til at overbevise 								
+os selv om tilstedeværelsen af selskabets anlægsaktiver. 								
+								
+Vi har udført vores revision i overensstemmelse med internationale standarder om revision og de 								
+yderligere krav, der er gældende i Danmark. Vores ansvar ifølge disse standarder og krav er 								
+nærmere beskrevet i revisionspåtegningens afsnit "Revisors ansvar for revisionen af årsregn-								
+skabet". Vi er uafhængige af selskabet af selskabet i overensstemmelse med internationale								
+etiske regler for revisorer (IESBA's Etiske regler) og de yderligere krav, der er gældende i								
+Danmark, ligesom vi har opfyldt vores øvrige etiske forpligtelser i henhold til disse regler og 								
+krav. Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet til at 								
+danne grundlag for vores konklusion med forbehold.								
+								
+Ledelsens ansvar for årsregnskabet								
+Ledelsen har ansvaret for udarbejdelsen af et årsregnskab, der giver et retvisende billede i overens-								
+stemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som								
+ledelsen anser for nødvendig for at udarbejde et årsregnskab uden væsentlig fejlinformation, 								
+uanset om denne skyldes besvigelser eller fejl. 								
+								
+Ved udarbejdelsen af årsregnskabet er ledelsen ansvarlig for at vurdere selskabets evne til at 								
+fortsætte driften; at oplyse om forhold vedrørende fortsat drift, hvor dette er relevant; samt at udarbejde 								
+årsregnskabet på grundlag af regnskabsprincippet om fortsat drift, medmindre ledelsen 								
+enten har til hensigt at likvidere selskabet, indstille driften eller ikke har andet realistisk 								
+alternativ end at gøre dette.								
+								
+Revisors ansvar for revisionen af årsregnskabet								
+Vores mål er at opnå høj grad af sikkerhed for, om årsregnskabet som helhed er uden væsentlig 								
+fejlinformation, uanset om denne skyldes besvigelser eller fejl, og at afgive en revisions-								
+påtegning med en konklusion. Høj grad af sikkerhed er et højt niveau af sikkerhed, men er 								
+ikke en garanti for, at en revision, der udføres i overensstemmelse med internationale 								
+								
+								
+								
+								
+standarder om revision og de yderligere krav, der er gældende i Danmark, altid vil afdække								
+væsentlig fejlinformation, når sådan findes. Fejlinformationer kan opstå som følge af 								
+besvigelser eller fejl og kan betragtes som væsentlige, hvis det med rimelighed kan forventes, 								
+at de enkeltvis eller samlet har indflydelse på de økonomiske beslutninger, som regnskabs-								
+brugerne træffer på grundlag af årsregnskabet.								
+								
+								
+Som led i en revision, der udføres i overensstemmelse med internationale standarder om revision 								
+og de yderligere krav, der er gældende i Danmark, foretager vi faglige vurderinger og opret-								
+holder professionel skepsis under revisionen. Herudover:								
+								
+								
+*	Identificerer og vurderer vi risikoen for væsentlig fejlinformation i årsregnskabet, 							
+	uanset om denne skyldes besvigelser eller fejl, udformer og udfører revisions-							
+	handlinger som reaktion på disse risici samt opnår revisionsbevis, der er tilstrækkeligt 							
+	og egnet til at danne grundlag for vores konklusion. Risikoen for ikke at opdage 							
+	væsentlig fejlinformation forårsaget af besvigelser er højere end ved væsentlig 							
+	fejlinformation forårsaget af fejl, idet besvigelser kan omfatte sammensværgelser, 							
+	dokumentfalsk, bevidste udeladelser, vildledning eller tilsidesættelse af intern kontrol.							
+								
+								
+*	Opnår vi forståelse af den interne kontrol med relevans for revisionen for at kunne 							
+	udforme revisionshandlinger, der er passende efter omstændighederne, men ikke 							
+	for at kunne udtrykke en konklusion om effektiviteten af selskabets interne kontrol.							
+								
+								
+*	Tager vi stilling til, om den regnskabspraksis, som er anvendt af ledelsen, er passende, 							
+	samt om de regnskabsmæssige skøn og tilknyttede oplysninger, som ledelsen har 							
+	udarbejdet, er rimelige.							
+								
+*	Konkluderer vi, om ledelsens udarbejdelse af årsregnskabet på grundlag af regnskabs-							
+	princippet om fortsat drift er passende, samt om der på grundlag af det opnåede 							
+	revisionsbevis er væsentlig usikkerhed forbundet med begivenheder eller forhold, 							
+	der kan skabe betydelig tvivl om selskabets evne til at fortsætte driften. Hvis vi 							
+	konkluderer, at der er en væsentlig usikkerhed, skal vi i vores revisionspåtegning 							
+	gøre opmærksom på oplysninger herom i årsregnskabet eller, hvis sådanne 							
+	oplysninger ikke er tilstrækkelige, modificere vores konklusion. Vores konklusioner 							
+	er baseret på det revisionsbevis, der er opnået frem til datoen for vores revisions-							
+	påtegning. Fremtidige begivenheder eller forhold kan dog medføre, at selskabet							
+	 ikke længere kan fortsætte driften.							
+								
+	 							
+*	Tager vi stilling til den samlede præsentation, struktur og indhold af 							
+	årsregnskabet, herunder noteoplysningerne, samt om årsregnskabet							
+	afspejler de underliggende transaktioner og begivenheder på en sådan							
+	måde, at der gives et retvisende billede heraf.							
+								
+								
+								
+								
+Vi kommunikerer med den øverste ledelse om blandt andet det planlagte omfang og den tidsmæssige 								
+placering af revisionen samt betydelige revisionsmæssige observationer, herunder eventuelle								
+ betydelige mangler i intern kontrol, som vi identificerer under revisionen.								
+								
+								
+Udtalelse om ledelsesberetningen								
+Ledelsen er ansvarlig for ledelsesberetningen.								
+								
+								
+Vores konklusion om årsregnskabet omfatter ikke ledelsesberetningen, og vi udtrykker ingen form 								
+for konklusion med sikkerhed om ledelsesberetningen.								
+								
+								
+I tilknytning til vores revision af årsregnskabet er det vores ansvar at læse ledelsesberetningen og i 								
+den forbindelse overveje, om ledelsesberetningen er væsentligt inkonsistent med årsregnskabet 								
+eller vores viden opnået ved revisionen eller på anden måde synes at indeholde væsentlig 								
+fejlinformation.								
+								
+Vores ansvar er derudover at overveje, om ledelsesberetningen indeholder krævede oplysninger i 								
+henhold til årsregnskabsloven.								
+								
+Baseret på det udførte arbejde er det vores opfattelse, at ledelsesberetningen er i overensstemmelse 								
+med årsregnskabet og er udarbejdet i overensstemmelse med årsregnskabslovens krav. Vi har ikke 								
+fundet væsentlig fejlinformation i ledelsesberetningen.								
+								
+								
+								
+Sædding Revision ApS								
+CVR-nr. 25510461								
+								
+								
+								
+ 								
+Simon Hessellund								
+Registreret revisor								
+mne8317</arr:OpinionOnAuditedFinancialStatements>
+   <arr:TypeOfBasisForModifiedOpinionOnAuditedFinancialStatements contextRef="c0" xml:lang="da">Grundlag for konklusion med forbehold</arr:TypeOfBasisForModifiedOpinionOnAuditedFinancialStatements>
+   <arr:DescriptionOfQualificationsOfAuditedFinancialStatements contextRef="c0" xml:lang="da">Grundlag for konklusion med forbehold 								
+								
+Vi blev valgt som revisorer for selskabet efter statusdagen, og har således ikke observeret tilstede-								
+værelsen af  selskabets Anlægsaktiver. Vi har ikke på anden vis været i stand til at overbevise 								
+os selv om tilstedeværelsen af selskabets anlægsaktiver. 								
+								
+Vi har udført vores revision i overensstemmelse med internationale standarder om revision og de 								
+yderligere krav, der er gældende i Danmark. Vores ansvar ifølge disse standarder og krav er 								
+nærmere beskrevet i revisionspåtegningens afsnit "Revisors ansvar for revisionen af årsregn-								
+skabet". Vi er uafhængige af selskabet af selskabet i overensstemmelse med internationale								
+etiske regler for revisorer (IESBA's Etiske regler) og de yderligere krav, der er gældende i								
+Danmark, ligesom vi har opfyldt vores øvrige etiske forpligtelser i henhold til disse regler og 								
+krav. Det er vores opfattelse, at det opnåede revisionsbevis er tilstrækkeligt og egnet til at 								
+danne grundlag for vores konklusion med forbehold.</arr:DescriptionOfQualificationsOfAuditedFinancialStatements>
+   <arr:SignatureOfAuditorsPlace contextRef="c0" xml:lang="da">Esbjerg</arr:SignatureOfAuditorsPlace>
+   <arr:SignatureOfAuditorsDate contextRef="c0">2018-06-20</arr:SignatureOfAuditorsDate>
+   <cmn:NameAndSurnameOfAuditor contextRef="c3" xml:lang="da">Simon Hessellund</cmn:NameAndSurnameOfAuditor>
+   <cmn:IdentificationNumberOfAuditor contextRef="c3" xml:lang="da">mne8317</cmn:IdentificationNumberOfAuditor>
+   <cmn:DescriptionOfAuditor contextRef="c3" xml:lang="da">Registreret revisor</cmn:DescriptionOfAuditor>
+   <cmn:NameOfAuditFirm contextRef="c3" xml:lang="da">Sædding Revision ApS</cmn:NameOfAuditFirm>
+   <cmn:IdentificationNumberCvrOfAuditFirm contextRef="c3" xml:lang="da">25510461</cmn:IdentificationNumberCvrOfAuditFirm>
+   <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong&gt;Hovedaktiviteter&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets hovedaktivitet er anden bygge- og anlægsvirksomhed, som kræver specialisering.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong&gt;Udviklingen i aktiviteter og økonomiske forholh&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Årets resultat anses for tilfredsstillende.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong&gt;Begivenheder efter regnskabsårets afslutning&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil kunne påvirke selskabets finansielle stilling.&lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;</mrv:ManagementsReview>
+   <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;        
+&lt;br/&gt;Regnskabsklasse        
+&lt;br/&gt;Årsrapporten for Firma MH ApS for 2017 er aflagt i overensstemmelse med årsregnskabslovens        
+&lt;br/&gt;bestemmelser for virksomheder i regnskabsklasse B.        
+&lt;br/&gt;Da regnskabsåret 2017 er virksomhedens første regnskabsår, er årsregnskabet med tilhørende         
+&lt;br/&gt;noter opstillet uden sammenligningstal for året før.        
+&lt;br/&gt;        
+&lt;br/&gt;Generelt        
+&lt;br/&gt;Generelt om indregning og måling        
+&lt;br/&gt;Indtægter indregnes i resultatopgørelsen i takt med, at de indtjenes, herunder indregnes        
+&lt;br/&gt; værdireguleringer af finansielle aktiver og forpligtelser, der måles til dagsværdi eller         
+&lt;br/&gt;amortiseret kostpris. Endvidere indregnes omkostninger, der er afholdt for at opnå årets         
+&lt;br/&gt;indtjening, herunder afskrivninger, nedskrivninger og hensatte forpligtelser samt         
+&lt;br/&gt;tilbageførsler som følge af ændrede regnskabsmæssige skøn af beløb, der tidligere har        
+&lt;br/&gt; været indregnet i resultatopgørelsen.        
+&lt;br/&gt;        
+&lt;br/&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil         
+&lt;br/&gt;tilflyde selskabet, og aktivets værdi kan måles pålideligt.        
+&lt;br/&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske         
+&lt;br/&gt;fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.        
+&lt;br/&gt;        
+&lt;br/&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver        
+&lt;br/&gt;og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.        
+&lt;br/&gt;        
+&lt;br/&gt;Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der         
+&lt;br/&gt;indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som .         
+&lt;br/&gt;oprindelig kostpris med fradrag af afdrag og tillæg/fradrag af den akkumulerede amortisering         
+&lt;br/&gt;af forskellen mellem kostprisen og det nominelle beløb        
+&lt;br/&gt;Herved fordeles kurstab og -gevinst over løbetiden.        
+&lt;br/&gt;        
+&lt;br/&gt;Ved indregning og måling tages hensyn til gevinster, tab og risici, der fremkommer, inden         
+&lt;br/&gt;årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen.        
+&lt;br/&gt;        
+&lt;br/&gt;Resultatopgørelsen        
+&lt;br/&gt;         
+&lt;br/&gt;Bruttofortjeneste og -tab        
+&lt;br/&gt;Virksomheden har valgt at sammendrage visse poster i resultatopgørelsen efter         
+&lt;br/&gt;bestemmelserne i årsregnskabslovens § 32.        
+&lt;br/&gt;        
+&lt;br/&gt;Bruttofortjeneste indeholder nettoomsætning, andre driftsindtægter og eksterne omkostninger.        
+&lt;br/&gt;        
+&lt;br/&gt;Nettoomsætning        
+&lt;br/&gt;Nettoomsætning indregnes i resultatopgørelsen, såfremt levering og risikoovergang til         
+&lt;br/&gt;køber har fundet sted inden årets udgang, og såfremt indtægten kan opgøres pålideligt og         
+&lt;br/&gt;forventes modtaget. Nettoomsætningen indregnes eksklusive moms og afgifter og med         
+&lt;br/&gt;fradrag af rabatter i forbindelse med salget.        
+&lt;br/&gt;        
+&lt;br/&gt;       
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;Omkostninger til råvarer og hjælpematerialer        
+&lt;br/&gt;Omkostninger til råvarer og hjælpematerialer omfatter køb af varer og ydelser med henblik         
+&lt;br/&gt;på videresalg heraf.        
+&lt;br/&gt;        
+&lt;br/&gt;Administrationsomkostninger        
+&lt;br/&gt;I administrationsomkostninger indregnes omkostninger, der er afholdt i året til ledelse og        
+&lt;br/&gt;administration, herunder omkostninger til det administrative personale, ledelsen,        
+&lt;br/&gt;kontorlokaler, kontoromkostninger og lignende omkostninger samt af- og nedskrivninger på        
+&lt;br/&gt;immaterielle og materielle anlægsaktiver.        
+&lt;br/&gt;        
+&lt;br/&gt;Personaleomkostninger        
+&lt;br/&gt;Personaleomkostninger omfatter lønninger og gager, pensioner samt omkostninger til         
+&lt;br/&gt;social sikring.        
+&lt;br/&gt;Andre personaleomkostninger indregnes under andre eksterne omkostninger.        
+&lt;br/&gt;        
+&lt;br/&gt;Af- og nedskrivninger på immaterielle og materielle anlægsaktiver        
+&lt;br/&gt;Af- og nedskrivninger på immaterielle og materielle anlægsaktiver er foretaget ud fra en         
+&lt;br/&gt;løbende vurdering af aktivernes brugstid i virksomheden. Anlægsaktiverne afskrives lineært         
+&lt;br/&gt;på grundlag af kostprisen, baseret på følgende vurdering af brugstider og restværdier:        
+&lt;br/&gt;        
+&lt;br/&gt;    Brugstid  Restværdi  
+&lt;br/&gt;        
+&lt;br/&gt;Produktionsanlæg og maskiner    5 år  0%  
+&lt;br/&gt;        
+&lt;br/&gt;Andre anlæg, driftsmidler og inventar    5 år  0%  
+&lt;br/&gt;        
+&lt;br/&gt;Fortjeneste eller tab ved afhændelse af immaterielle og materielle anlægsaktiver opgøres         
+&lt;br/&gt;som forskellen mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige        
+&lt;br/&gt;værdi på salgstidspunktet, og indregnes i resultatopgørelsen under andre driftsindtægter         
+&lt;br/&gt;eller -omkostninger.        
+&lt;br/&gt;        
+&lt;br/&gt;Finansielle indtægter og omkostninger        
+&lt;br/&gt;Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der         
+&lt;br/&gt;vedrører regnskabsåret. Finansielle indtægter og omkostninger indeholder renteindtægter         
+&lt;br/&gt;og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer,         
+&lt;br/&gt;gæld og transaktioner i fremmed valuta, modtaget udbytte fra andre kapitalandele,         
+&lt;br/&gt;amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelser under aconto-        
+&lt;br/&gt;skatteordningen.        
+&lt;br/&gt;        
+&lt;br/&gt;Skat af årets resultat        
+&lt;br/&gt;Skat af årets resultat omfatter aktuel skat af årets forventede skattepligtige indkomst og årets         
+&lt;br/&gt;regulering af udskudt skat med fradrag af den del af årets skat, der vedrører egenkapital-        
+&lt;br/&gt;bevægelser. Aktuel og udskudt skat vedrørende egenkapitalbevægelser indregnes direkte i         
+&lt;br/&gt;egenkapitalen.        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;   
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;Balancen        
+&lt;br/&gt;Materielle anlægsaktiver        
+&lt;br/&gt;Produktionsanlæg og maskiner samt andre anlæg, driftsmateriel og inventar måles til kost-        
+&lt;br/&gt;pris med fradrag af akkumulerede af- og nedskrivninger.        
+&lt;br/&gt;Afskrivningsgrundlaget opgøres som kostprisen med fradrag af forventet restværdi efter         
+&lt;br/&gt;afsluttet brugstid.        
+&lt;br/&gt;        
+&lt;br/&gt;Kostpris omfatter anskaffelsesprisen og omkostninger direkte tilknyttet anskaffelsen indtil         
+&lt;br/&gt;det tidspunkt, hvor aktivet er klart til at blive taget i brug. For egenfremstillede aktiver om-        
+&lt;br/&gt;fatter kostprisen direkte og indirekte omkostninger til materialer, komponenter, underleve-        
+&lt;br/&gt;randører og løn.        
+&lt;br/&gt;        
+&lt;br/&gt;Kostprisen på et samlet aktiv opdeles i separate bestanddele, der afskrives hver for sig, hvis        
+&lt;br/&gt;brugstiden på de enkelte bestanddele er forskellig.        
+&lt;br/&gt;        
+&lt;br/&gt;Tilgodehavender        
+&lt;br/&gt;Tilgodehavender måles til amortiseret kostpris. Det svarer i al væsentlighed til nominel        
+&lt;br/&gt;værdi, reduceret med nedskrivninger til imødegåelse af forventede tab.        
+&lt;br/&gt;        
+&lt;br/&gt;Likvider        
+&lt;br/&gt;Likvider omfatter likvide beholdninger og kortfristede værdipapirer med en løbetid under 3         
+&lt;br/&gt;måneder, og som uden hindring kan omsættes til likvide beholdninger, og hvorpå der kun er         
+&lt;br/&gt;ubetydelige risici for værdiændringer        
+&lt;br/&gt;        
+&lt;br/&gt;.        
+&lt;br/&gt;Egenkapital        
+&lt;br/&gt;Egenkapitalen omfatter virksomhedskapitalen og en række øvrige egenkapitalposter, der         
+&lt;br/&gt;kan være lovbestemte eller fastsat i vedtægterne.        
+&lt;br/&gt;        
+&lt;br/&gt;Udbytte        
+&lt;br/&gt;Foreslået udbytte indregnes som en forpligtelse på tidspunktet for vedtagelse på general-        
+&lt;br/&gt;forsamlingen. Udbytte, som forventes udbetalt for året, vises som en særskilt post under         
+&lt;br/&gt;egenkapitalen.        
+&lt;br/&gt;        
+&lt;br/&gt;Hensatte forpligtelser        
+&lt;br/&gt;Udskudt skat        
+&lt;br/&gt;Udskudt skat og årets regulering heraf opgøres som skatten af alle midlertidige forskelle         
+&lt;br/&gt;mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser opgjort på grund-        
+&lt;br/&gt;lag af den planlagte anvendelse af aktivet eller afvikling af forpligtelsen.          
+&lt;br/&gt;        
+&lt;br/&gt;Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettigede skattemæssige         
+&lt;br/&gt;underskud, indregnes med den værdi, hvortil de forventes at blive anvendt, enten ved         
+&lt;br/&gt;udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser i         
+&lt;br/&gt;virksomheder inden for samme juridiske skatteenhed og jurisdiktion.        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;    
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens         
+&lt;br/&gt;lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat.        
+&lt;br/&gt;        
+&lt;br/&gt;Finansielle gældsforpligtelser        
+&lt;br/&gt;Fastforrentede lån som realkreditlån og lån hos kreditinstitutter indregnes ved lånoptagelsen         
+&lt;br/&gt;til det modtagne provenu med fradrag af afholdte transaktionsomkostninger. I efterfølgende         
+&lt;br/&gt;år måles lånene til amortiseret kostpris, der for kontantlån svarer til lånets restgæld. For         
+&lt;br/&gt;obligationslån svarer amortiseret kostpris til restgælden, beregnet som lånets underliggende         
+&lt;br/&gt;kontantværdi på lånetidspunktet, reguleret med en over afdragstiden foretaget afskrivning         
+&lt;br/&gt;af lånets kursregulering på optagelsestidspunktet.        
+&lt;br/&gt;        
+&lt;br/&gt;Øvrige gældsforpligtelser måles til amortiseret kostpris, hvilket almindeligvis svarer til nomi-        
+&lt;br/&gt;nel værdi.          
+&lt;br/&gt;        
+&lt;br/&gt;Aktuelle skatteforpligtelser        
+&lt;br/&gt;Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som bereg-        
+&lt;br/&gt;net skat af årets forventede skattepligtige indkomst, reguleret for skat af tidligere års skatte-        
+&lt;br/&gt;pligtige indkomster samt betalte acontoskatter.        
+&lt;br/&gt;        
+&lt;br/&gt;Anden gæld        
+&lt;br/&gt;Andre gældsforpligtelser måles til amortiseret kostpris, hvilket sædvanligvis svarer til         
+&lt;br/&gt;nominel værdi.        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt;        
+&lt;br/&gt; &lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">1395014</fsa:GrossResult>
+   <fsa:EmployeeBenefitsExpense contextRef="c0" decimals="0" unitRef="u0">324927</fsa:EmployeeBenefitsExpense>
+   <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="c0" decimals="0" unitRef="u0">247652</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">822435</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:OtherFinanceIncome contextRef="c0" decimals="0" unitRef="u0">4748</fsa:OtherFinanceIncome>
+   <fsa:OtherFinanceExpenses contextRef="c0" decimals="0" unitRef="u0">3263</fsa:OtherFinanceExpenses>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">823920</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">188694</fsa:TaxExpense>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">635226</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">635226</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">635226</fsa:ProfitLoss>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c5" decimals="0" unitRef="u0">1745698</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c5" decimals="0" unitRef="u0">1745698</fsa:PropertyPlantAndEquipment>
+   <fsa:NoncurrentAssets contextRef="c5" decimals="0" unitRef="u0">1745698</fsa:NoncurrentAssets>
+   <fsa:ShorttermTradeReceivables contextRef="c5" decimals="0" unitRef="u0">3275789</fsa:ShorttermTradeReceivables>
+   <fsa:OtherShorttermReceivables contextRef="c5" decimals="0" unitRef="u0">1939381</fsa:OtherShorttermReceivables>
+   <fsa:DeferredIncomeAssets contextRef="c5" decimals="0" unitRef="u0">11439</fsa:DeferredIncomeAssets>
+   <fsa:ShorttermReceivables contextRef="c5" decimals="0" unitRef="u0">5226609</fsa:ShorttermReceivables>
+   <fsa:CashAndCashEquivalents contextRef="c5" decimals="0" unitRef="u0">21421</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets contextRef="c5" decimals="0" unitRef="u0">5248030</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c5" decimals="0" unitRef="u0">6993728</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c5" decimals="0" unitRef="u0">50000</fsa:ContributedCapital>
+   <fsa:RetainedEarnings contextRef="c5" decimals="0" unitRef="u0">635226</fsa:RetainedEarnings>
+   <fsa:Equity contextRef="c5" decimals="0" unitRef="u0">685226</fsa:Equity>
+   <fsa:ProvisionsForDeferredTax contextRef="c5" decimals="0" unitRef="u0">55132</fsa:ProvisionsForDeferredTax>
+   <fsa:Provisions contextRef="c5" decimals="0" unitRef="u0">55132</fsa:Provisions>
+   <fsa:ShorttermTradePayables contextRef="c5" decimals="0" unitRef="u0">5992442</fsa:ShorttermTradePayables>
+   <fsa:ShorttermTaxPayables contextRef="c5" decimals="0" unitRef="u0">133562</fsa:ShorttermTaxPayables>
+   <fsa:OtherShorttermPayables contextRef="c5" decimals="0" unitRef="u0">127366</fsa:OtherShorttermPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">6253370</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">6253370</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c5" decimals="0" unitRef="u0">6993728</fsa:LiabilitiesAndEquity>
+   <fsa:DisclosureOfEmployeeBenefitsExpense contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-collapse:collapse; border-image:none; border:0px currentColor; width:650px"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th style="border-image:none; border:0px currentColor; width:60%"&gt; &lt;/th&gt;
+      &lt;th style="border-image:none; border:0px currentColor; font-weight:bold; text-align:right; width:25%"&gt;2017&lt;/th&gt;
+      &lt;th style="border-image:none; border:0px currentColor; font-weight:bold; text-align:right; width:15%"&gt;-&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:1px; padding-bottom:10px; text-align:right"&gt;kr.&lt;/th&gt;
+      &lt;th style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:1px; padding-bottom:10px; text-align:right"&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Løn og gager&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;118.958&lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pensionsbidrag&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;169.684&lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andre omkostninger til social sikring&lt;/td&gt;
+      &lt;td style="text-align:right"&gt;36.285&lt;/td&gt;
+      &lt;td style="text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:2px; border-top-color:currentColor; border-top-style:solid; border-top-width:2px; text-align:right"&gt;324.927&lt;/td&gt;
+      &lt;td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:2px; border-top-color:currentColor; border-top-style:solid; border-top-width:2px; text-align:right"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;</fsa:DisclosureOfEmployeeBenefitsExpense>
+   <fsa:DisclosureOfContributedCapital contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Aktie-/anpartskapitalen består af 50  aktier a 1.000 kr. Aktierne/anparterne er ikke opdelt i klasser.
+&lt;br/&gt; &lt;/p&gt;</fsa:DisclosureOfContributedCapital>
+   <sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc contextRef="c0" xml:lang="da">false</sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc>
+   <fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB contextRef="c0" xml:lang="da">false</fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB>
+   <fsa:SelectedElementsFromReportingClassC contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassC>
+   <fsa:SelectedElementsFromReportingClassD contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassD>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Revisionspåtegning</cmn:TypeOfAuditorAssistance>
+   <arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyTheCriminalCodeAndFiscalTaxAndSubsidyLegislationAudit contextRef="c0" xml:lang="da">false</arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyTheCriminalCodeAndFiscalTaxAndSubsidyLegislationAudit>
+   <arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyTheCompaniesActOrEquivalentLegislationThatTheCompanyIsSubjectToAudit contextRef="c0" xml:lang="da">false</arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyTheCompaniesActOrEquivalentLegislationThatTheCompanyIsSubjectToAudit>
+   <arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyLegislationOnFinancialReportingIncludingAccountingAndStorageOfAccountingRecordsAudit contextRef="c0" xml:lang="da">false</arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyLegislationOnFinancialReportingIncludingAccountingAndStorageOfAccountingRecordsAudit>
+   <arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyOtherMattersAudit contextRef="c0" xml:lang="da">false</arr:ReportingResponsibilitiesAccordingToTheDanishExecutiveOrderOnApprovedAuditorsReportsEspeciallyOtherMattersAudit>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Olav Abildgaard</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Ørnevej 9</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">6000 Kolding</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

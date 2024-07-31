@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByFunctionIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c2">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2016-01-01</xbrli:startDate>
+         <xbrli:endDate>2016-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c3">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c4">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2016-01-01</xbrli:startDate>
+         <xbrli:endDate>2016-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c5">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c6">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2016-01-01</xbrli:startDate>
+         <xbrli:endDate>2016-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c7">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c8">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2016-01-01</xbrli:startDate>
+         <xbrli:endDate>2016-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c9">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2017-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c10">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">21610577</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2016-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="u0">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2018-05-31</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Ejvind Sandal</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">CPHPOST.DK ApS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Gyldenløvesgade</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">11, 1</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">1600</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">København V</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">21610577</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2017-01-01</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2017-12-31</gsd:ReportingPeriodEndDate>
+   <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">Danske Bank</gsd:NameOfFinancialInstitution>
+   <gsd:AddressOfFinancialStreetName contextRef="c0" xml:lang="da">Holmens Kanal</gsd:AddressOfFinancialStreetName>
+   <gsd:AddressOfFinancialStreetBuildingIdentifier contextRef="c0" xml:lang="da">2-12</gsd:AddressOfFinancialStreetBuildingIdentifier>
+   <gsd:AddressOfFinancialPostCodeIdentifier contextRef="c0" xml:lang="da">1092</gsd:AddressOfFinancialPostCodeIdentifier>
+   <gsd:AddressOfFinancialDistrictName contextRef="c0" xml:lang="da">København</gsd:AddressOfFinancialDistrictName>
+   <gsd:AddressOfFinancialCountryIdentificationCode contextRef="c0" xml:lang="da">DK</gsd:AddressOfFinancialCountryIdentificationCode>
+   <gsd:AddressOfFinancialCountry contextRef="c0" xml:lang="da">Danmark</gsd:AddressOfFinancialCountry>
+   <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:592px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px; width:592px"&gt;Direktionen har dags dato behandlet og godkendt årsrapporten for regnskabsåret&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="4" style="height:21px"&gt;1. juni - 31. december 2017 for CphPost.dk ApS&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="5" style="height:21px"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver,&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;passiver og finansielle stilling pr. 31. december 2017 samt af resultatet af selskabets &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="4" style="height:21px"&gt;aktiviteter for regnskabsåret 1. juni - 31. december 2017&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="5" style="height:21px"&gt;Årsrapporten er fremlagt og godkendt på generalforsamling&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">København</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport contextRef="c0">2018-05-31</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Ejvind Sandal</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:487px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px; width:150px"&gt;Beretning&lt;/td&gt;
+      &lt;td style="width:124px"&gt; &lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td style="width:102px"&gt; &lt;/td&gt;
+      &lt;td style="width:32px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;Hovedaktivitet&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="6" style="height:21px"&gt;Selskabet har i regnskabsåret virket som formel udgiver af The Copenhagen Post.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</mrv:ManagementsReview>
+   <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:592px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:25px"&gt;
+      &lt;td colspan="3" style="height:25px; width:274px"&gt;Anvendt regnskabspraksis&lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td style="width:102px"&gt; &lt;/td&gt;
+      &lt;td style="width:32px"&gt; &lt;/td&gt;
+      &lt;td style="width:105px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="5" style="height:21px"&gt;Årsrapporten for CphPost ApS for 2017 er aflagt i overensstemmelse&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="5" style="height:21px"&gt;med årsregnskabslovens bestemmelser for klasse B-virksomheder.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:25px"&gt;
+      &lt;td colspan="3" style="height:25px"&gt;Resultatopgørelsen&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;Nettoomsætning&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Nettoomsætning indregnes i resultatopgørelsen, såfremt levering og risikoovergang til &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;køber har fundet sted inden årets udgang, og såfremt indtægten kan opgøres pålideligt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;og forventes modtaget. Nettoomsætningen indregnes ekskl. Moms, afgifter og fradrag&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;af rabatter i forbindelse med salget.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Produktionsomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Produktionsomkostninger omfatter omkostninger, herunder afskrivninger og gager, der &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;afholdes for at opnå årets nettomsætning. Herunder indgår direkte og indirekte omkost-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;ninger til råvarer og hjælpematerialer, løn og gager, leje og leasing samt afskrivninger.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Distributionsomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;I distributionsomkostninger indregnes omkostninger, der er afholdt til distribution af &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;varer solgt i årets løb samt til årets gennemførte salgskampagner m.v. Herunder ind-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;regnes omkostninger til salgspersonale, reklame- og udstillingsomkostninger samt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;afskrivninger.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Administrationsomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;I administrationsomkostninger indregnes omkostninger, der er afholdt i året til ledelse&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;og administration, herunder omkostninger til det administrative personale, kontolokaler&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;og kontoromkostninger samt afskrivninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Personaleomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Personaleomkostninger omfatter lønninger og øvrige lønrelaterede omkostninger&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Finansielle indtægter og omkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Finansielle indtægter og omkostninger indeholder renter, kursgevinster og -tab ved-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="5" style="height:21px"&gt;rørende værdipapirer, gæld og transaktioner i fremmed valuta m.v.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="4" style="height:21px"&gt;Ekstraordinære indtægter og omkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Ekstraordinære indtægter og omkostninger indeholder indtægter og omkostninger, der&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;hidrører fra begivenheder eller transaktioner, der klart afviger fra den ordinære drift, og &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="4" style="height:21px"&gt;som ikke forventes at være af tilbagevendende karakter.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:25px"&gt;
+      &lt;td colspan="2" style="height:25px"&gt;Balancen&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Materielle anlægsaktiver&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Andre anlæg, driftsmateriel og inventar måles til kostpris med fradrag af akkumulerede&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;afskrivninger.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Afskrivningsgrundlaget er kostpris med fradrag af forventet restværdi eller afsluttet&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt;brugstid.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Kostprisen omfatter anskaffelsesprisen samt omkostninger direkte tilknyttet anskaffelsen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="4" style="height:21px"&gt;indtil det tidspunkt, hvor aktivet er klar til brug.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Der foretages lineære afskrivninger over den forventede brugstid, baseret på følgende &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;vurdering af aktivernes forventede brugstid.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;Andre anlæg, driftmateriel og inventar &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;3 år&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Materielle anlægsaktiver nedskrives til genindvindingsværdien, såfremt denne er lavere&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px"&gt;end den regnskabsmæssige værdi.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Fortjenesten eller tab ved afhændelse af materielle anlægsaktiver opgøres som forskellen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;mellem salgspris med fradrag af salgsomkostninger og den regnskabsmæssige værdi på &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;salgstidspunktet. Fortjeneste eller tab indregnes i resultatopgørelse under afskrivninger.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;Tilgodehavender&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="7" style="height:21px"&gt;Tilgodehavender måles til amortiseret kostpris. Der nedskrives til  imødegåelse af&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;forventede tab.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfAccountingPolicies>
+   <fsa:Revenue contextRef="c0" decimals="0" unitRef="u0">1239336</fsa:Revenue>
+   <fsa:Revenue contextRef="c2" decimals="0" unitRef="u0">0</fsa:Revenue>
+   <fsa:CostOfProduction contextRef="c0" decimals="0" unitRef="u0">596761</fsa:CostOfProduction>
+   <fsa:CostOfProduction contextRef="c2" decimals="0" unitRef="u0">0</fsa:CostOfProduction>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">642575</fsa:GrossResult>
+   <fsa:GrossResult contextRef="c2" decimals="0" unitRef="u0">0</fsa:GrossResult>
+   <fsa:DistributionCosts contextRef="c0" decimals="0" unitRef="u0">138129</fsa:DistributionCosts>
+   <fsa:DistributionCosts contextRef="c2" decimals="0" unitRef="u0">0</fsa:DistributionCosts>
+   <fsa:AdministrativeExpenses contextRef="c0" decimals="0" unitRef="u0">156041</fsa:AdministrativeExpenses>
+   <fsa:AdministrativeExpenses contextRef="c2" decimals="0" unitRef="u0">0</fsa:AdministrativeExpenses>
+   <fsa:OtherOperatingIncome contextRef="c0" decimals="0" unitRef="u0">0</fsa:OtherOperatingIncome>
+   <fsa:OtherOperatingIncome contextRef="c2" decimals="0" unitRef="u0">0</fsa:OtherOperatingIncome>
+   <fsa:OtherOperatingExpenses contextRef="c0" decimals="0" unitRef="u0">90273</fsa:OtherOperatingExpenses>
+   <fsa:OtherOperatingExpenses contextRef="c2" decimals="0" unitRef="u0">0</fsa:OtherOperatingExpenses>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">258132</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c2" decimals="0" unitRef="u0">0</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:OtherFinanceIncomeFromGroupEnterprises contextRef="c0" decimals="0" unitRef="u0">0</fsa:OtherFinanceIncomeFromGroupEnterprises>
+   <fsa:OtherFinanceIncomeFromGroupEnterprises contextRef="c2" decimals="0" unitRef="u0">0</fsa:OtherFinanceIncomeFromGroupEnterprises>
+   <fsa:OtherFinanceIncome contextRef="c0" decimals="0" unitRef="u0">1400</fsa:OtherFinanceIncome>
+   <fsa:OtherFinanceIncome contextRef="c2" decimals="0" unitRef="u0">0</fsa:OtherFinanceIncome>
+   <fsa:OtherFinanceExpenses contextRef="c0" decimals="0" unitRef="u0">0</fsa:OtherFinanceExpenses>
+   <fsa:OtherFinanceExpenses contextRef="c2" decimals="0" unitRef="u0">0</fsa:OtherFinanceExpenses>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">259532</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c2" decimals="0" unitRef="u0">0</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:TaxExpense contextRef="c0" decimals="0" unitRef="u0">0</fsa:TaxExpense>
+   <fsa:TaxExpense contextRef="c2" decimals="0" unitRef="u0">0</fsa:TaxExpense>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">259532</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c5" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c6" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c7" decimals="0" unitRef="u0">259532</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c8" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">259532</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">0</fsa:ProfitLoss>
+   <fsa:Goodwill contextRef="c9" decimals="0" unitRef="u0">0</fsa:Goodwill>
+   <fsa:Goodwill contextRef="c10" decimals="0" unitRef="u0">0</fsa:Goodwill>
+   <fsa:IntangibleAssets contextRef="c9" decimals="0" unitRef="u0">0</fsa:IntangibleAssets>
+   <fsa:IntangibleAssets contextRef="c10" decimals="0" unitRef="u0">0</fsa:IntangibleAssets>
+   <fsa:LandAndBuildings contextRef="c9" decimals="0" unitRef="u0">0</fsa:LandAndBuildings>
+   <fsa:LandAndBuildings contextRef="c10" decimals="0" unitRef="u0">0</fsa:LandAndBuildings>
+   <fsa:PlantAndMachinery contextRef="c9" decimals="0" unitRef="u0">0</fsa:PlantAndMachinery>
+   <fsa:PlantAndMachinery contextRef="c10" decimals="0" unitRef="u0">0</fsa:PlantAndMachinery>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c9" decimals="0" unitRef="u0">0</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c10" decimals="0" unitRef="u0">0</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c9" decimals="0" unitRef="u0">0</fsa:PropertyPlantAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c10" decimals="0" unitRef="u0">0</fsa:PropertyPlantAndEquipment>
+   <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInGroupEnterprises>
+   <fsa:LongtermInvestmentsInGroupEnterprises contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInGroupEnterprises>
+   <fsa:LongtermInvestmentsInAssociates contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInAssociates>
+   <fsa:LongtermInvestmentsInAssociates contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsInAssociates>
+   <fsa:OtherLongtermInvestments contextRef="c9" decimals="0" unitRef="u0">0</fsa:OtherLongtermInvestments>
+   <fsa:OtherLongtermInvestments contextRef="c10" decimals="0" unitRef="u0">0</fsa:OtherLongtermInvestments>
+   <fsa:LongtermInvestmentsAndReceivables contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsAndReceivables>
+   <fsa:LongtermInvestmentsAndReceivables contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermInvestmentsAndReceivables>
+   <fsa:NoncurrentAssets contextRef="c9" decimals="0" unitRef="u0">0</fsa:NoncurrentAssets>
+   <fsa:NoncurrentAssets contextRef="c10" decimals="0" unitRef="u0">0</fsa:NoncurrentAssets>
+   <fsa:RawMaterialsAndConsumables contextRef="c9" decimals="0" unitRef="u0">0</fsa:RawMaterialsAndConsumables>
+   <fsa:RawMaterialsAndConsumables contextRef="c10" decimals="0" unitRef="u0">0</fsa:RawMaterialsAndConsumables>
+   <fsa:ManufacturedGoodsAndGoodsForResale contextRef="c9" decimals="0" unitRef="u0">0</fsa:ManufacturedGoodsAndGoodsForResale>
+   <fsa:ManufacturedGoodsAndGoodsForResale contextRef="c10" decimals="0" unitRef="u0">0</fsa:ManufacturedGoodsAndGoodsForResale>
+   <fsa:Inventories contextRef="c9" decimals="0" unitRef="u0">0</fsa:Inventories>
+   <fsa:Inventories contextRef="c10" decimals="0" unitRef="u0">0</fsa:Inventories>
+   <fsa:ShorttermTradeReceivables contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermTradeReceivables>
+   <fsa:ShorttermTradeReceivables contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermTradeReceivables>
+   <fsa:ContractWorkInProgress contextRef="c9" decimals="0" unitRef="u0">0</fsa:ContractWorkInProgress>
+   <fsa:ContractWorkInProgress contextRef="c10" decimals="0" unitRef="u0">0</fsa:ContractWorkInProgress>
+   <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="c9" decimals="0" unitRef="u0">62777</fsa:ShorttermReceivablesFromGroupEnterprises>
+   <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="c10" decimals="0" unitRef="u0">130765</fsa:ShorttermReceivablesFromGroupEnterprises>
+   <fsa:ShorttermReceivablesFromAssociates contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermReceivablesFromAssociates>
+   <fsa:ShorttermReceivablesFromAssociates contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermReceivablesFromAssociates>
+   <fsa:ShorttermTaxReceivables contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermTaxReceivables>
+   <fsa:ShorttermTaxReceivables contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermTaxReceivables>
+   <fsa:OtherShorttermReceivables contextRef="c9" decimals="0" unitRef="u0">0</fsa:OtherShorttermReceivables>
+   <fsa:OtherShorttermReceivables contextRef="c10" decimals="0" unitRef="u0">0</fsa:OtherShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c9" decimals="0" unitRef="u0">62777</fsa:ShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c10" decimals="0" unitRef="u0">130765</fsa:ShorttermReceivables>
+   <fsa:OtherShorttermInvestments contextRef="c10" decimals="0" unitRef="u0">0</fsa:OtherShorttermInvestments>
+   <fsa:ShorttermInvestments contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermInvestments>
+   <fsa:CashAndCashEquivalents contextRef="c9" decimals="0" unitRef="u0">303776</fsa:CashAndCashEquivalents>
+   <fsa:CashAndCashEquivalents contextRef="c10" decimals="0" unitRef="u0">0</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets contextRef="c9" decimals="0" unitRef="u0">366553</fsa:CurrentAssets>
+   <fsa:CurrentAssets contextRef="c10" decimals="0" unitRef="u0">130765</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c9" decimals="0" unitRef="u0">366553</fsa:Assets>
+   <fsa:Assets contextRef="c10" decimals="0" unitRef="u0">130765</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c9" decimals="0" unitRef="u0">72000</fsa:ContributedCapital>
+   <fsa:ContributedCapital contextRef="c10" decimals="0" unitRef="u0">123265</fsa:ContributedCapital>
+   <fsa:OtherReserves contextRef="c9" decimals="0" unitRef="u0">0</fsa:OtherReserves>
+   <fsa:OtherReserves contextRef="c10" decimals="0" unitRef="u0">0</fsa:OtherReserves>
+   <fsa:RetainedEarnings contextRef="c9" decimals="0" unitRef="u0">259532</fsa:RetainedEarnings>
+   <fsa:RetainedEarnings contextRef="c10" decimals="0" unitRef="u0">0</fsa:RetainedEarnings>
+   <fsa:ProposedDividendRecognisedInEquity contextRef="c9" decimals="0" unitRef="u0">0</fsa:ProposedDividendRecognisedInEquity>
+   <fsa:ProposedDividendRecognisedInEquity contextRef="c10" decimals="0" unitRef="u0">0</fsa:ProposedDividendRecognisedInEquity>
+   <fsa:Equity contextRef="c9" decimals="0" unitRef="u0">331532</fsa:Equity>
+   <fsa:Equity contextRef="c10" decimals="0" unitRef="u0">123265</fsa:Equity>
+   <fsa:ProvisionsForDeferredTax contextRef="c9" decimals="0" unitRef="u0">0</fsa:ProvisionsForDeferredTax>
+   <fsa:ProvisionsForDeferredTax contextRef="c10" decimals="0" unitRef="u0">0</fsa:ProvisionsForDeferredTax>
+   <fsa:Provisions contextRef="c9" decimals="0" unitRef="u0">0</fsa:Provisions>
+   <fsa:Provisions contextRef="c10" decimals="0" unitRef="u0">0</fsa:Provisions>
+   <fsa:LongtermMortgageDebt contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermMortgageDebt>
+   <fsa:LongtermMortgageDebt contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermMortgageDebt>
+   <fsa:LongtermDebtToBanks contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermDebtToBanks>
+   <fsa:LongtermDebtToBanks contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermDebtToBanks>
+   <fsa:LongtermTaxPayables contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermTaxPayables>
+   <fsa:LongtermTaxPayables contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermTaxPayables>
+   <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c9" decimals="0" unitRef="u0">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+   <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c10" decimals="0" unitRef="u0">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermMortgageDebt contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermMortgageDebt>
+   <fsa:ShorttermMortgageDebt contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermMortgageDebt>
+   <fsa:ShorttermDebtToBanks contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermDebtToBanks>
+   <fsa:ShorttermDebtToBanks contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermDebtToBanks>
+   <fsa:ShorttermTradePayables contextRef="c9" decimals="0" unitRef="u0">-243854</fsa:ShorttermTradePayables>
+   <fsa:ShorttermTradePayables contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermTradePayables>
+   <fsa:ShorttermPayablesToGroupEnterprises contextRef="c9" decimals="0" unitRef="u0">201878</fsa:ShorttermPayablesToGroupEnterprises>
+   <fsa:ShorttermPayablesToGroupEnterprises contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermPayablesToGroupEnterprises>
+   <fsa:ShorttermPayablesToAssociates contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermPayablesToAssociates>
+   <fsa:ShorttermPayablesToAssociates contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermPayablesToAssociates>
+   <fsa:ShorttermTaxPayables contextRef="c9" decimals="0" unitRef="u0">0</fsa:ShorttermTaxPayables>
+   <fsa:ShorttermTaxPayables contextRef="c10" decimals="0" unitRef="u0">0</fsa:ShorttermTaxPayables>
+   <fsa:OtherShorttermPayables contextRef="c9" decimals="0" unitRef="u0">76997</fsa:OtherShorttermPayables>
+   <fsa:OtherShorttermPayables contextRef="c10" decimals="0" unitRef="u0">7500</fsa:OtherShorttermPayables>
+   <fsa:ProposedDividend contextRef="c9" decimals="0" unitRef="u0">0</fsa:ProposedDividend>
+   <fsa:ProposedDividend contextRef="c10" decimals="0" unitRef="u0">0</fsa:ProposedDividend>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c9" decimals="0" unitRef="u0">35021</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c10" decimals="0" unitRef="u0">7500</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c9" decimals="0" unitRef="u0">35021</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c10" decimals="0" unitRef="u0">7500</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c9" decimals="0" unitRef="u0">366553</fsa:LiabilitiesAndEquity>
+   <fsa:LiabilitiesAndEquity contextRef="c10" decimals="0" unitRef="u0">130765</fsa:LiabilitiesAndEquity>
+   <fsa:InformationOnCostsOfProduction contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:523px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px; width:68px"&gt; &lt;/td&gt;
+      &lt;td style="width:64px"&gt; &lt;/td&gt;
+      &lt;td style="width:86px"&gt; &lt;/td&gt;
+      &lt;td style="width:124px"&gt; &lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td align="right" style="width:102px"&gt;2017&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td align="right" style="height:21px"&gt;1&lt;/td&gt;
+      &lt;td colspan="3"&gt;Produktionsomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt;Bladtryk&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;117.658&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Redaktionelle omkostninger (freelancere)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;95.300&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;A'conto lønninger ejere&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;379.000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Oversættelse&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Porto og gebyr&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;4.803&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:22px"&gt;
+      &lt;td style="height:22px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;596.761&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:InformationOnCostsOfProduction>
+   <fsa:DisclosureOfDistributionCosts contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:523px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td align="right" style="height:21px; width:68px"&gt;4&lt;/td&gt;
+      &lt;td colspan="3" style="width:274px"&gt;Dristibutionsomkostninger&lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td style="width:102px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Eksterne sælgere&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;54.514&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Distribution&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;83.277&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Annoncer og reklame&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;337&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:22px"&gt;
+      &lt;td style="height:22px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;138.129&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfDistributionCosts>
+   <fsa:DisclosureOfAdministrativeExpenses contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:523px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td align="right" style="height:21px; width:68px"&gt;3&lt;/td&gt;
+      &lt;td colspan="3" style="width:274px"&gt;Administrationsomkostninger&lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td style="width:102px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Diverse omkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;925&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Lokaleomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;80.176&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Internet og telefonomkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;1.465&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Kontorartikler&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;56&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Regnskabsmæssig assistance - revisort&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;31.663&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Småanskaffelser&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;1.718&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Rejseudgifter&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;359&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Konsulentassistance&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;8.970&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Tab på debitoter&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;7.500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;EDB-omkostninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;15.121&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Kontingenter og abonnementer&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;8.088&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Afskrivninger EDB&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:22px"&gt;
+      &lt;td style="height:22px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;156.041&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfAdministrativeExpenses>
+   <fsa:DisclosureOfOtherOperatingExpenses contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:523px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td align="right" style="height:21px; width:68px"&gt;2&lt;/td&gt;
+      &lt;td colspan="3" style="width:274px"&gt;Personaleomkostninger&lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td style="width:102px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td&gt;Lønninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;82.584&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Andre omkostninger til social sikring&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;7.690&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:22px"&gt;
+      &lt;td style="height:22px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;90.273&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfOtherOperatingExpenses>
+   <fsa:DisclosureOfOtherFinanceIncome contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:523px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td align="right" style="height:21px; width:68px"&gt;5&lt;/td&gt;
+      &lt;td colspan="2" style="width:150px"&gt;Finansielle indtægter&lt;/td&gt;
+      &lt;td style="width:124px"&gt; &lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td style="width:102px"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Renteindtægter, bank&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Renteindtægter og rykkergebyr debitorer&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;1.400&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="3"&gt;Øvrige finansielle indtægter&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td style="height:21px"&gt; &lt;/td&gt;
+      &lt;td colspan="2"&gt;Valuta gevinst&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:22px"&gt;
+      &lt;td style="height:22px"&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;1.400&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfOtherFinanceIncome>
+   <fsa:DisclosureOfCashAndCashEquivalents contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:455px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="3" style="height:21px; width:274px"&gt;Gl. bank tilhører Ejvind Sandal&lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td align="right" style="width:102px"&gt;254.489&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;Likvide beholdninger&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;49.286&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfCashAndCashEquivalents>
+   <fsa:DisclosureOfOtherPayables contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="width:455px"&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px; width:150px"&gt;Momsafgifter&lt;/td&gt;
+      &lt;td style="width:124px"&gt; &lt;/td&gt;
+      &lt;td style="width:79px"&gt; &lt;/td&gt;
+      &lt;td align="right" style="width:102px"&gt;-69.603&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:21px"&gt;
+      &lt;td colspan="2" style="height:21px"&gt;Anden gæld&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td align="right"&gt;-7.395&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfOtherPayables>
+   <sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc contextRef="c0" xml:lang="da">false</sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc>
+   <fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB contextRef="c0" xml:lang="da">false</fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB>
+   <fsa:SelectedElementsFromReportingClassC contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassC>
+   <fsa:SelectedElementsFromReportingClassD contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassD>
+   <fsa:AccountingPoliciesAreUnchangedFromPreviousPeriod contextRef="c0" xml:lang="da">true</fsa:AccountingPoliciesAreUnchangedFromPreviousPeriod>
+   <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2016-01-01</gsd:PrecedingReportingPeriodStartDate>
+   <gsd:PredingReportingPeriodEndDate contextRef="c0">2016-12-31</gsd:PredingReportingPeriodEndDate>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Jette Martiene Beck</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Tjærebyvej 2</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">4690 Haslev</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Denne digitale Årssrapport i XBRL format er udarbejdet af DLBR, Agro Food Park 15, 8200 Aarhus N--><xbrli:xbrl xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/Xlink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20161001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20161001.xsd" xlink:type="simple"/>
+<xbrli:context id="duration_only">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="duration_only_previous">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-01-01</xbrli:startDate>
+<xbrli:endDate>2016-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="instant_only">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="instant_only_previous">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2016-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+<cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_memberOfExecutiveBoardIdentifier_2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+<cmn:memberOfBoardIdentifier>2</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_memberOfExecutiveBoardIdentifier_3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+<cmn:memberOfBoardIdentifier>3</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_memberOfSupervisoryBoardIdentifier_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+<cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_memberOfSupervisoryBoardIdentifier_2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+<cmn:memberOfBoardIdentifier>2</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_memberOfSupervisoryBoardIdentifier_3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+<cmn:memberOfBoardIdentifier>3</cmn:memberOfBoardIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_auditor">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+<cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_auditorIdentifier_1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+<cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+</xbrldi:typedMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_ProposedDividendRecognisedInEquityMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_ProposedDividendRecognisedInEquityMember_previous">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-01-01</xbrli:startDate>
+<xbrli:endDate>2016-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_ReserveForNetRevaluationAccordingToEquityMethodMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_ReserveForNetRevaluationAccordingToEquityMethodMember_previous">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-01-01</xbrli:startDate>
+<xbrli:endDate>2016-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_RetainedEarningsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_RetainedEarningsMember_previous">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-01-01</xbrli:startDate>
+<xbrli:endDate>2016-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_RestOfOtherReservesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-01-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RestOfOtherReservesMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="duration_RestOfOtherReservesMember_previous">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-01-01</xbrli:startDate>
+<xbrli:endDate>2016-12-31</xbrli:endDate>
+</xbrli:period>
+<xbrli:scenario>
+<xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RestOfOtherReservesMember</xbrldi:explicitMember>
+</xbrli:scenario>
+</xbrli:context>
+<xbrli:context id="ctx10">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="ctx11">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2016-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="ctx12">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="ctx13">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.dcca.dk/cvr">29779805</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2016-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:unit id="DKK">
+<xbrli:measure>iso4217:DKK</xbrli:measure>
+</xbrli:unit>
+<gsd:InformationOnTypeOfSubmittedReport contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+<gsd:DateOfGeneralMeeting contextRef="duration_only">2018-06-21</gsd:DateOfGeneralMeeting>
+<gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="duration_only">Dirigent: Karsten Lund Jensen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+<gsd:NameOfReportingEntity contextRef="duration_only">Baungaard ApS</gsd:NameOfReportingEntity>
+<gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="duration_only">Baungårdsvej 65</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+<gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="duration_only">6600 Vejen</gsd:AddressOfReportingEntityPostCodeIdentifier>
+<gsd:TelephoneNumberOfReportingEntity contextRef="duration_only">Telefon: 20 30 14 11</gsd:TelephoneNumberOfReportingEntity>
+<gsd:IdentificationNumberCvrOfReportingEntity contextRef="duration_only">29779805</gsd:IdentificationNumberCvrOfReportingEntity>
+<gsd:ReportingPeriodStartDate contextRef="duration_only">2017-01-01</gsd:ReportingPeriodStartDate>
+<gsd:ReportingPeriodEndDate contextRef="duration_only">2017-12-31</gsd:ReportingPeriodEndDate>
+<gsd:PrecedingReportingPeriodStartDate contextRef="duration_only">2016-01-01</gsd:PrecedingReportingPeriodStartDate>
+<gsd:PredingReportingPeriodEndDate contextRef="duration_only">2016-12-31</gsd:PredingReportingPeriodEndDate>
+<gsd:NameOfSubmittingEnterprise contextRef="duration_only">JL Revisorer ApS</gsd:NameOfSubmittingEnterprise>
+<gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="duration_only">Majsmarken 1</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+<gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="duration_only">7190 Billund</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+<gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="duration_only">31332699</gsd:IdentificationNumberCvrOfSubmittingEnterprise>
+<cmn:NameOfAuditFirm contextRef="duration_auditor">JL Revisorer ApS</cmn:NameOfAuditFirm>
+<gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="duration_auditor">Majsmarken 1</gsd:AddressOfAuditorStreetBuildingIdentifier>
+<gsd:AddressOfAuditorPostCodeIdentifier contextRef="duration_auditor">7190 Billund</gsd:AddressOfAuditorPostCodeIdentifier>
+<cmn:IdentificationNumberOfAuditor contextRef="duration_auditor">mne15648</cmn:IdentificationNumberOfAuditor>
+<cmn:IdentificationNumberCvrOfAuditFirm contextRef="duration_auditor">31332699</cmn:IdentificationNumberCvrOfAuditFirm>
+<cmn:IdentificationNumberPnrOfAuditFirm contextRef="duration_auditor">1017413291</cmn:IdentificationNumberPnrOfAuditFirm>
+<cmn:NameAndSurnameOfAuditor contextRef="duration_auditorIdentifier_1">Jens Elkjær-Larsen</cmn:NameAndSurnameOfAuditor>
+<cmn:DescriptionOfAuditor contextRef="duration_auditorIdentifier_1">Registreret revisor</cmn:DescriptionOfAuditor>
+<arr:SignatureOfAuditorsPlace contextRef="duration_only">Esbjerg, den</arr:SignatureOfAuditorsPlace>
+<arr:SignatureOfAuditorsDate contextRef="duration_only">2018-06-21</arr:SignatureOfAuditorsDate>
+<gsd:NameOfFinancialInstitution contextRef="duration_only">Sydbank</gsd:NameOfFinancialInstitution>
+<gsd:AddressOfFinancialStreetBuildingIdentifier contextRef="duration_only">Jernbanegade 14</gsd:AddressOfFinancialStreetBuildingIdentifier>
+<gsd:AddressOfFinancialPostCodeIdentifier contextRef="duration_only">6000 Kolding</gsd:AddressOfFinancialPostCodeIdentifier>
+<fsa:ClassOfReportingEntity contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+<cmn:TypeOfAuditorAssistance contextRef="duration_only">Erklæring om udvidet gennemgang</cmn:TypeOfAuditorAssistance>
+<arr:TypeOfBasisForModifiedOpinionOnFinancialStatementsExtendedReview contextRef="duration_only">Grundlag for manglende konklusion</arr:TypeOfBasisForModifiedOpinionOnFinancialStatementsExtendedReview>
+<arr:TypeOfModifiedOpinionOnAuditedFinancialStatementsExtendedReview contextRef="duration_only">Manglende konklusion</arr:TypeOfModifiedOpinionOnAuditedFinancialStatementsExtendedReview>
+<cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="duration_memberOfExecutiveBoardIdentifier_1">Karsten Lund Jensen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+<cmn:TitleOfMemberOfExecutiveBoard contextRef="duration_memberOfExecutiveBoardIdentifier_1">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+<fsa:AverageNumberOfEmployees contextRef="duration_only" decimals="1" unitRef="DKK">5.00</fsa:AverageNumberOfEmployees>
+<fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters contextRef="duration_only">Udfører murerarbejde, samt entreprenørarbejde</fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters>
+<fsa:EmployeeBenefitsExpense contextRef="duration_only" decimals="0" unitRef="DKK">1754145</fsa:EmployeeBenefitsExpense>
+<fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="duration_only" decimals="0" unitRef="DKK">77552</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+<fsa:OtherOperatingExpenses contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:OtherOperatingExpenses>
+<fsa:IncomeFromOtherLongtermInvestmentsAndReceivables contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:IncomeFromOtherLongtermInvestmentsAndReceivables>
+<fsa:OtherFinanceIncomeFromGroupEnterprises contextRef="duration_only" decimals="0" unitRef="DKK">-2799</fsa:OtherFinanceIncomeFromGroupEnterprises>
+<fsa:OtherFinanceIncome contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:OtherFinanceIncome>
+<fsa:ImpairmentOfFinancialAssets contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:ImpairmentOfFinancialAssets>
+<fsa:OtherFinanceExpenses contextRef="duration_only" decimals="0" unitRef="DKK">67402</fsa:OtherFinanceExpenses>
+<fsa:GrossResult contextRef="duration_only" decimals="0" unitRef="DKK">446130</fsa:GrossResult>
+<fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="duration_only" decimals="0" unitRef="DKK">-1385567</fsa:ProfitLossFromOrdinaryOperatingActivities>
+<fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="duration_only" decimals="0" unitRef="DKK">-1455768</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+<fsa:TaxExpense contextRef="duration_only" decimals="0" unitRef="DKK">-320000</fsa:TaxExpense>
+<fsa:ProfitLoss contextRef="duration_only" decimals="0" unitRef="DKK">-1135768</fsa:ProfitLoss>
+<fsa:EmployeeBenefitsExpense contextRef="duration_only_previous" decimals="0" unitRef="DKK">1447697</fsa:EmployeeBenefitsExpense>
+<fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="duration_only_previous" decimals="0" unitRef="DKK">50280</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+<fsa:OtherOperatingExpenses contextRef="duration_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherOperatingExpenses>
+<fsa:IncomeFromOtherLongtermInvestmentsAndReceivables contextRef="duration_only_previous" decimals="0" unitRef="DKK">0</fsa:IncomeFromOtherLongtermInvestmentsAndReceivables>
+<fsa:OtherFinanceIncomeFromGroupEnterprises contextRef="duration_only_previous" decimals="0" unitRef="DKK">2034</fsa:OtherFinanceIncomeFromGroupEnterprises>
+<fsa:OtherFinanceIncome contextRef="duration_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherFinanceIncome>
+<fsa:ImpairmentOfFinancialAssets contextRef="duration_only_previous" decimals="0" unitRef="DKK">0</fsa:ImpairmentOfFinancialAssets>
+<fsa:OtherFinanceExpenses contextRef="duration_only_previous" decimals="0" unitRef="DKK">109407</fsa:OtherFinanceExpenses>
+<fsa:GrossResult contextRef="duration_only_previous" decimals="0" unitRef="DKK">5528795</fsa:GrossResult>
+<fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="duration_only_previous" decimals="0" unitRef="DKK">4030818</fsa:ProfitLossFromOrdinaryOperatingActivities>
+<fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="duration_only_previous" decimals="0" unitRef="DKK">3923445</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+<fsa:TaxExpense contextRef="duration_only_previous" decimals="0" unitRef="DKK">878396</fsa:TaxExpense>
+<fsa:ProfitLoss contextRef="duration_only_previous" decimals="0" unitRef="DKK">3045049</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="duration_RetainedEarningsMember" decimals="0" unitRef="DKK">-1135768</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="duration_only" decimals="0" unitRef="DKK">-1135768</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="duration_ProposedDividendRecognisedInEquityMember_previous" decimals="0" unitRef="DKK">1000000</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="duration_RetainedEarningsMember_previous" decimals="0" unitRef="DKK">2045049</fsa:ProfitLoss>
+<fsa:ProfitLoss contextRef="duration_only_previous" decimals="0" unitRef="DKK">3045049</fsa:ProfitLoss>
+<fsa:CompletedDevelopmentProjects contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:CompletedDevelopmentProjects>
+<fsa:Goodwill contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:Goodwill>
+<fsa:DevelopmentProjectsInProgress contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:DevelopmentProjectsInProgress>
+<fsa:PlantAndMachinery contextRef="instant_only" decimals="0" unitRef="DKK">392603</fsa:PlantAndMachinery>
+<fsa:BiologicalAssets contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:BiologicalAssets>
+<fsa:OtherInvestmentAssets contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:OtherInvestmentAssets>
+<fsa:PropertyPlantAndEquipmentInProgress contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:PropertyPlantAndEquipmentInProgress>
+<fsa:OtherLongtermInvestments contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:OtherLongtermInvestments>
+<fsa:OtherLongtermReceivables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:OtherLongtermReceivables>
+<fsa:RawMaterialsAndConsumables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:RawMaterialsAndConsumables>
+<fsa:WorkInProgress contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:WorkInProgress>
+<fsa:ManufacturedGoodsAndGoodsForResale contextRef="instant_only" decimals="0" unitRef="DKK">117000</fsa:ManufacturedGoodsAndGoodsForResale>
+<fsa:ShorttermTradeReceivables contextRef="instant_only" decimals="0" unitRef="DKK">2273439</fsa:ShorttermTradeReceivables>
+<fsa:ContractWorkInProgress contextRef="instant_only" decimals="0" unitRef="DKK">22797</fsa:ContractWorkInProgress>
+<fsa:OtherShorttermReceivables contextRef="instant_only" decimals="0" unitRef="DKK">1109</fsa:OtherShorttermReceivables>
+<fsa:ShorttermReceivablesFromOwnersAndManagement contextRef="instant_only" decimals="0" unitRef="DKK">116548</fsa:ShorttermReceivablesFromOwnersAndManagement>
+<fsa:ShorttermTaxReceivables contextRef="instant_only" decimals="0" unitRef="DKK">320000</fsa:ShorttermTaxReceivables>
+<fsa:OtherShorttermInvestments contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:OtherShorttermInvestments>
+<fsa:CashAndCashEquivalents contextRef="instant_only" decimals="0" unitRef="DKK">185223</fsa:CashAndCashEquivalents>
+<fsa:IntangibleAssets contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:IntangibleAssets>
+<fsa:PropertyPlantAndEquipment contextRef="instant_only" decimals="0" unitRef="DKK">392603</fsa:PropertyPlantAndEquipment>
+<fsa:LongtermInvestmentsAndReceivables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermInvestmentsAndReceivables>
+<fsa:NoncurrentAssets contextRef="instant_only" decimals="0" unitRef="DKK">392603</fsa:NoncurrentAssets>
+<fsa:Inventories contextRef="instant_only" decimals="0" unitRef="DKK">117000</fsa:Inventories>
+<fsa:ShorttermReceivables contextRef="instant_only" decimals="0" unitRef="DKK">2733893</fsa:ShorttermReceivables>
+<fsa:ShorttermInvestments contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermInvestments>
+<fsa:CurrentAssets contextRef="instant_only" decimals="0" unitRef="DKK">3036116</fsa:CurrentAssets>
+<fsa:Assets contextRef="instant_only" decimals="0" unitRef="DKK">3428719</fsa:Assets>
+<fsa:ContributedCapital contextRef="instant_only" decimals="0" unitRef="DKK">125000</fsa:ContributedCapital>
+<fsa:RevaluationReserve contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:RevaluationReserve>
+<fsa:RetainedEarnings contextRef="instant_only" decimals="0" unitRef="DKK">1061261</fsa:RetainedEarnings>
+<fsa:ProvisionsForDeferredTax contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ProvisionsForDeferredTax>
+<fsa:OtherProvisions contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:OtherProvisions>
+<fsa:LongtermMortgageDebt contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermMortgageDebt>
+<fsa:LongtermDebtToBanks contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermDebtToBanks>
+<fsa:OtherLongtermPayables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:OtherLongtermPayables>
+<fsa:ShorttermDebtToBanks contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermDebtToBanks>
+<fsa:ShorttermTradePayables contextRef="instant_only" decimals="0" unitRef="DKK">74619</fsa:ShorttermTradePayables>
+<fsa:ShorttermPayablesToGroupEnterprises contextRef="instant_only" decimals="0" unitRef="DKK">1846993</fsa:ShorttermPayablesToGroupEnterprises>
+<fsa:ShorttermPayablesToAssociates contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermPayablesToAssociates>
+<fsa:ShorttermPayablesToShareholdersAndManagement contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermPayablesToShareholdersAndManagement>
+<fsa:OtherShorttermPayables contextRef="instant_only" decimals="0" unitRef="DKK">320846</fsa:OtherShorttermPayables>
+<fsa:Equity contextRef="instant_only" decimals="0" unitRef="DKK">1186261</fsa:Equity>
+<fsa:Provisions contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:Provisions>
+<fsa:LongtermLiabilitiesOtherThanProvisions contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+<fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="instant_only" decimals="0" unitRef="DKK">2242458</fsa:ShorttermLiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesOtherThanProvisions contextRef="instant_only" decimals="0" unitRef="DKK">2242458</fsa:LiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesAndEquity contextRef="instant_only" decimals="0" unitRef="DKK">3428719</fsa:LiabilitiesAndEquity>
+<fsa:CompletedDevelopmentProjects contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:CompletedDevelopmentProjects>
+<fsa:Goodwill contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:Goodwill>
+<fsa:DevelopmentProjectsInProgress contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:DevelopmentProjectsInProgress>
+<fsa:PlantAndMachinery contextRef="instant_only_previous" decimals="0" unitRef="DKK">120155</fsa:PlantAndMachinery>
+<fsa:BiologicalAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:BiologicalAssets>
+<fsa:OtherInvestmentAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherInvestmentAssets>
+<fsa:PropertyPlantAndEquipmentInProgress contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:PropertyPlantAndEquipmentInProgress>
+<fsa:OtherLongtermInvestments contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherLongtermInvestments>
+<fsa:OtherLongtermReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherLongtermReceivables>
+<fsa:RawMaterialsAndConsumables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:RawMaterialsAndConsumables>
+<fsa:WorkInProgress contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:WorkInProgress>
+<fsa:ManufacturedGoodsAndGoodsForResale contextRef="instant_only_previous" decimals="0" unitRef="DKK">50000</fsa:ManufacturedGoodsAndGoodsForResale>
+<fsa:ShorttermTradeReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">6364911</fsa:ShorttermTradeReceivables>
+<fsa:ShorttermReceivablesFromGroupEnterprises contextRef="instant_only_previous" decimals="0" unitRef="DKK">26576</fsa:ShorttermReceivablesFromGroupEnterprises>
+<fsa:OtherShorttermReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherShorttermReceivables>
+<fsa:ShorttermTaxReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermTaxReceivables>
+<fsa:OtherShorttermInvestments contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherShorttermInvestments>
+<fsa:CashAndCashEquivalents contextRef="instant_only_previous" decimals="0" unitRef="DKK">420231</fsa:CashAndCashEquivalents>
+<fsa:IntangibleAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:IntangibleAssets>
+<fsa:PropertyPlantAndEquipment contextRef="instant_only_previous" decimals="0" unitRef="DKK">120155</fsa:PropertyPlantAndEquipment>
+<fsa:LongtermInvestmentsAndReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:LongtermInvestmentsAndReceivables>
+<fsa:NoncurrentAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">120155</fsa:NoncurrentAssets>
+<fsa:Inventories contextRef="instant_only_previous" decimals="0" unitRef="DKK">50000</fsa:Inventories>
+<fsa:ShorttermReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">6391487</fsa:ShorttermReceivables>
+<fsa:ShorttermInvestments contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermInvestments>
+<fsa:CurrentAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">6861718</fsa:CurrentAssets>
+<fsa:Assets contextRef="instant_only_previous" decimals="0" unitRef="DKK">6981873</fsa:Assets>
+<fsa:ContributedCapital contextRef="instant_only_previous" decimals="0" unitRef="DKK">125000</fsa:ContributedCapital>
+<fsa:RevaluationReserve contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:RevaluationReserve>
+<fsa:RetainedEarnings contextRef="instant_only_previous" decimals="0" unitRef="DKK">2197029</fsa:RetainedEarnings>
+<fsa:ProposedDividendRecognisedInEquity contextRef="instant_only_previous" decimals="0" unitRef="DKK">1000000</fsa:ProposedDividendRecognisedInEquity>
+<fsa:ProvisionsForDeferredTax contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ProvisionsForDeferredTax>
+<fsa:OtherProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherProvisions>
+<fsa:LongtermMortgageDebt contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:LongtermMortgageDebt>
+<fsa:LongtermDebtToBanks contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:LongtermDebtToBanks>
+<fsa:OtherLongtermPayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherLongtermPayables>
+<fsa:ShorttermDebtToBanks contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermDebtToBanks>
+<fsa:ShorttermTradePayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">724412</fsa:ShorttermTradePayables>
+<fsa:ShorttermPayablesToGroupEnterprises contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermPayablesToGroupEnterprises>
+<fsa:ShorttermPayablesToAssociates contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermPayablesToAssociates>
+<fsa:ShorttermPayablesToShareholdersAndManagement contextRef="instant_only_previous" decimals="0" unitRef="DKK">490788</fsa:ShorttermPayablesToShareholdersAndManagement>
+<fsa:ShorttermTaxPayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">878396</fsa:ShorttermTaxPayables>
+<fsa:OtherShorttermPayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">1566248</fsa:OtherShorttermPayables>
+<fsa:Equity contextRef="instant_only_previous" decimals="0" unitRef="DKK">3322029</fsa:Equity>
+<fsa:Provisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:Provisions>
+<fsa:LongtermLiabilitiesOtherThanProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+<fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">3659845</fsa:ShorttermLiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesOtherThanProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">3659845</fsa:LiabilitiesOtherThanProvisions>
+<fsa:LiabilitiesAndEquity contextRef="instant_only_previous" decimals="0" unitRef="DKK">6981873</fsa:LiabilitiesAndEquity>
+<sob:StatementByExecutiveAndSupervisoryBoards contextRef="duration_only">Undertegnede har dags dato aflagt årsrapport for 1. januar - 31. december 2017 for:Baungaard ApSÅrsrapporten er aflagt i overensstemmelse med årsregnskabsloven.Undertegnede anser den valgte regnskabspraksis for hensigtsmæssig, således at årsregnskabet giver et retvisende billede af virksomhedens aktiver og passiver, finansielle stilling og resultat. Samtidig er det vores opfattelse, at ledelsesberetningen indeholder en retvisende redegørelse for de forhold, beretningen omhandler.Årsrapporten indstilles til generalforsamlingens godkendelse.</sob:StatementByExecutiveAndSupervisoryBoards>
+<sob:PlaceOfSignatureOfStatement contextRef="duration_only">Vejen, den 21. juni 2018</sob:PlaceOfSignatureOfStatement>
+<sob:DateOfApprovalOfAnnualReport contextRef="duration_only">2018-06-21</sob:DateOfApprovalOfAnnualReport>
+<fsa:DisclosureOfAccountingPolicies contextRef="duration_only">Årsrapporten for selskabet for 2017 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for regnskabsklasse B, med tilvalg fra regnskabsklasse C.Årsrapporten er udarbejdet efter samme regnskabspraksis som sidste år.Den anvendte regnskabspraksis generelt og for relevante poster er følgende:ResultatopgørelseNETTOOMSÆTNINGNettoomsætningen ved salg af handelsvarer og færdigvarer indregnes i resultatopgørelsen, hvis levering og risikoovergang til køber har fundet sted inden årets udgang. Nettoomsætning indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.BRUTTOFORTJENESTE/ -TABBruttofortjeneste / - tab består af sammentrækning af regnskabsposterne, Nettoomsætning, ændring i lagre af færdigvarer, varer under fremstilling og handelsvare, andre driftsindtægter, omkostninger til råvarer og hjælpematerialer samt andre eksterne omkostninger, i overenstemmelse med årsregnskabslovens § 32.ANDRE DRIFTSINDTÆGTER OG -OMKOSTNINGERAndre driftsindtægter og -omkostninger indeholder regnskabsposter af sekundær karakter i forhold til virksomhedens aktiviteter, herunder bl.a. fortjeneste/tab ved salg af immaterielle og materielle anlægsaktiver.OMKOSTNINGER TIL RÅVARER OG HJÆLPEMATERIALERRåvarer og hjælpematerialer omfatter kostpris for årets solgte varer og varer medgået til produktionen i året.ANDRE EKSTERNE OMKOSTNINGERAndre eksterne omkostninger omfatter omkostninger til reklame, administration, tab på debitorer, vedligehold og vikarPERSONALEOMKOSTNINGERPersonaleomkostninger omfatter løn og gager, inkl. feriepenge og pensioner, samt andre omkostninger til social sikring mv. af virksomhedens medarbejdere. I personaleomkostninger er fratrukket modtagne refusioner fra offentlige myndigheder.FINANSIELLE POSTERFinansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle poster omfatter renteindtægter og – omkostninger.SKAT AF ÅRETS RESULTATÅrets skat, består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.Moderselskabet og de danske koncernvirksomheder er sambeskattede. Den danske selskabsskat fordeles mellem de sambeskattede danske selskaber i forhold til disses skattepligtige indkomster. Moderselskabet fungerer som administrationsselskab for sambeskatningskredsen, på en sådan måde at moderselskabet forestår afregning af skatter mv. til de danske skattemyndigheder.BalancenMATERIELLE ANLÆGSAKTIVERMåles ved første indregning til kostpris.Produktionsanlæg, driftsmateriel og inventar måles efterfølgende til kostpris med fradrag af akkumulerede afskrivninger.Afskrivningsgrundlaget er kostprisen med fradrag af forventet scrapværdi efter afsluttet brugstid.Ved ændring i afskrivningsperioden eller restværdien indregnes virkningen for afskrivninger fremadrettet som en ændring i regnskabsmæssigt skøn. Kostprisen omfatter anskaffelsesprisen samt omkostninger direkte tilknyttet anskaffelsen, indtil det tidspunkt hvor aktivet er klar til brug. Kostprisen på et samlet aktiv opdeles i separate bestanddele, der afskrives hver for sig, hvis brugstiden på de enkelte bestanddele er forskellige.Der foretages lineære afskrivninger baseret på følgende vurdering af aktivernes forventede brugstider og restværdi. 
+ Brugstid RestværdiProduktionsanlæg, driftsmateriel og inventar 4-8 år 0-14  %VAREBEHOLDNINGERVarebeholdninger måles til kostpris efter FIFO-metoden. Hvis nettorealisationsværdien er lavere end kostprisen, nedskrives til den lavere værdi.IGANGVÆRENDE ARBEJDERIgangværende arbejder indregnes til kostpris. Kostprisen omfatter omkostninger til råvarer, hjælpematerialer og direkte løn.TILGODEHAVENDERTilgodehavender måles til amortiseret kostpris, der sædvanligvis svarer til nominel værdi. Værdien reduceres med hensættelse til imødegåelse af forventede tab.UDBYTTEForslag til udbytte for regnskabsåret indregnes som en særskilt post under egenkapitalen. Forslag til udbytte indregnes som en forpligtelse på tidspunktet for vedtagelse på generalforsamlingen.SKYLDIG SKAT OG UDSKUDT SKATAktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.Udskudt skat måles efter den balanceorienterede gældsmetode af midlertidige forskelle mellem regnskabsmæssig og skattemæssig værdi af aktiver og forpligtelser opgjort på grundlag af den planlagte anvendelse af aktivet henholdsvis afvikling af forpligtelsen.Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettiget skattemæssigt underskud, måles til den værdi, hvortil aktivet forventes at kunne realiseres, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser indenfor samme juridiske skatteenhed. Eventuelle nettoskatteaktiver måles til nettorealisationsværdi.Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat. Ændring i udskudt skat som følge af ændringer i skattesatser indregnes i resultatopgørelsen.GÆLDSFORPLIGTELSERØvrige gældsforpligtelser måles til amortiseret kostpris, hvilket sædvanligvis svarer til nominel værdi.OMREGNING AF FREMMED VALUTATransaktioner i fremmed valuta omregnes til transaktionsdagens kurs. Valutakursdifferencer, der opstår mellem transaktionsdagens kurs og kursen på betalingsdagen, indregnes i resultatopgørelsen som en finansiel post. Hvis valutapositioner anses for sikring af fremtidige pengestrømme, indregnes værdireguleringerne direkte på egenkapitalen.Tilgodehavender, gæld og andre monetære poster i fremmed valuta, som ikke er afregnet på balancedagen, måles til balancedagens valutakurs. Forskellen mellem balancedagens kurs og kursen på tidspunktet for tilgodehavendets eller gældens opståen indregnes i resultatopgørelsen under finansielle indtægter og omkostninger.Anlægsaktiver, der er købt i fremmed valuta, måles til kursen på transaktionsdagen.</fsa:DisclosureOfAccountingPolicies>
+<mrv:ManagementsReview contextRef="duration_only">VIRKSOMHEDENS VÆSENTLIGSTE AKTIVITETERSelskabets hovedaktivitet er at udføre murerarbejde, samt entreprenørarbejde indenfor bygge- og anlægsvirksomhed, og alt dermed beslægtet virksomhed.USÆDVANLIGE FORHOLDDer har ikke været nogen usædvanlige forhold i regnskabsåret.UDVIKLING I AKTIVITETER OG ØKONOMISKE FORHOLDSelskabets 11. regnskabsår udviser et underskud før skat på t.kr. -1.456Selskabet har fortsat sine normale driftsaktiviteter.Årets udvikling og resultat anses for utilfredsstillende.BEGIVENHEDER EFTER REGNSKABSÅRETS AFSLUTNINGDer er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentligt vil påvirke selskabets finansielle stilling.</mrv:ManagementsReview>
+<arr:AuditorsReportOnExtendedReviewOfFinancialStatements contextRef="duration_only">Vi er valgt med henblik på at udføre udvidet gennemgang af årsregnskabet  for ovennævnte selskab for regnskabsåret 1. januar – 31. december 2017,  der omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter. Årsregnskabet udarbejdes efter årsregnskabsloven.</arr:AuditorsReportOnExtendedReviewOfFinancialStatements>
+<arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatementsExtendedReview contextRef="duration_only">LEDELSENS ANSVAR FOR ÅRSREGNSKABETLedelsen har ansvaret for at udarbejde et årsregnskab, der giver et retvisende billede i overensstemmelse med årsregnskabsloven. Ledelsen har endvidere ansvaret for den interne kontrol, som ledelsen anser nødvendig for, at udarbejde et årsregnskab, uden væsentlig fejlinformation, uanset om fejlinformationen skyldes besvigelser eller fejl.</arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatementsExtendedReview>
+<arr:DescriptionOfQualificationsOfFinancialStatementsExtendedReview contextRef="duration_only">Vi har ikke kunnet opnå tilstrækkeligt og egnet revisionsbevis for værdiansættelsen af varebeholdningen. Produktions og lønomkostninger udgør formentlig en væsentlig andel af varelagerets værdi, hvorfor det er indregnet med for lav værdi. Vi har ikke kunnet opgøre hvor stort effekt det har på resultatopgørelsen og egenkapitalen. Derfor tager vi forbehold for varelageret og de eventuelle påvirkninger det har på resultat og egenkapitalVi har ikke kunnet opnå tilstrækkeligt og egnet revisionsbevis for, at omsætning og vareforbrug har været korrekt periodiseret mellem indkomst året 2016 og 2017, hvorfor vi tager forbehold for værdien af omsætningen og vareforbruget.</arr:DescriptionOfQualificationsOfFinancialStatementsExtendedReview>
+<arr:OpinionOnFinancialStatementsExtendedReview contextRef="duration_only">MANGLENDE KONKLUSIONPå grund af betydeligheden af det forhold, der er beskrevet i grundlaget for manglende konklusion, har vi ikke været i stand til at opnå tilstrækkeligt og egnet revisionsbevis, der kan danne grundlag for en konklusion. Vi udtrykker derfor ingen konklusion på årsregnskabet.</arr:OpinionOnFinancialStatementsExtendedReview>
+<arr:SupplementaryInformationOnOtherMattersExtendedReview contextRef="duration_only">FREMHÆVELSE AF ANDRE FORHOLDVi gør opmærksom på, at selskabet i strid med selskabslovens §210 har ydet lån til en kapitalejer hvorved ledelsen kan ifalde ansvar.</arr:SupplementaryInformationOnOtherMattersExtendedReview>
+<arr:StatementOnManagementsReviewAuditorsReportOnExtendedReviewFinancialStatementsExtendedReview contextRef="duration_only">UDTALELSE OM LEDELSESBERETNINGENLedelsen er ansvarlig for ledelsesberetningen. Vores konklusion om regnskabet omfatter ikke ledelsesberetningen, og vi udtrykker ingen form for konklusion med sikkerhed om ledelsesberetningen. I tilknytning til vores udvidede gennemgang af regnskabet er det vores ansvar at læse ledelsesberetningen og i den forbindelse overveje, om ledelsesberetningen er væsentligt inkonsistent med regnskabet eller vores viden opnået ved den udvidede gennemgang eller på anden måde synes at indeholde væsentlig fejlinformation. Vores ansvar er derudover at overveje, om ledelsesberetningen indeholder krævede oplysninger i henhold til årsregnskabsloven.Baseret på det udførte arbejde er det vores opfattelse, at ledelsesberetningen er i overensstemmelse med årsregnskabet og er udarbejdet i overensstemmelse med årsregnskabslovens krav. Vi har ikke fundet væsentlig fejlinformation i ledelsesberetningen.</arr:StatementOnManagementsReviewAuditorsReportOnExtendedReviewFinancialStatementsExtendedReview>
+<fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment contextRef="duration_only">Produktionsanlæg, driftsmateriel og inventar måles efterfølgende til kostpris med fradrag af akkumulerede afskrivninger.Afskrivningsgrundlaget er kostprisen med fradrag af forventet scrapværdi efter afsluttet brugstid.Ved ændring i afskrivningsperioden eller restværdien indregnes virkningen for afskrivninger fremadrettet som en ændring i regnskabsmæssigt skøn. Kostprisen omfatter anskaffelsesprisen samt omkostninger direkte tilknyttet anskaffelsen, indtil det tidspunkt hvor aktivet er klar til brug. Kostprisen på et samlet aktiv opdeles i separate bestanddele, der afskrives hver for sig, hvis brugstiden på de enkelte bestanddele er forskellige.Der foretages lineære afskrivninger baseret på følgende vurdering af aktivernes forventede brugstider og restværdi. 
+ Brugstid RestværdiProduktionsanlæg, driftsmateriel og inventar 4-8 år 0-14  %</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment>
+<fsa:DisclosureOfEmployeeBenefitsExpense contextRef="duration_only">&lt;tr&gt;&lt;td&gt;35&lt;/td&gt;  &lt;td&gt;Personaleomkostninger&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt; &lt;td&gt; &lt;td&gt; &lt;/td&gt;Blank&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Lønninger&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-1.525.243&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-1.287.515&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pensioner&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-191.498&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-129.493&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Andre omkostninger til social sikring &lt;/td&gt;&lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-37.404&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-30.689&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Personaleomkostninger&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-1.754.145&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-1.447.697&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;
+&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Gennemsnitligt antal ansatte &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;</fsa:DisclosureOfEmployeeBenefitsExpense>
+<fsa:DisclosureOfOtherFinanceIncome contextRef="duration_only">&lt;tr&gt;&lt;td&gt;70&lt;/td&gt;  &lt;td&gt;Finansielle indtægter&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt; &lt;td&gt; &lt;td&gt; &lt;/td&gt;Blank&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Renteindtægter tilknyttet virksomhed &lt;/td&gt;&lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-2.799&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;2.034&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Finansielle indtægter&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-2.799&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;2.034&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tekst&gt;Heraf renteindtægter til tilknyttede virksomheder: 2.799
+&lt;/tekst&gt;</fsa:DisclosureOfOtherFinanceIncome>
+<fsa:DisclosureOfOtherFinanceExpenses contextRef="duration_only">&lt;tr&gt;&lt;td&gt;80&lt;/td&gt;  &lt;td&gt;Finansielle omkostninger&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt; &lt;td&gt; &lt;td&gt; &lt;/td&gt;Blank&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Andre finansielle omkostninger&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-67.402&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-109.407&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Finansielle omkostninger&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-67.402&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-109.407&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;</fsa:DisclosureOfOtherFinanceExpenses>
+<fsa:DisclosureOfTaxExpenses contextRef="duration_only">&lt;tr&gt;&lt;td&gt;150&lt;/td&gt;  &lt;td&gt;Skat af årets resultat&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt; &lt;td&gt; &lt;td&gt; &lt;/td&gt;Blank&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sambeskatningsbidrag&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-878.396&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Beregnet skat af skattepl. indkomst &lt;/td&gt;&lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-878.396&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Udskudt skat &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;320.000&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Udskudt skat &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;320.000&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Skat af årets resultat &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;320.000&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;-878.396&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt; &lt;/tr&gt;</fsa:DisclosureOfTaxExpenses>
+<fsa:DisclosureOfEquity contextRef="duration_only">&lt;tr&gt; &lt;/tr&gt;&lt;note&gt;450&lt;/note&gt;&lt;tr&gt; &lt;td&gt;Egenkapital&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Primo&lt;/td&gt; &lt;td&gt;125.000&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;2.197.029&lt;/td&gt; &lt;td&gt;1.000.000&lt;/td&gt;&lt;td&gt;3.322.029&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Forslag til resultatdisponering &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;-1.135.768&lt;/td&gt; &lt;td&gt;0&lt;/td&gt;&lt;td&gt;-1.135.768&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Udbetalt udbytte&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;-1.000.000&lt;/td&gt;&lt;td&gt;-1.000.000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ultimo&lt;/td&gt; &lt;td&gt;125.000&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;1.061.261&lt;/td&gt; &lt;td&gt;0&lt;/td&gt;&lt;td&gt;1.186.261&lt;/td&gt;&lt;/tr&gt;&lt;tekst&gt;Virksomhedskapitalen er opdelt på anparter á 1.000 kr. 
+&lt;/tekst&gt;&lt;tekst&gt;Aktiekapitalen har ikke været ændret siden stiftelse. 
+&lt;/tekst&gt;</fsa:DisclosureOfEquity>
+<fsa:DisclosureOfContingentLiabilities contextRef="duration_only">&lt;tr&gt;&lt;td&gt;675&lt;/td&gt;  &lt;td&gt;Eventualforpligtelser&lt;/td&gt; &lt;/tr&gt;
+&lt;tr&gt; &lt;/tr&gt;&lt;tekst&gt;Selskabet har en verserende retssag mod en debitor vedrørende betalingen af fordringen. På grundlag af en juridisk vurdering af det sandsynlige udfald er det ledelsens opfattelse, at de vil vinde sagen. Det har i 2017 ingen påvirkning på årets resultat eller finansielle stilling 
+&lt;/tekst&gt;&lt;tekst&gt;Selskabet er sambeskattet med Baungaard Holding ApS. Som helejet dattervirksomhed hæfter selskabet ubegrænset og solidarisk for danske selskabsskatter og kildeskatter på udbytte, renter og royalties inden for sambeskatningskredsen.&lt;/tekst&gt;&lt;tr&gt; &lt;/tr&gt;</fsa:DisclosureOfContingentLiabilities>
+<fsa:DisclosureOfMortgagesAndCollaterals contextRef="duration_only">&lt;tr&gt;&lt;td&gt;680&lt;/td&gt;  &lt;td&gt;Pantsætning og sikkerhedsstillelse&lt;/td&gt; &lt;/tr&gt;&lt;tekst&gt;Pantsætninger og sikkerhedsstillelserGarantier i SydbankBetalingsgaranti SaldoUnicon A/S 50.000Islands Brygge 432300 København SVirksomhedspant 1.000.000Omfattende simple fordringer hidrørende fra salg af varer og tjenesteydeler, lagre af råvarer, halvfabrikata og færdigvarer.
+ &lt;/tekst&gt;&lt;tr&gt; &lt;/tr&gt;</fsa:DisclosureOfMortgagesAndCollaterals>
+</xbrli:xbrl>

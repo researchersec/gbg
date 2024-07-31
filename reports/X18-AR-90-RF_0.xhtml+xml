@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.xbrl.org/2008/inlineXBRL/xhtml-inlinexbrl-1_0.xsd" xml:lang="da">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		
+		
+		
+		<title>36908904 Nano4Safety ApS 1. januar 2017 - 31. december 2017 årsrapport</title>
+		
+
+
+
+<style type="text/css" media="print">
+@page :first {
+    @top-right {
+    }
+}
+@page {
+    size: A4 portrait;
+    
+    @top-right {
+        content: "Side " counter(page) " af " counter(pages);
+    }
+    @bottom-center {
+        border-top: 1px solid;
+        content: "CVR-nr. 36908904";
+    }
+}
+a {
+    border:0;
+    color:black;
+    text-decoration: none;
+}
+.toc a::after {
+    content: leader('.') target-counter(attr(href), page);
+}
+.toc {
+    list-style-type: none;
+    padding: 0;
+    margin: 10 0 0;
+    page-break-after: always;
+}
+.toc li {
+    padding:2px;
+}
+.screen_only {
+    display:none;
+}
+</style>
+<style type="text/css" media="all">
+body,div { margin: 0; padding:0; }
+h3{
+    border-top:1.5em;
+    border-bottom:1em;
+    border-left:0px;
+    border-right:0px;
+}
+p {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+img {
+    border:0px;
+}
+#front_page {
+    width: 100%;
+    height: 700px;
+}
+#front_page #company{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+#messageNote{
+    padding:10px;
+    position: absolute;
+    width: 600px;
+    top: 20px;
+    left:50px;
+    border: 2px solid;
+}
+#message{
+    padding:10px;
+    position: absolute;
+    width: 780px;
+    top: 250px;
+    left:200px;
+    border: 2px solid;
+}
+#pdf_link{
+    position: fixed;
+    top: 40px;
+    right: 300px;
+    padding: 5px;
+    border:1px dashed black;
+    width: 170px;
+    z-index: 9999; /*--Keeps the panel on top of all other elements--*/
+}
+#pdf_link a, #pdf_link a.visited{
+    color:black;
+}
+#pdf_link #pdf_tekst{
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 32px;
+    vertical-align: top;
+}
+.col1 {
+    padding-right: 10px;
+    width:500px;
+}
+.col2 {
+    width: 120px;
+}
+.upper td:first-of-type {
+	text-transform: uppercase;
+}
+.space_before{
+    padding-top: 12px;
+}
+li.space_before{
+    padding-top: 25px;
+}
+.dotted span::after{
+    content: leader('.');
+}
+.generelInfo .col1 {
+    font-weight: bold;
+    width: 150px;
+}
+.incomeStatement .col1 {
+    width: 500px;
+}
+.incomeStatement .col2 {
+    text-align: center;
+    width: 70px
+}
+.incomeStatement .col3 {
+    text-align: right;
+    width: 100px
+}
+.incomeStatement .col4 {
+    text-align: right;
+    width: 100px
+}
+.incomeStatement .beloebcol {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.incomeStatement td.beloebcol {
+    white-space: nowrap;
+}
+
+.incomeStatement .header_row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.incomeStatement .header2 TH {
+    font-weight: normal;
+}
+.incomeStatement .title {
+    background-color: #ffffff;
+    padding-right: 5px;
+}
+.incomeStatement .container {
+    position: relative;
+    top: -9px;
+}
+.italic {
+	font-style: italic;
+}
+.strong {
+  font-weight: bold;
+}
+
+#revisor_list{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#liquidator{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#liquidator td{
+    padding:40px 0px 10px;
+}
+
+#executive_list{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#executive_list td{
+    padding:40px 0px 10px;
+}
+#board_list{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#board_list td{
+    padding:40px 0px 10px;
+}
+
+.underline{
+    border-bottom: 1px solid;
+}
+
+#generalMeeting {
+    height:120px;
+    width: 350px;
+    display: block;
+}
+#generalMeeting div{
+    margin-top: 35px;
+    width:350px;
+}
+#dirigent{
+    margin-top: 20px;
+    height: 50px;
+    width: 350px;
+    display: inline-block;
+}
+#dirigent div{
+    vertical-align: bottom;
+    width:350px;
+}
+div.group{
+    margin:0;
+    padding:0;
+    page-break-inside: avoid;
+}
+#regnskabspraksis h2{
+    page-break-after: avoid;
+}
+
+#revisor_list tr td{
+    padding-bottom:15px;
+}
+</style>
+<style type="text/css" media="screen">
+
+.print_only {
+    display:none;
+}
+</style>
+
+	</head>
+	<body>
+		
+
+
+
+
+
+<div id="front_page" style="page-break-after:always;">
+    
+    
+    <div id="company">
+        <h1>Nano4Safety ApS</h1>
+        <p>Krogagervej 19</p>
+        <p>7441 Bording</p>
+        <p><br /></p>
+        <p><ix:nonNumeric name="gsd:InformationOnTypeOfSubmittedReport" contextRef="c0" basis:version="3" xml:lang="da">Årsrapport</ix:nonNumeric></p>
+        <p>1. januar 2017 - 31. december 2017</p>
+    </div>
+    
+
+
+
+
+<div style="font-weight: bold; margin-top:55px;page-break-inside: avoid;">
+  <div id="generalMeeting">
+  
+    Årsrapporten er fremlagt og godkendt på selskabets ordinære generalforsamling den
+    <div class="underline">
+        <ix:nonNumeric name="gsd:DateOfGeneralMeeting" contextRef="c0" format="ixt:dateslasheu">21/06/2018</ix:nonNumeric>
+    </div>
+  
+  </div>
+  <div id="dirigent">
+    <div class="underline">
+      
+        <ix:nonNumeric name="gsd:NameAndSurnameOfChairmanOfGeneralMeeting" contextRef="c0" xml:lang="da">Carsten Schmidt Heide</ix:nonNumeric>
+      
+    </div>
+    Dirigent
+  </div>
+</div>
+    
+</div>
+
+		
+
+
+
+<div class="print_only" style="page-break-before:always;">
+  <b>Indhold</b>
+  <ul class="toc">
+    <li class="space_before"><b>Virksomhedsoplysninger</b></li>
+    <li><a href="#virksomhedsoplysninger">Virksomhedsoplysninger</a></li>
+    
+      <li class="space_before"><b>Påtegninger</b></li>
+      <li><a href="#ledelsespaategning">Ledelsespåtegning</a></li>
+    
+    
+    
+      
+        <li class="space_before"><b>Ledelsesberetning</b></li>
+        <li><a href="#ledelsesberetning">Ledelsesberetning</a></li>
+      
+      
+      
+      
+      
+      
+      
+    
+    
+      <li class="space_before"><b>Årsregnskab</b></li>
+      
+        <li><a href="#regnskabspraksis">Anvendt regnskabspraksis</a></li>
+      
+      
+        <li><a href="#resultatopgoerelse">Resultatopgørelse</a></li>
+      
+      
+        <li><a href="#balance">Balance</a></li>
+      
+      
+      
+      
+        <li><a href="#noter">Noter</a></li>
+      
+    
+  </ul>
+</div>
+
+		
+
+
+
+
+<div class="step" style="page-break-before:always;">
+  <h1 id="virksomhedsoplysninger">Virksomhedsoplysninger</h1>
+  <table style="border:0;" class="generelInfo">
+    <tbody>
+    <tr>
+      <td class="col1"><b>Virksomheden</b></td><td colspan="2"><ix:nonNumeric name="gsd:NameOfReportingEntity" contextRef="c0" xml:lang="da">Nano4Safety ApS</ix:nonNumeric></td>
+    </tr>
+    
+      <tr>
+        <td class="col1"></td><td colspan="2"><ix:nonNumeric name="gsd:AddressOfReportingEntityStreetName" contextRef="c0" xml:lang="da">Krogagervej</ix:nonNumeric> <ix:nonNumeric name="gsd:AddressOfReportingEntityStreetBuildingIdentifier" contextRef="c0" xml:lang="da">19</ix:nonNumeric></td>
+      </tr>
+      <tr>
+         <td class="col1"></td><td colspan="2"><ix:nonNumeric name="gsd:AddressOfReportingEntityPostCodeIdentifier" contextRef="c0" xml:lang="da">7441</ix:nonNumeric> <ix:nonNumeric name="gsd:AddressOfReportingEntityDistrictName" contextRef="c0" xml:lang="da">Bording</ix:nonNumeric></td>
+      </tr>
+      <tr>
+        <td class="col1"></td><td colspan="2">
+          
+        </td>
+      </tr>
+    
+    <tr>
+      <td class="col1"></td><td colspan="2"></td>
+    </tr>
+    
+    
+    
+      <tr>
+        <td class="col1"></td><td class="col2">e-mailadresse:</td><td class="col3"><ix:nonNumeric name="gsd:EmailOfReportingEntity" contextRef="c0" xml:lang="da">carsten@nano4safety.com</ix:nonNumeric></td>
+      </tr>
+    
+    <tr>
+      <td class="col1"></td><td colspan="2"></td>
+    </tr>
+    <tr>
+      <td class="col1"></td><td colspan="2"></td>
+    </tr>
+    <tr>
+      <td class="col1"></td><td class="col2">CVR-nr:</td><td class="col3"><ix:nonNumeric name="gsd:IdentificationNumberCvrOfReportingEntity" contextRef="c0" xml:lang="da">36908904</ix:nonNumeric></td>
+    </tr>
+    <tr>
+      <td class="col1"></td><td class="col2">Regnskabsår:</td><td class="col3"><ix:nonNumeric name="gsd:ReportingPeriodStartDate" contextRef="c0" format="ixt:dateslasheu">01/01/2017</ix:nonNumeric> - <ix:nonNumeric name="gsd:ReportingPeriodEndDate" contextRef="c0" format="ixt:dateslasheu">31/12/2017</ix:nonNumeric></td>
+    </tr>
+    <tr><td colspan="3"> </td></tr>
+    <tr><td colspan="3"> </td></tr>
+    
+    
+      <tr>
+        <td class="col1"><b>Bankforbindelse</b></td><td colspan="2"><ix:nonNumeric name="gsd:NameOfFinancialInstitution" contextRef="c0" xml:lang="da">Jyske Bank</ix:nonNumeric></td>
+      </tr>
+      
+        <tr>
+          <td class="col1"></td><td colspan="2"><ix:nonNumeric name="gsd:AddressOfFinancialStreetName" contextRef="c0" xml:lang="da">Vestergade</ix:nonNumeric> <ix:nonNumeric name="gsd:AddressOfFinancialStreetBuildingIdentifier" contextRef="c0" xml:lang="da">8-10</ix:nonNumeric></td>
+        </tr>
+        <tr>
+          <td class="col1"></td><td colspan="2"><ix:nonNumeric name="gsd:AddressOfFinancialPostCodeIdentifier" contextRef="c0" xml:lang="da">8600</ix:nonNumeric> <ix:nonNumeric name="gsd:AddressOfFinancialDistrictName" contextRef="c0" xml:lang="da">Silkeborg</ix:nonNumeric></td>
+       </tr>
+        <tr>
+          <td class="col1"></td><td colspan="2"> </td>
+        </tr>
+      
+      <tr><td colspan="3"> </td></tr>
+      <tr><td colspan="3"> </td></tr>
+    
+    
+    </tbody>
+  </table>
+</div>
+
+		
+			
+
+
+
+
+<div style="page-break-before:always;">
+  <h1 id="ledelsespaategning">Ledelsespåtegning</h1>
+  <ix:nonNumeric name="sob:StatementByExecutiveAndSupervisoryBoards" contextRef="c0" escape="true" xml:lang="da"><p>Direktionen har dags dato behandlet og godkendt årsrapporten for regnskabsåret 1. januar til 31. december 2017 for Nano4Safety ApS.</p>
+<p> </p>
+<p>Årsrapporten aflægges i overensstemmelse med årsregnskabsloven.</p>
+<p> </p>
+<p>Det er min opfattelse, at årsregnskabet giver et retvisende billede af selskabets aktiver, passiver og finansielle stilling pr. 31. december 2017 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. januar til 31. december 2017.</p>
+<p> </p>
+<p>Ledelsesberetningen indeholder efter min opfattelse en retvisende redegørelse for de forhold, beretningen omhandler.</p>
+<p> </p>
+<p>Direktionen anser fortsat betingelserne for at undlade revision for opfyldte.</p>
+<p> </p>
+<p>Årsrapporten indstilles til generalforsamlingens godkendelse.</p></ix:nonNumeric>
+  <br />
+  <ix:nonNumeric name="sob:PlaceOfSignatureOfStatement" contextRef="c0" xml:lang="da">Silkeborg</ix:nonNumeric>, den <ix:nonNumeric name="sob:DateOfApprovalOfAnnualReport" contextRef="c0" format="ixt:dateslasheu">20/06/2018</ix:nonNumeric>
+  <br /><br />
+
+    
+        <div style="page-break-inside: avoid">
+        <b>Direktion</b>
+        <br />
+        
+
+
+
+
+    <table id="executive_list">
+        
+            <tr>
+            <td valign="top">
+                
+                <ix:nonNumeric name="cmn:NameAndSurnameOfMemberOfExecutiveBoard" contextRef="c1" xml:lang="da">Carsten Schmidt Heide</ix:nonNumeric>
+                <br />
+                
+                
+            </td>
+            </tr>
+        
+    </table>
+
+        <br />
+        </div>
+        <br /><br />
+    
+    
+    
+
+
+
+</div>
+
+
+		
+		
+			
+
+
+
+
+
+
+		
+		
+			
+
+
+
+
+<div style="page-break-before: always;">
+    
+        <h1 id="ledelsesberetning">Ledelsesberetning</h1>
+        <ix:nonNumeric name="mrv:ManagementsReview" contextRef="c0" escape="true" xml:lang="da"><p>
+  <strong>Væsentligste aktiviteter</strong>
+</p>
+<p>Selskabets væsentligste aktiviteter består i investering, handel og konsulentvirksomhed samt enhver aktivitet, der efter direktionens skøn står i forbindelse hermed.</p>
+<p> </p>
+<p>
+  <strong>Udvikling i aktiviteter og økonomiske forhold</strong>
+</p>
+<p>Årets resultat er ikke tilfredsstillende.</p>
+<p> </p>
+<p>Selskabets ledelse har positive forventninger til fremtiden, og forventer at kunne retablere kapitalen ved fremtidig driftsoverskud.</p>
+<p> </p>
+<p>Selskabet har tabt over halvdelen af selskabskapitalen og er derved omfattet af kapitalbestemmelserne i selskabslovens § 119.</p>
+<p> </p>
+<p>Selskabets ledelse forventer at selskabets låneengagement kan fortsætte på nuværende vilkår og har derfor aflagt årsrapporten med fortsat drift for øje.</p></ix:nonNumeric>
+        <br />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+		
+		
+			
+
+
+
+
+<div class="step" style="page-break-before:always;">
+    <h1 id="regnskabspraksis">Anvendt regnskabspraksis</h1>
+
+    
+    
+    
+
+    
+        
+    
+
+
+    
+        
+    
+
+
+    
+
+    <ix:nonNumeric name="fsa:InformationOnReportingClassOfEntity" contextRef="c0" escape="true" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for <ix:nonNumeric name="fsa:ClassOfReportingEntity" contextRef="c0" xml:lang="da">Regnskabsklasse B</ix:nonNumeric>.</ix:nonNumeric>
+
+    
+        <ix:nonNumeric name="fsa:DisclosureOfAccountingPolicies" contextRef="c0" escape="true" xml:lang="da"><p> </p>
+<p>Den anvendte regnskabspraksis er uændret i forhold til tidligere år.</p>
+<p> </p>
+<p>
+  <strong>Rapporteringsvaluta</strong>
+</p>
+<p>Årsrapporten er aflagt i danske kroner.</p>
+<p> </p>
+<p> </p>
+<p>
+  <strong>RESULTATOPGØRELSEN</strong>
+</p>
+<p> </p>
+<p>
+  <strong>Bruttofortjeneste og -tab</strong>
+</p>
+<p>Virksomheden har valgt at sammendrage visse poster i resultatopgørelsen efter bestemmelserne i årsregnskabslovens § 32.</p>
+<p> </p>
+<p>
+  <strong>Nettoomsætning</strong>
+</p>
+<p>Indtægter ved salg af varer og tjenesteydelser indregnes i resultatopgørelsen på tidspunktet for levering og risikoens overgang, såfremt indtægten kan opgøres pålideligt. Omsætningen opgøres efter fradrag af moms, afgifter og rabatter.</p>
+<p> </p>
+<p>
+  <strong>Andre driftsindtægter og -omkostninger</strong>
+</p>
+<p>Andre driftsindtægter og andre driftsomkostninger omfatter regnskabsposter af sekundær karakter i forhold til virksomhedernes hovedaktivitet.</p>
+<p> </p>
+<p> </p>
+<p>
+  <strong>Andre eksterne omkostninger</strong>
+</p>
+<p>Andre eksterne omkostninger omfatter omkostninger vedrørende salg, administration mv.</p>
+<p> </p>
+<p>
+  <strong>Indtægter af kapitalandele i associerede virksomheder</strong>
+</p>
+<p>Disse omfatter den forholdsmæssige andel af resultatet efter skat samt efter regulering af intern avance/tab og fradrag af afskrivning på koncerngoodwill.</p>
+<p> </p>
+<p>
+  <strong>Finansielle indtægter og omkostninger</strong>
+</p>
+<p>Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle indtægter og omkostninger indeholder renteindtægter og -omkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, gæld og transaktioner i fremmed valuta, modtaget udbytte fra andre kapitalandele, amortisering af finansielle aktiver og forpligtelser samt tillæg og godtgørelser under acontoskatteordningen.</p>
+<p> </p>
+<p>
+  <strong>Skat af årets resultat</strong>
+</p>
+<p>Skat af årets resultat omfatter aktuel skat af årets forventede skattepligtige indkomst og årets regulering af udskudt skat med fradrag af den del af årets skat, der vedrører egenkapitalbevægelser. Aktuel og udskudt skat vedrørende egenkapitalbevægelser indregnes direkte i egenkapitalen.</p>
+<p> </p>
+<p>
+  <strong>BALANCEN</strong>
+</p>
+<p> </p>
+<p>
+  <strong>Finansielle anlægsaktiver</strong>
+</p>
+<p>Kapitalandele i tilknyttede og associerede virksomheder værdiansættes efter den indre værdis metode til den forholdsmæssige ejede andel af virksomhedernes egenkapital. Virksomheder med negativ egenkapital måles til 0, idet den til den negative værdi svarende forholdsmæssige andel modregnes i eventuel tilgodehavender. Beløb herudover indregnes under posten hensatte forpligtelser, såfremt der er en retlig faktisk forpligteles til at dække underbalancen.</p>
+<p> </p>
+<p>I resultatopgørelsen medtages moderselskabets andel af datterselskabernes resultat efter skat. Ændringer i datterselskabernes egenkapital reguleres årligt og indregnes som ”Nettoopskrivning efter den indre værdis metode” under egenkapitalen.</p>
+<p> </p>
+<p>Andre værdipapirer og kapitalandele måles til kursværdien på balancedagen, såfremt de er børsnoterede, eller en anslået dagsværdi, såfremt de ikke er børsnoterede.</p>
+<p> </p>
+<p>
+  <strong>Varebeholdninger</strong>
+</p>
+<p>Varebeholdninger måles til kostpris på grundlag af FIFO-princippet eller til nettorealisationsværdi, hvis denne er lavere.</p>
+<p> </p>
+<p>
+  <strong>Tilgodehavender</strong>
+</p>
+<p>Tilgodehavender måles til amortiseret kostpris, der almindeligvis svarer til nominel værdi. Værdien reduceres med nedskrivninger til imødegåelse af forventede tab.</p>
+<p> </p>
+<p>
+  <strong>Udskudt skat</strong>
+</p>
+<p>Udskudt skat og årets regulering heraf opgøres som skatteværdien af alle midlertidige forskelle mellem regnskabsmæssige og skattemæssige værdier af aktiver og forpligtelser.</p>
+<p> </p>
+<p>Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettigede skattemæssige underskud, indregnes med den værdi, hvortil de forventes at blive anvendt, enten ved udligning i skat af fremtidig indtjening eller ved modregning i udskudte skatteforpligtelser i virksomheder inden for samme juridiske skatteenhed og jurisdiktion.</p>
+<p> </p>
+<p>Udskudt skat måles på grundlag af de skatteregler og skattesatser, der med balancedagens lovgivning vil være gældende, når den udskudte skat forventes udløst som aktuel skat.</p>
+<p> </p>
+<p>
+  <strong>Eventualaktiver og -forpligtelser</strong>
+</p>
+<p>Eventualaktiver og -forpligtelser indregnes ikke i balancen, men oplyses alene i noterne.</p></ix:nonNumeric>
+    
+</div>
+		
+		
+			
+
+
+
+
+
+
+
+<div class="step" style="page-break-before:always;">
+    <h1 id="resultatopgoerelse">Resultatopgørelse 1. jan. 2017 - 31. dec. 2017</h1>
+    <table style="border:0;" class="incomeStatement">
+        <thead>
+            <tr class="header1">
+                <th class="col1"></th>
+                <th class="col2">Note</th>
+                <th class="col3">2017</th>
+                <th class="col4 lastyear">2016</th>
+            </tr>
+            <tr class="header2">
+                <th class="col1"></th>
+                <th class="col2"></th>
+                <th class="col3">kr.</th>
+                <th class="col4 lastyear">kr.</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Bruttofortjeneste/Bruttotab
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:GrossProfitLoss" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">10.731</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:GrossProfitLoss" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">11.689</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Resultat af ordinær primær drift
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLossFromOrdinaryOperatingActivities" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">10.731</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:ProfitLossFromOrdinaryOperatingActivities" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">11.689</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="indent">
+
+    <td class="col1 dotted">
+        <span>    
+            
+                Indtægter af kapitalandele i associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:IncomeFromInvestmentsInAssociates" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">10.000</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:IncomeFromInvestmentsInAssociates" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">34.393</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Øvrige finansielle omkostninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:OtherFinanceExpenses" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">1.321</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:OtherFinanceExpenses" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0">381</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Ordinært resultat før skat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:ProfitLossFromOrdinaryActivitiesBeforeTax" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">590</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:ProfitLossFromOrdinaryActivitiesBeforeTax" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">46.463</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Årets resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:ProfitLoss" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">590</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:ProfitLoss" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">46.463</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+	
+
+
+
+
+
+
+
+
+<tr class="strong">
+    <td class="header_row">
+        Forslag til resultatdisponering
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overført resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:ProfitLoss" contextRef="c3" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">590</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:ProfitLoss" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">46.463</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                I alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:ProfitLoss" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">590</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:ProfitLoss" contextRef="c2" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">46.463</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+            
+            
+        </tbody>
+    </table>
+
+    
+
+    
+</div>
+
+		
+		
+			
+
+
+
+<h1 id="balance" style="page-break-before: always;">Balance 31. december 2017</h1>
+
+    
+
+
+
+
+
+
+
+
+<h3>Aktiver</h3>
+<table style="border:0;" class="incomeStatement">
+	<thead>
+		<tr class="header1">
+			<th class="col1"></th>
+			<th class="col2">Note</th>
+			<th class="col3">2017</th>
+			<th class="col4 lastyear">2016</th>
+		</tr>
+		<tr class="header2">
+			<th class="col1"></th>
+			<th class="col2"></th>
+			<th class="col3">kr.</th>
+			<th class="col4 lastyear">kr.</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Kapitalandele i associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermInvestmentsInAssociates" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermInvestmentsInAssociates" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">25.000</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Finansielle anlægsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        1
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermInvestmentsAndReceivables" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermInvestmentsAndReceivables" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">25.000</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Anlægsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:NoncurrentAssets" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:NoncurrentAssets" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">25.000</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Fremstillede varer og handelsvarer
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ManufacturedGoodsAndGoodsForResale" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">35.000</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ManufacturedGoodsAndGoodsForResale" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">8.996</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Varebeholdninger i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Inventories" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">35.000</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Inventories" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">8.996</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre tilgodehavender
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherShorttermReceivables" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">387</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherShorttermReceivables" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">2.415</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Tilgodehavender i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivables" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">387</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermReceivables" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">2.415</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Likvide beholdninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CashAndCashEquivalents" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">1.318</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:CashAndCashEquivalents" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">4.712</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Omsætningsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CurrentAssets" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">36.705</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:CurrentAssets" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">16.123</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong upper">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Aktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Assets" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">36.705</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Assets" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">41.123</ix:nonFraction>
+        
+    </td>
+</tr>
+
+        
+	</tbody>
+</table>
+
+
+<h1 style="page-break-before: always;">Balance 31. december 2017</h1>
+
+    
+
+
+
+
+
+
+
+<h3>Passiver</h3>
+<table style="border:0;" class="incomeStatement">
+	<thead>
+		<tr class="header1">
+			<th class="col1"></th>
+			<th class="col2">Note</th>
+			<th class="col3">2017</th>
+			<th class="col4 lastyear">2016</th>
+		</tr>
+		<tr class="header2">
+			<th class="col1"></th>
+			<th class="col2"></th>
+			<th class="col3">kr.</th>
+			<th class="col4 lastyear">kr.</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Registreret kapital mv.
+            
+        </span>
+    </td>
+    <td class="col2">
+        2
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ContributedCapital" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">50.000</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ContributedCapital" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">50.000</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overført resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:RetainedEarnings" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">52.716</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:RetainedEarnings" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">52.126</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Egenkapital i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        -<ix:nonFraction name="fsa:Equity" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">2.716</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            -<ix:nonFraction name="fsa:Equity" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0" sign="-">2.126</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Anden gæld, herunder skyldige skatter og skyldige bidrag til social sikring
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherShorttermPayables" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">39.421</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherShorttermPayables" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">43.249</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Kortfristede gældsforpligtelser i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermLiabilitiesOtherThanProvisions" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">39.421</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermLiabilitiesOtherThanProvisions" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">43.249</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Gældsforpligtelser i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LiabilitiesOtherThanProvisions" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">39.421</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LiabilitiesOtherThanProvisions" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">43.249</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong upper">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Passiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LiabilitiesAndEquity" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">36.705</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LiabilitiesAndEquity" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">41.123</ix:nonFraction>
+        
+    </td>
+</tr>
+
+        
+	</tbody>
+</table>
+
+
+
+		
+		
+		
+		
+			
+
+
+
+
+
+
+<div style="page-break-before:always;">
+    <h1 id="noter">Noter</h1>
+    
+        
+            <div style="padding-top:1em;margin-bottom:1em;width:90%;page-break-inside:avoid;">
+                <h3>1. Finansielle anlægsaktiver i alt</h3>
+                <ix:nonNumeric name="fsa:DisclosureOfInvestments" contextRef="c0" escape="true" xml:lang="da"><table style="border-collapse:collapse; border:0pt currentColor; width:650px">
+  <tbody>
+    <tr>
+      <th style="border:0pt currentColor; width:70%">
+        <p> </p>
+      </th>
+      <th style="border:0pt currentColor; font-weight:bold; text-align:right; width:15%">2017</th>
+      <th style="border:0pt currentColor; font-weight:bold; text-align:right; width:15%">2016</th>
+    </tr>
+    <tr>
+      <th style="text-align:left">Kapitalandele i associerede virksomheder</th>
+      <th style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:1px; padding-bottom:10px; text-align:right"> </th>
+      <th style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:1px; padding-bottom:10px; text-align:right"> </th>
+    </tr>
+    <tr>
+      <td>Kostpris primo</td>
+      <td style="text-align:right">50.000</td>
+      <td style="text-align:right">25.000</td>
+    </tr>
+    <tr>
+      <td>Tilgang</td>
+      <td style="text-align:right">
+        <p>0</p>
+      </td>
+      <td style="text-align:right">25.000</td>
+    </tr>
+    <tr>
+      <td>Afgang</td>
+      <td style="text-align:right">-50.000</td>
+      <td style="text-align:right">0</td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold">Kostpris ultimo</td>
+      <td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:2px; border-top-color:currentColor; border-top-style:solid; border-top-width:2px; font-weight:bold; text-align:right">0</td>
+      <td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:2px; border-top-color:currentColor; border-top-style:solid; border-top-width:2px; font-weight:bold; text-align:right">50.000</td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align:right"> </td>
+    </tr>
+    <tr>
+      <td>Opskrivning pr. 1. januar</td>
+      <td style="text-align:right">-25.000</td>
+      <td style="text-align:right">9.393</td>
+    </tr>
+    <tr>
+      <td>Årets opskrivning/nedskrivning</td>
+      <td style="text-align:right">0</td>
+      <td style="text-align:right">-34.393</td>
+    </tr>
+    <tr>
+      <td>Opskrivning vedrørende afgang</td>
+      <td style="text-align:right">25.000</td>
+      <td style="text-align:right">0</td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold">Nettoopskrivninger ultimo</td>
+      <td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:2px; border-top-color:currentColor; border-top-style:solid; border-top-width:2px; font-weight:bold; text-align:right">0</td>
+      <td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:2px; border-top-color:currentColor; border-top-style:solid; border-top-width:2px; font-weight:bold; text-align:right">-25.000</td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align:right"> </td>
+    </tr>
+    <tr>
+      <td style="font-weight:bold">Regnskabsmæssig værdi ultimo</td>
+      <td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:1px; font-weight:bold; text-align:right">0</td>
+      <td style="border-bottom-color:currentColor; border-bottom-style:solid; border-bottom-width:1px; font-weight:bold; text-align:right">25.000</td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+  </tbody>
+</table></ix:nonNumeric>
+            </div>
+        
+    
+        
+            <div style="padding-top:1em;margin-bottom:1em;width:90%;page-break-inside:avoid;">
+                <h3>2. Registreret kapital mv.</h3>
+                <ix:nonNumeric name="fsa:DisclosureOfContributedCapital" contextRef="c0" escape="true" xml:lang="da"><p>Virksomhedskapitalen består af 500 stk. anparter á nominelt kr. 100 og multipla heraf.</p>
+<p>Ingen kapitalandele er tillagt særlige rettigheder.</p>
+<p> </p>
+<p>Virksomhedskapitalen har ikke været ændret siden stiftelsen.</p></ix:nonNumeric>
+            </div>
+        
+    
+        
+            <div style="padding-top:1em;margin-bottom:1em;width:90%;page-break-inside:avoid;">
+                <h3>3. Oplysning om usikkerhed om going concern</h3>
+                <ix:nonNumeric name="fsa:DisclosureOfUncertaintiesRelatingToGoingConcern" contextRef="c0" escape="true" xml:lang="da"><p>Selskabets ledelse har positive forventninger til fremtiden og forventer at kunne retablere kapitalen ved fremtidig driftsoverskud.</p>
+<p> </p>
+<p>Selskabet har tabt mere end 50% af selskabskapitalen og er således omfattet af kapitalbestemmelserne i selskabsloven §119.</p>
+<p> </p>
+<p>Selskabets ledelse forventer at selskabets låneengagement kan fortsætte på nuværende vilkår og har derfor aflagt årsrapporten med fortsat drift for øje.</p></ix:nonNumeric>
+            </div>
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+		
+		<div style="display:none;">
+			<ix:header>
+				<ix:hidden>
+<ix:nonNumeric name="sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+					
+
+
+
+    <ix:nonNumeric name="fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+
+    <ix:nonNumeric name="fsa:SelectedElementsFromReportingClassC" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+
+    <ix:nonNumeric name="fsa:SelectedElementsFromReportingClassD" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+
+    <ix:nonNumeric name="fsa:AccountingPoliciesAreUnchangedFromPreviousPeriod" contextRef="c0" escape="true" xml:lang="da">true</ix:nonNumeric>
+
+					
+
+
+
+
+
+
+  <ix:nonNumeric name="gsd:PrecedingReportingPeriodStartDate" contextRef="c0" format="ixt:dateslasheu">01/01/2016</ix:nonNumeric>
+  <ix:nonNumeric name="gsd:PredingReportingPeriodEndDate" contextRef="c0" format="ixt:dateslasheu">31/12/2016</ix:nonNumeric>
+
+
+					
+
+
+
+
+
+
+    
+    <ix:nonNumeric name="cmn:TypeOfAuditorAssistance" contextRef="c0" xml:lang="da">Ingen bistand</ix:nonNumeric>
+    
+    
+    
+    
+
+					
+
+
+
+
+<ix:nonNumeric name="gsd:NameOfSubmittingEnterprise" contextRef="c0" xml:lang="da">Erling Thomsen</ix:nonNumeric>
+<ix:nonNumeric name="gsd:AddressOfSubmittingEnterpriseStreetAndNumber" contextRef="c0" xml:lang="da">Vejlbovej 23</ix:nonNumeric>
+<ix:nonNumeric name="gsd:AddressOfSubmittingEnterprisePostcodeAndTown" contextRef="c0" xml:lang="da">8600 Silkeborg</ix:nonNumeric>
+</ix:hidden>
+				<ix:references>
+					<lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"></lnk:schemaRef>
+				</ix:references>
+				<ix:resources>
+					<xbrli:context id="c0"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="c1"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c2"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2016-01-01</xbrli:startDate><xbrli:endDate>2016-12-31</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="c3"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c4"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2016-01-01</xbrli:startDate><xbrli:endDate>2016-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c5"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2017-12-31</xbrli:instant></xbrli:period></xbrli:context>
+<xbrli:context id="c6"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">36908904</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2016-12-31</xbrli:instant></xbrli:period></xbrli:context>
+					<xbrli:unit id="u0"><xbrli:measure>iso4217:DKK</xbrli:measure></xbrli:unit>
+				</ix:resources>
+			</ix:header>
+		</div>
+	</body>
+</html>

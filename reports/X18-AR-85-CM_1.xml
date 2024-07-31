@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+            <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+         </xbrldi:typedMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c2">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2016-01-01</xbrli:startDate>
+         <xbrli:endDate>2016-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c3">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-01-01</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c4">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2016-01-01</xbrli:startDate>
+         <xbrli:endDate>2016-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c5">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2017-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c6">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">25319443</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2016-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="u0">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2018-06-19</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Jesper Gøthgen Petersen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">JESPER GØTHGEN ApS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Toldbodgade</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">38, st tv</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">1253</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">København K</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:TelephoneNumberOfReportingEntity contextRef="c0" xml:lang="da">26704993</gsd:TelephoneNumberOfReportingEntity>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">25319443</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2017-01-01</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2017-12-31</gsd:ReportingPeriodEndDate>
+   <gsd:NameOfFinancialInstitution contextRef="c0" xml:lang="da">MønsBank</gsd:NameOfFinancialInstitution>
+   <gsd:AddressOfFinancialPostCodeIdentifier contextRef="c0" xml:lang="da">1105</gsd:AddressOfFinancialPostCodeIdentifier>
+   <gsd:AddressOfFinancialDistrictName contextRef="c0" xml:lang="da">København K</gsd:AddressOfFinancialDistrictName>
+   <sob:StatementByExecutiveAndSupervisoryBoards contextRef="c0" xml:lang="da">&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Hovedaktiviteter&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Selskabet driver rådgivning og konsulentvirksomhed.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Udviklingen i aktiviteter og økonomiske forhold&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Udviklingen i kundegrundlaget har bevirket større og mere interessante opgaver i relation til selskabets hovedaktiviteter. Årsresultatet anses for at være tilfredsstillende.&lt;/span&gt;
+&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+   <sob:PlaceOfSignatureOfStatement contextRef="c0" xml:lang="da">København</sob:PlaceOfSignatureOfStatement>
+   <sob:DateOfApprovalOfAnnualReport contextRef="c0">2018-05-31</sob:DateOfApprovalOfAnnualReport>
+   <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="c1" xml:lang="da">Jesper Gøthgen Petersen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+   <mrv:ManagementsReview contextRef="c0" xml:lang="da">&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Hovedaktiviteter&lt;/h3&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Selskabet driver rådgivning og konsulentvirksomhed.&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Udviklingen i aktiviteter og økonomiske forhold&lt;/h3&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Udviklingen i kundegrundlaget har bevirket større og mere interessante opgaver i relation til selskabets hovedaktiviteter. Årsresultatet anses for at være tilfredsstillende.&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;efter regnskabets afslutning&lt;/h3&gt;
+&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;.....&lt;/p&gt;</mrv:ManagementsReview>
+   <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Generelt&lt;/h3&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Årsrapporten for Jesper Gøthgen ApS er aflagt i oversensstemmelse med årsregnskabslovens bestemmelser for klasse B-virksomheder.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Anvendt regnskabspraksis er følgende:&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Resultatopgørelse&lt;/h3&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Nettoomsætning&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Nettoomsætningen ved salg af tjenesteydelser indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden årets udgang.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Nettoomsætningen indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Andre eksterne omkostninger&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Andre eksterne omkostninger omfatter omkostninger til administration m.v.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Finansielle poster&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle poster omfatter renteindtægter og -omkostninger samt tillæg og godtgørelse under acontoskatteordningen m.v.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Skat af årets resultat&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Skat af årets resultat udgør 22% af det regnskabsmæssige resultat korrigeret for ikke indkomstskattepligtige og ikke fradragsberettigede poster.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Skat af året resultat er sammensat af den forventede skat af årets skattepligtige indkomst reguleret for årets forskydning i udskudt skat.&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 xmlns="http://www.w3.org/1999/xhtml"&gt;Balance&lt;/h3&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Anlægsaktiver&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Materielle anlægsaktiver måles til anskaffelsespris med fradrag af akkumulerede afskrivninger.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Afskrivninger foretages linært over aktivernes forventede levetid, som følger:&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Driftsmidler og inventar 
+  &lt;span style="mso-spacerun:yes"&gt;             &lt;/span&gt; 5 år&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Automobil 
+  &lt;span style="mso-spacerun:yes"&gt;                                  &lt;/span&gt; 7 år&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Aktiver med en anskaffelsessum på under 12.900 kr. udgiftsføres i anskaffelsesåret.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Tilgodehavender&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Tilgodehavender måles til amortiseret kostpris, der sædvanligvis svarer til nominel værdi. Værdien reduceres med nedskrivning til imødegåelse af forventede tab.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Udbytte&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Udbytte, som forventes udbetalt for året, vises som en særskilt post under selskabets gæld.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt; &lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;strong style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:bold; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Gældsforpligtelser&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style="text-align: justify; text-indent: 0in; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-text-justify: inter-ideograph; language: da;" xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;span style="color:black; font-family:arial; font-size:12pt; font-style:normal; font-weight:normal; language:da; mso-ascii-font-family:Arial; mso-bidi-font-family:Arial; mso-fareast-font-family:+mn-ea; mso-fareast-theme-font:minor-fareast; mso-style-textfill-fill-alpha:100.0%; mso-style-textfill-fill-color:black; mso-style-textfill-type:solid; mso-text-raise:0%; vertical-align:baseline"&gt;Gæld er målt til amortiseret kostpris svarende til nominel værdi.&lt;/span&gt;
+&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+   <fsa:Revenue contextRef="c0" decimals="0" unitRef="u0">184749</fsa:Revenue>
+   <fsa:Revenue contextRef="c2" decimals="0" unitRef="u0">92060</fsa:Revenue>
+   <fsa:ExternalExpenses contextRef="c0" decimals="0" unitRef="u0">192166</fsa:ExternalExpenses>
+   <fsa:ExternalExpenses contextRef="c2" decimals="0" unitRef="u0">89445</fsa:ExternalExpenses>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">-7417</fsa:GrossResult>
+   <fsa:GrossResult contextRef="c2" decimals="0" unitRef="u0">2615</fsa:GrossResult>
+   <fsa:EmployeeBenefitsExpense contextRef="c0" decimals="0" unitRef="u0">3496</fsa:EmployeeBenefitsExpense>
+   <fsa:EmployeeBenefitsExpense contextRef="c2" decimals="0" unitRef="u0">3923</fsa:EmployeeBenefitsExpense>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-10913</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c2" decimals="0" unitRef="u0">-1308</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:OtherFinanceIncome contextRef="c2" decimals="0" unitRef="u0">4943</fsa:OtherFinanceIncome>
+   <fsa:OtherFinanceExpenses contextRef="c0" decimals="0" unitRef="u0">34</fsa:OtherFinanceExpenses>
+   <fsa:OtherFinanceExpenses contextRef="c2" decimals="0" unitRef="u0">1653</fsa:OtherFinanceExpenses>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-10947</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c2" decimals="0" unitRef="u0">1982</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:TaxExpense contextRef="c2" decimals="0" unitRef="u0">656</fsa:TaxExpense>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-10947</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">1326</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c3" decimals="0" unitRef="u0">-10947</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c4" decimals="0" unitRef="u0">1326</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-10947</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c2" decimals="0" unitRef="u0">1326</fsa:ProfitLoss>
+   <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="c5" decimals="0" unitRef="u0">90010</fsa:ShorttermReceivablesFromGroupEnterprises>
+   <fsa:ShorttermReceivablesFromGroupEnterprises contextRef="c6" decimals="0" unitRef="u0">116764</fsa:ShorttermReceivablesFromGroupEnterprises>
+   <fsa:OtherShorttermReceivables contextRef="c5" decimals="0" unitRef="u0">7652</fsa:OtherShorttermReceivables>
+   <fsa:OtherShorttermReceivables contextRef="c6" decimals="0" unitRef="u0">3360</fsa:OtherShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c5" decimals="0" unitRef="u0">97662</fsa:ShorttermReceivables>
+   <fsa:ShorttermReceivables contextRef="c6" decimals="0" unitRef="u0">120124</fsa:ShorttermReceivables>
+   <fsa:CashAndCashEquivalents contextRef="c5" decimals="0" unitRef="u0">1307</fsa:CashAndCashEquivalents>
+   <fsa:CashAndCashEquivalents contextRef="c6" decimals="0" unitRef="u0">1320</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets contextRef="c5" decimals="0" unitRef="u0">98969</fsa:CurrentAssets>
+   <fsa:CurrentAssets contextRef="c6" decimals="0" unitRef="u0">121444</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c5" decimals="0" unitRef="u0">98969</fsa:Assets>
+   <fsa:Assets contextRef="c6" decimals="0" unitRef="u0">121444</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c5" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+   <fsa:ContributedCapital contextRef="c6" decimals="0" unitRef="u0">125000</fsa:ContributedCapital>
+   <fsa:RetainedEarnings contextRef="c5" decimals="0" unitRef="u0">-101637</fsa:RetainedEarnings>
+   <fsa:RetainedEarnings contextRef="c6" decimals="0" unitRef="u0">-90690</fsa:RetainedEarnings>
+   <fsa:Equity contextRef="c5" decimals="0" unitRef="u0">23363</fsa:Equity>
+   <fsa:Equity contextRef="c6" decimals="0" unitRef="u0">34310</fsa:Equity>
+   <fsa:LongtermTaxPayables contextRef="c5" decimals="0" unitRef="u0">50611</fsa:LongtermTaxPayables>
+   <fsa:LongtermTaxPayables contextRef="c6" decimals="0" unitRef="u0">50611</fsa:LongtermTaxPayables>
+   <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">50611</fsa:LongtermLiabilitiesOtherThanProvisions>
+   <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">50611</fsa:LongtermLiabilitiesOtherThanProvisions>
+   <fsa:OtherShorttermPayables contextRef="c5" decimals="0" unitRef="u0">24995</fsa:OtherShorttermPayables>
+   <fsa:OtherShorttermPayables contextRef="c6" decimals="0" unitRef="u0">36523</fsa:OtherShorttermPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">24995</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">36523</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c5" decimals="0" unitRef="u0">75606</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c6" decimals="0" unitRef="u0">87134</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c5" decimals="0" unitRef="u0">98969</fsa:LiabilitiesAndEquity>
+   <fsa:LiabilitiesAndEquity contextRef="c6" decimals="0" unitRef="u0">121444</fsa:LiabilitiesAndEquity>
+   <sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc contextRef="c0" xml:lang="da">false</sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc>
+   <fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB contextRef="c0" xml:lang="da">false</fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB>
+   <fsa:SelectedElementsFromReportingClassC contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassC>
+   <fsa:SelectedElementsFromReportingClassD contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassD>
+   <fsa:AccountingPoliciesAreUnchangedFromPreviousPeriod contextRef="c0" xml:lang="da">true</fsa:AccountingPoliciesAreUnchangedFromPreviousPeriod>
+   <gsd:PrecedingReportingPeriodStartDate contextRef="c0">2016-01-01</gsd:PrecedingReportingPeriodStartDate>
+   <gsd:PredingReportingPeriodEndDate contextRef="c0">2016-12-31</gsd:PredingReportingPeriodEndDate>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Økomatch</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Kajerødvej 42B</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">3460 Birkerød</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>

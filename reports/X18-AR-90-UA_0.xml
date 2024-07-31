@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20140701/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20140701.xsd" xlink:type="simple"/>
+  <xbrli:unit id="DKK">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:context id="duration_only">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="instant_only">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="duration_only_previous">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="instant_only_previous">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="duration_memberOfExecutiveBoardIdentifier_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <gsd:InformationOnTypeOfSubmittedReport contextRef="duration_only">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="duration_only">66090116</gsd:IdentificationNumberCvrOfSubmittingEnterprise>
+  <gsd:NameOfSubmittingEnterprise contextRef="duration_only">N. K. Mortensen A/S registrerede revisorer</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="duration_only">Hovedvejen 94</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="duration_only">2600 Glostrup</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="duration_only">35819835</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:NameOfReportingEntity contextRef="duration_only">www.LarsHecht.dk – Operativ Retail Konsulent IVS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="duration_only">Peter Appels Vej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="duration_only">23</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="duration_only">3660</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="duration_only">Stenløse</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:ReportingPeriodStartDate contextRef="duration_only">2017-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="duration_only">2017-12-31</gsd:ReportingPeriodEndDate>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="duration_only">2016-01-01</gsd:PrecedingReportingPeriodStartDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="duration_only">2016-12-31</gsd:PredingReportingPeriodEndDate>
+  <gsd:DateOfGeneralMeeting contextRef="duration_only">2018-05-31</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="duration_only">Lars Kiib Hecht</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="duration_only">&lt;p class="NKMBrdtekst"&gt;Vi har dags dato aflagt årsrapporten for 2017 for www.LarsHecht.dk – Operativ Retail Konsulent IVS.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven. Vi anser den valgte regnskabs-praksis for hensigtsmæssig, således at årsrapporten giver et retvisende billede af selskabets aktiver og passiver, finansielle stilling samt resultatet.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Ledelsen anser fortsat, at betingelserne for at undlade revision er opfyldt.&lt;/p&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:PlaceOfSignatureOfStatement contextRef="duration_only">Stenløse</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="duration_only">2018-05-31</sob:DateOfApprovalOfAnnualReport>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="duration_memberOfExecutiveBoardIdentifier_1">Lars Kiib Hecht</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="duration_memberOfExecutiveBoardIdentifier_1">Direktør</cmn:TitleOfMemberOfExecutiveBoard>
+  <cmn:TypeOfAuditorAssistance contextRef="duration_only">Andre erklæringer uden sikkerhed</cmn:TypeOfAuditorAssistance>
+  <cmn:NameOfAuditFirm contextRef="duration_auditorIdentifier_1">N. K. Mortensen A/S Registrerede revisorer</cmn:NameOfAuditFirm>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="duration_auditorIdentifier_1">66090116</cmn:IdentificationNumberCvrOfAuditFirm>
+  <arr:AddresseeOfAuditorsReportOnOtherReport contextRef="duration_only">Til ejeren af www.LarsHecht.dk – Operativ Retail Konsulent IVS</arr:AddresseeOfAuditorsReportOnOtherReport>
+  <arr:DescriptionOfOtherEngagement contextRef="duration_only">&lt;p class="NKMBrdtekst"&gt;Vi har opstillet årsregnskabet for www.LarsHecht.dk – Operativ Retail Konsulent IVS for regnskabsåret 1. januar – 31. december 2017 på grundlag af virksomhedens bogføring og øvrige oplysninger, som De har tilvejebragt.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Årsregnskabet omfatter anvendt regnskabspraksis, resultatopgørelse, balance og noter.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Vi har udført opgaven i overensstemmelse med ISRS 4410, Opgaver om opstilling af finansielle oplysninger.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Vi har anvendt vores faglige ekspertise til at assistere Dem med at udarbejde og præsentere årsregnskabet i overensstemmelse med årsregnskabsloven. Vi har overholdt relevante bestemmelser i revisorloven og FSR – danske revisorers Etiske regler for revisorer, herunder principper vedrørende integritet, objektivitet, faglig kompetence og fornøden omhu.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Årsregnskabet samt nøjagtigheden og fuldstændigheden af de oplysninger, der er anvendt til opstillingen af årsregnskabet, er Deres ansvar.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Da en opgave om opstilling af finansielle oplysninger ikke er en erklæringsopgave med sikkerhed, er vi ikke forpligtet til at verificere nøjagtigheden eller fuldstændigheden af de oplysninger, De har givet os til brug for at opstille årsregnskabet. Vi udtrykker derfor ingen revisions- eller reviewkonklusion om, hvorvidt årsregnskabet er udarbejdet i overensstemmelse med årsregnskabsloven.&lt;/p&gt;</arr:DescriptionOfOtherEngagement>
+  <arr:SignatureOfAuditorsDate contextRef="duration_only">2018-05-31</arr:SignatureOfAuditorsDate>
+  <arr:SignatureOfAuditorsPlace contextRef="duration_only">Glostrup</arr:SignatureOfAuditorsPlace>
+  <xbrli:context id="duration_auditorIdentifier_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <cmn:auditorIdentifier>1</cmn:auditorIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <cmn:NameAndSurnameOfAuditor contextRef="duration_auditorIdentifier_1">Niels K. Mortensen</cmn:NameAndSurnameOfAuditor>
+  <cmn:DescriptionOfAuditor contextRef="duration_auditorIdentifier_1">Registreret revisor</cmn:DescriptionOfAuditor>
+  <mrv:ManagementsReview contextRef="duration_only">&lt;h3&gt;Hovedaktivitet&lt;/h3&gt;
+&lt;h3&gt;Selskabets formål er virksomhedsrådgivning og anden rådgivning om driftsledelse.&lt;br /&gt; &lt;br /&gt; Økonomisk udvikling&lt;/h3&gt;
+&lt;p class="NKMBrdtekst"&gt;Årets resultat er et underskud på t.kr. 3&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Det er pt. ingen planer om fremtidige indtægtsskabende aktiviteter og ledelsen forventer at selskabet lukkes i løbet af 2018.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h3&gt;Begivenheder efter regnskabsårets afslutning&lt;/h3&gt;
+&lt;p class="NKMBrdtekst"&gt;Der er fra balancedagen og frem til i dag ikke indtrådt forhold, som forrykker vurderingen af årsrapporten.&lt;/p&gt;</mrv:ManagementsReview>
+  <fsa:ClassOfReportingEntity contextRef="duration_only">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <fsa:DisclosureOfAccountingPolicies contextRef="duration_only">&lt;p class="NKMBrdtekst"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for regnskabs-klasse B.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h3&gt;Generelt om indregning og måling&lt;/h3&gt;
+&lt;p class="NKMBrdtekst"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Forpligtelser indregnes i balancen, når selskabet som følge af en tidligere begivenhed har en retlig eller faktisk forpligtelse, og det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Måling efter første indregning sker som beskrevet for hver enkelt regnskabspost nedenfor.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Ved indregning og måling tages hensyn til forudsigelige risici og tab, der fremkommer, inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen. &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, mens omkostninger indregnes med de beløb, der vedrører regnskabsåret. Værdireguleringer af finansielle aktiver og forpligtelser indregnes i resultatopgørelsen som finansielle indtægter eller finansielle omkostninger.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h3&gt;Resultatopgørelsen&lt;/h3&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Nettoomsætning&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Nettoomsætning indregnes i resultatopgørelsen, når levering og risikoovergang til køber har fundet sted. Nettoomsætning indregnes eksklusive moms, afgifter og rabatter i forbindelse med salget.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Andre eksterne omkostninger&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Andre eksterne omkostninger omfatter omkostninger til salg, reklame, administration, lokaler, tab på debitorer mv.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Finansielle poster&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Finansielle poster omfatter renteindtægter og renteomkostninger, realiserede og urealiserede kursgevinster og -tab vedrørende værdipapirer, kontantrabatter mv. samt tillæg og godtgørelser ved betaling af selskabsskat.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;br style="text-decoration: underline;" /&gt;
+&lt;h4&gt;Skat&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Årets skat, som består af årets aktuelle skat og ændring af udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Aktuelle skatteforpligtelser, henholdsvis tilgodehavende aktuel skat, indregnes i balancen opgjort som beregnet skat af årets skattepligtige indkomst, reguleret for eventuelt betalt acontoskat.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Udskudt skat indregnes og måles efter den balanceorienterede gældsmetode af alle midlertidige forskelle mellem regnskabsmæssige og skattemæssige værdier af aktiver og forpligtelser.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt;Udskudte skatteaktiver, herunder skatteværdien af fremførselsberettigede skattemæssige underskud, indregnes i balancen med den værdi, hvortil aktivet forventes at kunne realiseres.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h3&gt;Balancen&lt;/h3&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Tilgodehavender&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Tilgodehavender måles til amortiseret kostpris, der sædvanligvis svarer til nominel værdi, med fradrag af nedskrivninger til imødegåelse af forventede tab.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Værdipapirer&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Værdipapirer indregnet under finansielle anlægsaktiver omfatter børsnoterede obligationer, der måles til dagsværdi (børskurs) på balancedagen.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Egenkapital&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Udbytte indregnes som en gældsforpligtelse på tidspunktet for vedtagelse på generalforsamlingen. Det foreslåede udbytte for regnskabsåret vises som en særskilt post under egenkapitalen.&lt;/p&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;h4&gt;Andre finansielle forpligtelser&lt;/h4&gt;
+&lt;p class="NKMBrdtekst"&gt;Andre finansielle forpligtelser indregnes til amortiseret kostpris, der sædvanligvis svarer til nominel værdi.&lt;/p&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:OtherExternalExpenses contextRef="duration_only" decimals="0" unitRef="DKK">2433</fsa:OtherExternalExpenses>
+  <fsa:OtherExternalExpenses contextRef="duration_only_previous" decimals="0" unitRef="DKK">8700</fsa:OtherExternalExpenses>
+  <fsa:GrossResult contextRef="duration_only" decimals="0" unitRef="DKK">-2433</fsa:GrossResult>
+  <fsa:GrossResult contextRef="duration_only_previous" decimals="0" unitRef="DKK">-8700</fsa:GrossResult>
+  <fsa:GrossProfitLoss contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:GrossProfitLoss>
+  <fsa:GrossProfitLoss contextRef="duration_only_previous" decimals="0" unitRef="DKK">5000</fsa:GrossProfitLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="duration_only" decimals="0" unitRef="DKK">-2433</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="duration_only_previous" decimals="0" unitRef="DKK">-3700</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceExpenses contextRef="duration_only" decimals="0" unitRef="DKK">815</fsa:OtherFinanceExpenses>
+  <fsa:OtherFinanceExpenses contextRef="duration_only_previous" decimals="0" unitRef="DKK">1</fsa:OtherFinanceExpenses>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="duration_only" decimals="0" unitRef="DKK">-3248</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="duration_only_previous" decimals="0" unitRef="DKK">-3701</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:TaxExpense contextRef="duration_only" decimals="0" unitRef="DKK">0</fsa:TaxExpense>
+  <fsa:TaxExpense contextRef="duration_only_previous" decimals="0" unitRef="DKK">2205</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="duration_only" decimals="0" unitRef="DKK">-3248</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="duration_only_previous" decimals="0" unitRef="DKK">-5906</fsa:ProfitLoss>
+  <xbrli:context id="duration_RetainedEarningsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <fsa:ProfitLoss contextRef="duration_RetainedEarningsMember" decimals="0" unitRef="DKK">-3248</fsa:ProfitLoss>
+  <xbrli:context id="duration_RetainedEarningsMember_previous">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">35819835</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <fsa:ProfitLoss contextRef="duration_RetainedEarningsMember_previous" decimals="0" unitRef="DKK">-5906</fsa:ProfitLoss>
+  <fsa:IntangibleAssets contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:IntangibleAssets>
+  <fsa:IntangibleAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:IntangibleAssets>
+  <fsa:PropertyPlantAndEquipment contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:PropertyPlantAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:PropertyPlantAndEquipment>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:LongtermInvestmentsAndReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:NoncurrentAssets contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:NoncurrentAssets>
+  <fsa:NoncurrentAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:NoncurrentAssets>
+  <fsa:Inventories contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:Inventories>
+  <fsa:Inventories contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:Inventories>
+  <fsa:ShorttermTradeReceivables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermTradeReceivables>
+  <fsa:ShorttermTradeReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermTradeReceivables>
+  <fsa:CurrentDeferredTaxAssets contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:CurrentDeferredTaxAssets>
+  <fsa:CurrentDeferredTaxAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:CurrentDeferredTaxAssets>
+  <fsa:ShorttermReceivables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermReceivables>
+  <fsa:ShorttermInvestments contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ShorttermInvestments>
+  <fsa:ShorttermInvestments contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ShorttermInvestments>
+  <fsa:CashAndCashEquivalents contextRef="instant_only" decimals="0" unitRef="DKK">52382</fsa:CashAndCashEquivalents>
+  <fsa:CashAndCashEquivalents contextRef="instant_only_previous" decimals="0" unitRef="DKK">54815</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="instant_only" decimals="0" unitRef="DKK">52382</fsa:CurrentAssets>
+  <fsa:CurrentAssets contextRef="instant_only_previous" decimals="0" unitRef="DKK">54815</fsa:CurrentAssets>
+  <fsa:Assets contextRef="instant_only" decimals="0" unitRef="DKK">52382</fsa:Assets>
+  <fsa:Assets contextRef="instant_only_previous" decimals="0" unitRef="DKK">54815</fsa:Assets>
+  <fsa:ContributedCapital contextRef="instant_only" decimals="0" unitRef="DKK">1</fsa:ContributedCapital>
+  <fsa:ContributedCapital contextRef="instant_only_previous" decimals="0" unitRef="DKK">1</fsa:ContributedCapital>
+  <fsa:ReserveForEntrepreneurialCompany contextRef="instant_only" decimals="0" unitRef="DKK">40846</fsa:ReserveForEntrepreneurialCompany>
+  <fsa:ReserveForEntrepreneurialCompany contextRef="instant_only_previous" decimals="0" unitRef="DKK">41090</fsa:ReserveForEntrepreneurialCompany>
+  <fsa:RetainedEarnings contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:RetainedEarnings>
+  <fsa:RetainedEarnings contextRef="instant_only_previous" decimals="0" unitRef="DKK">3004</fsa:RetainedEarnings>
+  <fsa:ProposedDividendRecognisedInEquity contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:ProposedDividendRecognisedInEquity>
+  <fsa:ProposedDividendRecognisedInEquity contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:ProposedDividendRecognisedInEquity>
+  <fsa:Equity contextRef="instant_only" decimals="0" unitRef="DKK">40847</fsa:Equity>
+  <fsa:Equity contextRef="instant_only_previous" decimals="0" unitRef="DKK">44095</fsa:Equity>
+  <fsa:Provisions contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:Provisions>
+  <fsa:Provisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:Provisions>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermTradePayables contextRef="instant_only" decimals="0" unitRef="DKK">1500</fsa:ShorttermTradePayables>
+  <fsa:ShorttermTradePayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">1500</fsa:ShorttermTradePayables>
+  <fsa:OtherShorttermPayables contextRef="instant_only" decimals="0" unitRef="DKK">815</fsa:OtherShorttermPayables>
+  <fsa:OtherShorttermPayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:OtherShorttermPayables>
+  <fsa:TaxPayables contextRef="instant_only" decimals="0" unitRef="DKK">0</fsa:TaxPayables>
+  <fsa:TaxPayables contextRef="instant_only_previous" decimals="0" unitRef="DKK">0</fsa:TaxPayables>
+  <fsa:PayablesToShareholdersAndManagement contextRef="instant_only" decimals="0" unitRef="DKK">9220</fsa:PayablesToShareholdersAndManagement>
+  <fsa:PayablesToShareholdersAndManagement contextRef="instant_only_previous" decimals="0" unitRef="DKK">9220</fsa:PayablesToShareholdersAndManagement>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="instant_only" decimals="0" unitRef="DKK">11535</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">10720</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="instant_only" decimals="0" unitRef="DKK">11535</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="instant_only_previous" decimals="0" unitRef="DKK">10720</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="instant_only" decimals="0" unitRef="DKK">52382</fsa:LiabilitiesAndEquity>
+  <fsa:LiabilitiesAndEquity contextRef="instant_only_previous" decimals="0" unitRef="DKK">54815</fsa:LiabilitiesAndEquity>
+  <fsa:DisclosureOfTaxExpenseOnOrdinaryActivities contextRef="duration_only">&lt;div&gt;
+&lt;p class="NKMNoteoverskrift"&gt;Skat af årets resultat                                                                                                                                                         Note 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;div align="center"&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt;Resultat før skat ifølge resultatopgørelse................................................................................................................................................................................&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMtal"&gt;-3.248&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt;Ikke fradragsberettigede renter, skattekonto................................................................................................................................................................................&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMtal"&gt;815&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt;Ikke fradragsberettigede rentetillæg selskabsskat................................................................................................................................................................................&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt;Skattepligtig indkomst, negativ&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMtal"&gt;-2.433&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMstreger"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="544"&gt;
+&lt;p class="NKMtekst144"&gt;Da selskabet i øjeblikket ikke har planer i forhold til at skabe fremtidig indtægt, optages der ikke skatteaktiv af opsparet underskud.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="98"&gt;
+&lt;p class="NKMstreger"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</fsa:DisclosureOfTaxExpenseOnOrdinaryActivities>
+  <fsa:DisclosureOfEquity contextRef="duration_only">&lt;div&gt;
+&lt;p class="NKMNoteoverskrift"&gt;Egenkapitalopgørelse                                                                                                                                                        Note 2&lt;/p&gt;
+&lt;/div&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="90"&gt;
+&lt;p class="NKMBrdtekst" align="right"&gt;IVS-kapital&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMBrdtekst" align="right"&gt;Reserve for IVS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMBrdtekst" align="right"&gt;Overført over/ underskud&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMBrdtekst" align="right"&gt;Forslag til Udbytte&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMBrdtekst" align="right"&gt;I alt&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="90"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt;EK. 1/1 2017   &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="90"&gt;
+&lt;p class="NKMtal"&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;41.090&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;3.004&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;44.095&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt;Årets resultat &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="90"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;-244&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;-3.004&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;-3.248&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt;Udbetalt udbytte&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="90"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="90"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt;EK. 31/12 2017&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="90"&gt;
+&lt;p class="NKMtal"&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMtal"&gt;40.846&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMtal"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMtal"&gt;40.847&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="120"&gt;
+&lt;p class="NKMBrdtekst"&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="90"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" width="109"&gt;
+&lt;p class="NKMstreger"&gt;────────&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfEquity>
+</xbrli:xbrl>

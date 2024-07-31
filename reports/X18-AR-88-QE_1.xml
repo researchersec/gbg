@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Version: 1.1.748.0 --><!-- Document created: 21-06-2018 02:43:30 --><!-- Created by:  XBRL Wizard, EasyX --><xbrli:xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:entry03-ifrs-dk_2014-12-20="http://xbrl.dcca.dk/ifrs-dk/entry03-ifrs-dk_2014-12-20" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-full" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:info="http://xbrl.iasb.org/info" xmlns:ifrs-mc="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-mc" xmlns:rol_ifrs-dk_105.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_105.00_2014-12-20" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:gen="http://xbrl.org/2008/generic" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:entry="http://entry" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:reference="http://xbrl.org/2008/reference" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:label="http://xbrl.org/2008/label" xmlns:rol_ifrs-dk_110.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_110.00_2014-12-20" xmlns:rol_ifrs-dk_210.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_210.00_2014-12-20" xmlns:rol_ifrs-dk_310.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_310.00_2014-12-20" xmlns:rol_ifrs-dk_330.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_330.00_2014-12-20" xmlns:rol_ifrs-dk_420.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_420.00_2014-12-20" xmlns:rol_ifrs-dk_520.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_520.00_2014-12-20" xmlns:rol_ifrs-dk_610.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_610.00_2014-12-20" xmlns:rol_ifrs-dk_710.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_710.00_2014-12-20" xmlns:rol_ifrs-dk_8NN.NN_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_8NN.NN_2014-12-20" xmlns:rol_dim="http://xbrl.ifrs.org/role/ifrs/dimensions" xmlns:ifrs-dk="http://xbrl.dcca.dk/ifrs-dk-cor_2014-12-20" xmlns:entry-sob="http://xbrl.dcca.dk/entry-sob" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:rol_sob_300.00_2014-12-20="http://xbrl.dcca.dk/role/sob/rol_sob_300.00_2014-12-20" xmlns:cmn_rol="http://archprod.service.eogs.dk/taxonomy/20161220/cmn_rol.xsd" xmlns:entry-mrv="http://xbrl.dcca.dk/entry-mrv" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:ifrs-temp-entry="http://ifrs-temp-entry" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:mrvcsr="http://xbrl.dcca.dk/mrvcsr" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:rol_mrv_2014-12-20="http://xbrl.dcca.dk/role/mrv/rol_mrv_2014-12-20" xmlns:rol_ps_mc_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_ps_mc_2014-03-05" xmlns:entry-gsd="http://xbrl.dcca.dk/entry-gsd" xmlns:ca="http://xbrl.org/2008/assertion/consistency" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:rol_gsd_000.00_2014-12-20="http://xbrl.dcca.dk/role/gsd/rol_gsd_000.00_2014-12-20" xmlns:validation="http://xbrl.org/2008/validation" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:entry-arr="http://xbrl.dcca.dk/entry-arr" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:rol_arr_1NN.NN_2016-12-20="http://xbrl.dcca.dk/role/arr/rol_arr_1NN.NN_2016-12-20" xmlns:rol_ifrs-dk_510.00_2014-12-20="http://xbrl.dcca.dk/role/ifrs-dk/rol_ifrs-dk_510.00_2014-12-20" xmlns:easyx="http://www.easyx.dk/XBRL" xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd">
+  <link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20161220/ifrs/entry-ifrs-dk_03_IS-ByFunction_SFP-CurrentNoncurrent_OCI-BeforeTax_CF-IndirectMethod_2016-12-20.xsd"/>
+  <xbrli:context id="ctx1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardAxis">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardAxis">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardAxis">
+        <cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardAxis">
+        <cmn:memberOfBoardIdentifier>2</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardAxis">
+        <cmn:memberOfBoardIdentifier>3</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx12">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx13">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>0</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>1</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>2</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>3</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>4</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx18">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>5</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx19">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>6</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx20">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>7</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx21">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>8</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx22">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>9</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx23">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>10</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx24">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>11</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx25">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>12</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx26">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>13</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx27">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInOperatingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>14</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx28">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-01-01</xbrli:startDate>
+      <xbrli:endDate>2018-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInFinancingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>0</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx29">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInFinancingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>1</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx30">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs-dk:IdentificationOfComponentOfCashFlowsFromUsedInFinancingActivitiesDimension">
+        <ifrs-dk:componentOfCashFlowsIdentifier>2</ifrs-dk:componentOfCashFlowsIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx31">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx32">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">17500317</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="vDKK">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="share">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <gsd:NameOfReportingEntity contextRef="ctx1" xml:lang="da">BioPorto A/S</gsd:NameOfReportingEntity>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="ctx1">17500317</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:ReportingPeriodStartDate contextRef="ctx1">2018-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:DateOfGeneralMeeting contextRef="ctx1">2018-05-03</gsd:DateOfGeneralMeeting>
+  <gsd:ReportingPeriodEndDate contextRef="ctx1">2018-03-31</gsd:ReportingPeriodEndDate>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ctx1" xml:lang="da">Thomas Magnussen</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Statement by the management&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:IdentificationOfApprovedAnnualReport contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;The Board of Directors and the Management Board today considered and approved the interim report of the BioPorto Group for the period January 1, 2018 – March 31, 2018.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:IdentificationOfApprovedAnnualReport>
+  <sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;The interim report, which is unaudited and has not been reviewed by the company's auditors, is presented in accordance with IAS 34 “Interim financial reporting” as adopted by the EU and additional Danish disclosure requirements for interim reports of listed companies.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement>
+  <sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;In our opinion, the interim report gives a true and fair view of the Group’s assets, liabilities and financial position as of March 31, 2018, and of the results of the Group’s operations and cash flows for the period January 1, 2018 – March 31, 2018.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults>
+  <sob:ManagementsStatementAboutManagementsReview contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Furthermore, in our opinion the management's report includes a fair review of the development and performance of the business, the results for the period and the Group’s financial position in general and describes the principal risks and uncertainties that it faces.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:ManagementsStatementAboutManagementsReview>
+  <sob:PlaceOfSignatureOfStatement contextRef="ctx1" xml:lang="da">Hellerup</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="ctx1">2018-05-03</sob:DateOfApprovalOfAnnualReport>
+  <gsd:InformationOnTypeOfSubmittedReport contextRef="ctx1">Delårsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ctx1">33771231</gsd:IdentificationNumberCvrOfSubmittingEnterprise>
+  <gsd:NameOfSubmittingEnterprise contextRef="ctx1" xml:lang="da">PricewaterhouseCoopers Statsautoriseret Revisionspartnerselskab</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ctx1" xml:lang="da">Strandvejen 44</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ctx1" xml:lang="da">2900 Hellerup</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <cmn:TypeOfAuditorAssistance contextRef="ctx1">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ctx2" xml:lang="da">Peter Mørch Eriksen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <cmn:TitleOfMemberOfExecutiveBoard contextRef="ctx2" xml:lang="da">CEO</cmn:TitleOfMemberOfExecutiveBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="ctx3" xml:lang="da">Thomas Magnussen</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:TitleOfMemberOfSupervisoryBoard contextRef="ctx3" xml:lang="da">Chairman</cmn:TitleOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="ctx4" xml:lang="da">Torben A. Nielsen</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:TitleOfMemberOfSupervisoryBoard contextRef="ctx4" xml:lang="da">Vice chairman</cmn:TitleOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="ctx5" xml:lang="da">Kirsten Drejer</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="ctx6" xml:lang="da">Britt Meelby Jensen</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <ifrs-full:Revenue contextRef="ctx7" unitRef="vDKK" decimals="-3">4613000</ifrs-full:Revenue>
+  <ifrs-dk:ProductionCost contextRef="ctx7" unitRef="vDKK" decimals="-3">1404000</ifrs-dk:ProductionCost>
+  <ifrs-full:GrossProfit contextRef="ctx7" unitRef="vDKK" decimals="-3">3209000</ifrs-full:GrossProfit>
+  <ifrs-dk:SalesCostAndDistributionsCosts contextRef="ctx7" unitRef="vDKK" decimals="-3">5017000</ifrs-dk:SalesCostAndDistributionsCosts>
+  <ifrs-full:ResearchAndDevelopmentExpense contextRef="ctx7" unitRef="vDKK" decimals="-3">5965000</ifrs-full:ResearchAndDevelopmentExpense>
+  <ifrs-full:AdministrativeExpense contextRef="ctx7" unitRef="vDKK" decimals="-3">4780000</ifrs-full:AdministrativeExpense>
+  <ifrs-full:ProfitLossFromOperatingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">-12553000</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:FinanceIncome contextRef="ctx7" unitRef="vDKK" decimals="-3">49000</ifrs-full:FinanceIncome>
+  <ifrs-full:ProfitLossBeforeTax contextRef="ctx7" unitRef="vDKK" decimals="-3">-12504000</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations contextRef="ctx7" unitRef="vDKK" decimals="-3">-1282000</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:ProfitLoss contextRef="ctx7" unitRef="vDKK" decimals="-3">-11221000</ifrs-full:ProfitLoss>
+  <ifrs-full:BasicEarningsLossPerShare contextRef="ctx7" unitRef="share" decimals="4">-0.0700</ifrs-full:BasicEarningsLossPerShare>
+  <ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax contextRef="ctx7" unitRef="vDKK" decimals="-3">-32000</ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax>
+  <ifrs-full:ComprehensiveIncome contextRef="ctx7" unitRef="vDKK" decimals="-3">-11253000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:DilutedEarningsLossPerShare contextRef="ctx7" unitRef="share" decimals="4">-0.0700</ifrs-full:DilutedEarningsLossPerShare>
+  <ifrs-dk:AdjustmentsForDepreciationAndImpairmentLoss contextRef="ctx7" unitRef="vDKK" decimals="-3">126000</ifrs-dk:AdjustmentsForDepreciationAndImpairmentLoss>
+  <ifrs-dk:AdjustmentsForDecreaseIncreaseInWorkingCapital contextRef="ctx7" unitRef="vDKK" decimals="-3">-1089000</ifrs-dk:AdjustmentsForDecreaseIncreaseInWorkingCapital>
+  <ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">0</ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">-12922000</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">252000</ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">0</ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities>
+  <ifrs-full:CashFlowsFromUsedInInvestingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">-252000</ifrs-full:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-full:ProceedsFromIssuingShares contextRef="ctx7" unitRef="vDKK" decimals="-3">0</ifrs-full:ProceedsFromIssuingShares>
+  <ifrs-full:CashFlowsFromUsedInFinancingActivities contextRef="ctx7" unitRef="vDKK" decimals="-3">-157000</ifrs-full:CashFlowsFromUsedInFinancingActivities>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalents contextRef="ctx7" unitRef="vDKK" decimals="-3">-13331000</ifrs-full:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-full:Revenue contextRef="ctx8" unitRef="vDKK" decimals="-3">5743000</ifrs-full:Revenue>
+  <ifrs-dk:ProductionCost contextRef="ctx8" unitRef="vDKK" decimals="-3">1586000</ifrs-dk:ProductionCost>
+  <ifrs-full:GrossProfit contextRef="ctx8" unitRef="vDKK" decimals="-3">4156000</ifrs-full:GrossProfit>
+  <ifrs-dk:SalesCostAndDistributionsCosts contextRef="ctx8" unitRef="vDKK" decimals="-3">4982000</ifrs-dk:SalesCostAndDistributionsCosts>
+  <ifrs-full:ResearchAndDevelopmentExpense contextRef="ctx8" unitRef="vDKK" decimals="-3">4138000</ifrs-full:ResearchAndDevelopmentExpense>
+  <ifrs-full:AdministrativeExpense contextRef="ctx8" unitRef="vDKK" decimals="-3">4323000</ifrs-full:AdministrativeExpense>
+  <ifrs-full:ProfitLossFromOperatingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">-9287000</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:FinanceIncome contextRef="ctx8" unitRef="vDKK" decimals="-3">-138000</ifrs-full:FinanceIncome>
+  <ifrs-full:ProfitLossBeforeTax contextRef="ctx8" unitRef="vDKK" decimals="-3">-9424000</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations contextRef="ctx8" unitRef="vDKK" decimals="-3">-876000</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:ProfitLoss contextRef="ctx8" unitRef="vDKK" decimals="-3">-8549000</ifrs-full:ProfitLoss>
+  <ifrs-full:BasicEarningsLossPerShare contextRef="ctx8" unitRef="share" decimals="4">-0.0600</ifrs-full:BasicEarningsLossPerShare>
+  <ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax contextRef="ctx8" unitRef="vDKK" decimals="-3">-20000</ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax>
+  <ifrs-full:ComprehensiveIncome contextRef="ctx8" unitRef="vDKK" decimals="-3">-8569000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:DilutedEarningsLossPerShare contextRef="ctx8" unitRef="share" decimals="4">-0.0600</ifrs-full:DilutedEarningsLossPerShare>
+  <ifrs-dk:AdjustmentsForDepreciationAndImpairmentLoss contextRef="ctx8" unitRef="vDKK" decimals="-3">151000</ifrs-dk:AdjustmentsForDepreciationAndImpairmentLoss>
+  <ifrs-dk:AdjustmentsForDecreaseIncreaseInWorkingCapital contextRef="ctx8" unitRef="vDKK" decimals="-3">2145000</ifrs-dk:AdjustmentsForDecreaseIncreaseInWorkingCapital>
+  <ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">0</ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">-6410000</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">12000</ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">0</ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities>
+  <ifrs-full:CashFlowsFromUsedInInvestingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">-12000</ifrs-full:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-full:ProceedsFromIssuingShares contextRef="ctx8" unitRef="vDKK" decimals="-3">0</ifrs-full:ProceedsFromIssuingShares>
+  <ifrs-full:CashFlowsFromUsedInFinancingActivities contextRef="ctx8" unitRef="vDKK" decimals="-3">-5000</ifrs-full:CashFlowsFromUsedInFinancingActivities>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalents contextRef="ctx8" unitRef="vDKK" decimals="-3">-6427000</ifrs-full:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-full:Revenue contextRef="ctx9" unitRef="vDKK" decimals="-3">25155000</ifrs-full:Revenue>
+  <ifrs-dk:ProductionCost contextRef="ctx9" unitRef="vDKK" decimals="-3">6907000</ifrs-dk:ProductionCost>
+  <ifrs-full:GrossProfit contextRef="ctx9" unitRef="vDKK" decimals="-3">18248000</ifrs-full:GrossProfit>
+  <ifrs-dk:SalesCostAndDistributionsCosts contextRef="ctx9" unitRef="vDKK" decimals="-3">18545000</ifrs-dk:SalesCostAndDistributionsCosts>
+  <ifrs-full:ResearchAndDevelopmentExpense contextRef="ctx9" unitRef="vDKK" decimals="-3">21930000</ifrs-full:ResearchAndDevelopmentExpense>
+  <ifrs-full:AdministrativeExpense contextRef="ctx9" unitRef="vDKK" decimals="-3">14267000</ifrs-full:AdministrativeExpense>
+  <ifrs-full:ProfitLossFromOperatingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">-36494000</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:FinanceIncome contextRef="ctx9" unitRef="vDKK" decimals="-3">-570000</ifrs-full:FinanceIncome>
+  <ifrs-full:ProfitLossBeforeTax contextRef="ctx9" unitRef="vDKK" decimals="-3">-37064000</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations contextRef="ctx9" unitRef="vDKK" decimals="-3">-4821000</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:ProfitLoss contextRef="ctx9" unitRef="vDKK" decimals="-3">-32243000</ifrs-full:ProfitLoss>
+  <ifrs-full:BasicEarningsLossPerShare contextRef="ctx9" unitRef="share" decimals="4">-0.2200</ifrs-full:BasicEarningsLossPerShare>
+  <ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax contextRef="ctx9" unitRef="vDKK" decimals="-3">243000</ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax>
+  <ifrs-full:ComprehensiveIncome contextRef="ctx9" unitRef="vDKK" decimals="-3">-32000000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:DilutedEarningsLossPerShare contextRef="ctx9" unitRef="share" decimals="4">-0.2200</ifrs-full:DilutedEarningsLossPerShare>
+  <ifrs-dk:AdjustmentsForDepreciationAndImpairmentLoss contextRef="ctx9" unitRef="vDKK" decimals="-3">504000</ifrs-dk:AdjustmentsForDepreciationAndImpairmentLoss>
+  <ifrs-dk:AdjustmentsForDecreaseIncreaseInWorkingCapital contextRef="ctx9" unitRef="vDKK" decimals="-3">2325000</ifrs-dk:AdjustmentsForDecreaseIncreaseInWorkingCapital>
+  <ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">-2005000</ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperatingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">-29399000</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">38000</ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">21000</ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities>
+  <ifrs-full:CashFlowsFromUsedInInvestingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">-59000</ifrs-full:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-full:ProceedsFromIssuingShares contextRef="ctx9" unitRef="vDKK" decimals="-3">40921000</ifrs-full:ProceedsFromIssuingShares>
+  <ifrs-full:CashFlowsFromUsedInFinancingActivities contextRef="ctx9" unitRef="vDKK" decimals="-3">40897000</ifrs-full:CashFlowsFromUsedInFinancingActivities>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalents contextRef="ctx9" unitRef="vDKK" decimals="-3">11439000</ifrs-full:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-dk:OtherPlantFixturesAndFittingsToolsAndEquipment contextRef="ctx10" unitRef="vDKK" decimals="-3">466000</ifrs-dk:OtherPlantFixturesAndFittingsToolsAndEquipment>
+  <ifrs-full:IntangibleAssetsAndGoodwill contextRef="ctx10" unitRef="vDKK" decimals="-3">1552000</ifrs-full:IntangibleAssetsAndGoodwill>
+  <ifrs-dk:NoncurrentPrepaymentsDeposits contextRef="ctx10" unitRef="vDKK" decimals="-3">731000</ifrs-dk:NoncurrentPrepaymentsDeposits>
+  <ifrs-full:NoncurrentAssets contextRef="ctx10" unitRef="vDKK" decimals="-3">2749000</ifrs-full:NoncurrentAssets>
+  <ifrs-full:Inventories contextRef="ctx10" unitRef="vDKK" decimals="-3">3139000</ifrs-full:Inventories>
+  <ifrs-full:CurrentTradeReceivables contextRef="ctx10" unitRef="vDKK" decimals="-3">6072000</ifrs-full:CurrentTradeReceivables>
+  <ifrs-full:CurrentTaxAssetsCurrent contextRef="ctx10" unitRef="vDKK" decimals="-3">6136000</ifrs-full:CurrentTaxAssetsCurrent>
+  <ifrs-full:OtherCurrentReceivables contextRef="ctx10" unitRef="vDKK" decimals="-3">1605000</ifrs-full:OtherCurrentReceivables>
+  <ifrs-full:Cash contextRef="ctx10" unitRef="vDKK" decimals="-3">33749000</ifrs-full:Cash>
+  <ifrs-full:CurrentAssets contextRef="ctx10" unitRef="vDKK" decimals="-3">50701000</ifrs-full:CurrentAssets>
+  <ifrs-full:Assets contextRef="ctx10" unitRef="vDKK" decimals="-3">53450000</ifrs-full:Assets>
+  <ifrs-full:IssuedCapital contextRef="ctx10" unitRef="vDKK" decimals="-3">155510000</ifrs-full:IssuedCapital>
+  <ifrs-full:TreasuryShares contextRef="ctx10" unitRef="vDKK" decimals="-3">0</ifrs-full:TreasuryShares>
+  <ifrs-full:ReserveOfChangeInValueOfForeignCurrencyBasisSpreads contextRef="ctx10" unitRef="vDKK" decimals="-3">-102000</ifrs-full:ReserveOfChangeInValueOfForeignCurrencyBasisSpreads>
+  <ifrs-full:RetainedEarnings contextRef="ctx10" unitRef="vDKK" decimals="-3">-110007000</ifrs-full:RetainedEarnings>
+  <ifrs-full:Equity contextRef="ctx10" unitRef="vDKK" decimals="-3">45401000</ifrs-full:Equity>
+  <ifrs-full:NoncurrentFinanceLeaseLiabilities contextRef="ctx10" unitRef="vDKK" decimals="-3">0</ifrs-full:NoncurrentFinanceLeaseLiabilities>
+  <ifrs-full:OtherNoncurrentLiabilities contextRef="ctx10" unitRef="vDKK" decimals="-3">725000</ifrs-full:OtherNoncurrentLiabilities>
+  <ifrs-full:NoncurrentLiabilities contextRef="ctx10" unitRef="vDKK" decimals="-3">725000</ifrs-full:NoncurrentLiabilities>
+  <ifrs-dk:CurrentPortionOfNonCurrentPayables contextRef="ctx10" unitRef="vDKK" decimals="-3">163000</ifrs-dk:CurrentPortionOfNonCurrentPayables>
+  <ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers contextRef="ctx10" unitRef="vDKK" decimals="-3">2933000</ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers>
+  <ifrs-full:OtherCurrentPayables contextRef="ctx10" unitRef="vDKK" decimals="-3">4228000</ifrs-full:OtherCurrentPayables>
+  <ifrs-full:CurrentLiabilities contextRef="ctx10" unitRef="vDKK" decimals="-3">7324000</ifrs-full:CurrentLiabilities>
+  <ifrs-full:Liabilities contextRef="ctx10" unitRef="vDKK" decimals="-3">8049000</ifrs-full:Liabilities>
+  <ifrs-full:EquityAndLiabilities contextRef="ctx10" unitRef="vDKK" decimals="-3">53450000</ifrs-full:EquityAndLiabilities>
+  <ifrs-full:CashAndCashEquivalents contextRef="ctx10" unitRef="vDKK" decimals="-3">33749000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-dk:OtherPlantFixturesAndFittingsToolsAndEquipment contextRef="ctx11" unitRef="vDKK" decimals="-3">359000</ifrs-dk:OtherPlantFixturesAndFittingsToolsAndEquipment>
+  <ifrs-full:IntangibleAssetsAndGoodwill contextRef="ctx11" unitRef="vDKK" decimals="-3">1885000</ifrs-full:IntangibleAssetsAndGoodwill>
+  <ifrs-dk:NoncurrentPrepaymentsDeposits contextRef="ctx11" unitRef="vDKK" decimals="-3">710000</ifrs-dk:NoncurrentPrepaymentsDeposits>
+  <ifrs-full:NoncurrentAssets contextRef="ctx11" unitRef="vDKK" decimals="-3">2954000</ifrs-full:NoncurrentAssets>
+  <ifrs-full:Inventories contextRef="ctx11" unitRef="vDKK" decimals="-3">4369000</ifrs-full:Inventories>
+  <ifrs-full:CurrentTradeReceivables contextRef="ctx11" unitRef="vDKK" decimals="-3">4899000</ifrs-full:CurrentTradeReceivables>
+  <ifrs-full:CurrentTaxAssetsCurrent contextRef="ctx11" unitRef="vDKK" decimals="-3">3048000</ifrs-full:CurrentTaxAssetsCurrent>
+  <ifrs-full:OtherCurrentReceivables contextRef="ctx11" unitRef="vDKK" decimals="-3">1376000</ifrs-full:OtherCurrentReceivables>
+  <ifrs-full:Cash contextRef="ctx11" unitRef="vDKK" decimals="-3">29214000</ifrs-full:Cash>
+  <ifrs-full:CurrentAssets contextRef="ctx11" unitRef="vDKK" decimals="-3">42906000</ifrs-full:CurrentAssets>
+  <ifrs-full:Assets contextRef="ctx11" unitRef="vDKK" decimals="-3">45860000</ifrs-full:Assets>
+  <ifrs-full:IssuedCapital contextRef="ctx11" unitRef="vDKK" decimals="-3">142494000</ifrs-full:IssuedCapital>
+  <ifrs-full:TreasuryShares contextRef="ctx11" unitRef="vDKK" decimals="-3">0</ifrs-full:TreasuryShares>
+  <ifrs-full:ReserveOfChangeInValueOfForeignCurrencyBasisSpreads contextRef="ctx11" unitRef="vDKK" decimals="-3">-333000</ifrs-full:ReserveOfChangeInValueOfForeignCurrencyBasisSpreads>
+  <ifrs-full:RetainedEarnings contextRef="ctx11" unitRef="vDKK" decimals="-3">-105794000</ifrs-full:RetainedEarnings>
+  <ifrs-full:Equity contextRef="ctx11" unitRef="vDKK" decimals="-3">36367000</ifrs-full:Equity>
+  <ifrs-full:NoncurrentFinanceLeaseLiabilities contextRef="ctx11" unitRef="vDKK" decimals="-3">34000</ifrs-full:NoncurrentFinanceLeaseLiabilities>
+  <ifrs-full:OtherNoncurrentLiabilities contextRef="ctx11" unitRef="vDKK" decimals="-3">1164000</ifrs-full:OtherNoncurrentLiabilities>
+  <ifrs-full:NoncurrentLiabilities contextRef="ctx11" unitRef="vDKK" decimals="-3">1198000</ifrs-full:NoncurrentLiabilities>
+  <ifrs-dk:CurrentPortionOfNonCurrentPayables contextRef="ctx11" unitRef="vDKK" decimals="-3">243000</ifrs-dk:CurrentPortionOfNonCurrentPayables>
+  <ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers contextRef="ctx11" unitRef="vDKK" decimals="-3">3982000</ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers>
+  <ifrs-full:OtherCurrentPayables contextRef="ctx11" unitRef="vDKK" decimals="-3">4070000</ifrs-full:OtherCurrentPayables>
+  <ifrs-full:CurrentLiabilities contextRef="ctx11" unitRef="vDKK" decimals="-3">8295000</ifrs-full:CurrentLiabilities>
+  <ifrs-full:Liabilities contextRef="ctx11" unitRef="vDKK" decimals="-3">9493000</ifrs-full:Liabilities>
+  <ifrs-full:EquityAndLiabilities contextRef="ctx11" unitRef="vDKK" decimals="-3">45860000</ifrs-full:EquityAndLiabilities>
+  <ifrs-full:CashAndCashEquivalents contextRef="ctx11" unitRef="vDKK" decimals="-3">29214000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-dk:OtherPlantFixturesAndFittingsToolsAndEquipment contextRef="ctx12" unitRef="vDKK" decimals="-3">263000</ifrs-dk:OtherPlantFixturesAndFittingsToolsAndEquipment>
+  <ifrs-full:IntangibleAssetsAndGoodwill contextRef="ctx12" unitRef="vDKK" decimals="-3">1629000</ifrs-full:IntangibleAssetsAndGoodwill>
+  <ifrs-dk:NoncurrentPrepaymentsDeposits contextRef="ctx12" unitRef="vDKK" decimals="-3">731000</ifrs-dk:NoncurrentPrepaymentsDeposits>
+  <ifrs-full:NoncurrentAssets contextRef="ctx12" unitRef="vDKK" decimals="-3">2623000</ifrs-full:NoncurrentAssets>
+  <ifrs-full:Inventories contextRef="ctx12" unitRef="vDKK" decimals="-3">3434000</ifrs-full:Inventories>
+  <ifrs-full:CurrentTradeReceivables contextRef="ctx12" unitRef="vDKK" decimals="-3">6380000</ifrs-full:CurrentTradeReceivables>
+  <ifrs-full:CurrentTaxAssetsCurrent contextRef="ctx12" unitRef="vDKK" decimals="-3">4864000</ifrs-full:CurrentTaxAssetsCurrent>
+  <ifrs-full:OtherCurrentReceivables contextRef="ctx12" unitRef="vDKK" decimals="-3">1223000</ifrs-full:OtherCurrentReceivables>
+  <ifrs-full:Cash contextRef="ctx12" unitRef="vDKK" decimals="-3">47080000</ifrs-full:Cash>
+  <ifrs-full:CurrentAssets contextRef="ctx12" unitRef="vDKK" decimals="-3">62981000</ifrs-full:CurrentAssets>
+  <ifrs-full:Assets contextRef="ctx12" unitRef="vDKK" decimals="-3">65604000</ifrs-full:Assets>
+  <ifrs-full:IssuedCapital contextRef="ctx12" unitRef="vDKK" decimals="-3">155510000</ifrs-full:IssuedCapital>
+  <ifrs-full:TreasuryShares contextRef="ctx12" unitRef="vDKK" decimals="-3">0</ifrs-full:TreasuryShares>
+  <ifrs-full:ReserveOfChangeInValueOfForeignCurrencyBasisSpreads contextRef="ctx12" unitRef="vDKK" decimals="-3">-70000</ifrs-full:ReserveOfChangeInValueOfForeignCurrencyBasisSpreads>
+  <ifrs-full:RetainedEarnings contextRef="ctx12" unitRef="vDKK" decimals="-3">-99372000</ifrs-full:RetainedEarnings>
+  <ifrs-full:Equity contextRef="ctx12" unitRef="vDKK" decimals="-3">56068000</ifrs-full:Equity>
+  <ifrs-full:NoncurrentFinanceLeaseLiabilities contextRef="ctx12" unitRef="vDKK" decimals="-3">0</ifrs-full:NoncurrentFinanceLeaseLiabilities>
+  <ifrs-full:OtherNoncurrentLiabilities contextRef="ctx12" unitRef="vDKK" decimals="-3">883000</ifrs-full:OtherNoncurrentLiabilities>
+  <ifrs-full:NoncurrentLiabilities contextRef="ctx12" unitRef="vDKK" decimals="-3">883000</ifrs-full:NoncurrentLiabilities>
+  <ifrs-dk:CurrentPortionOfNonCurrentPayables contextRef="ctx12" unitRef="vDKK" decimals="-3">182000</ifrs-dk:CurrentPortionOfNonCurrentPayables>
+  <ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers contextRef="ctx12" unitRef="vDKK" decimals="-3">3412000</ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers>
+  <ifrs-full:OtherCurrentPayables contextRef="ctx12" unitRef="vDKK" decimals="-3">5059000</ifrs-full:OtherCurrentPayables>
+  <ifrs-full:CurrentLiabilities contextRef="ctx12" unitRef="vDKK" decimals="-3">8653000</ifrs-full:CurrentLiabilities>
+  <ifrs-full:Liabilities contextRef="ctx12" unitRef="vDKK" decimals="-3">9536000</ifrs-full:Liabilities>
+  <ifrs-full:EquityAndLiabilities contextRef="ctx12" unitRef="vDKK" decimals="-3">65604000</ifrs-full:EquityAndLiabilities>
+  <ifrs-full:CashAndCashEquivalents contextRef="ctx12" unitRef="vDKK" decimals="-3">47080000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx13" xml:lang="da">Profit/loss before financial items</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx13" unitRef="vDKK" decimals="-3">-12553000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx14" xml:lang="da">Profit/loss before financial items</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx14" unitRef="vDKK" decimals="-3">-9287000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx15" xml:lang="da">Profit/loss before financial items</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx15" unitRef="vDKK" decimals="-3">-36494000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx16" xml:lang="da">Warrants</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx16" unitRef="vDKK" decimals="-3">586000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx17" xml:lang="da">Warrants</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx17" unitRef="vDKK" decimals="-3">645000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx18" xml:lang="da">Warrants</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx18" unitRef="vDKK" decimals="-3">2856000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx19" xml:lang="da">Cash generated from operations before working capital</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx19" unitRef="vDKK" decimals="-3">-11841000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx20" xml:lang="da">Cash generated from operations before working capital</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx20" unitRef="vDKK" decimals="-3">-8491000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx21" xml:lang="da">Cash generated from operations before working capital</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx21" unitRef="vDKK" decimals="-3">-33134000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx22" xml:lang="da">Cash generated from operations</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx22" unitRef="vDKK" decimals="-3">-12930000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx23" xml:lang="da">Cash generated from operations</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx23" unitRef="vDKK" decimals="-3">-6346000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx24" xml:lang="da">Cash generated from operations</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx24" unitRef="vDKK" decimals="-3">-30809000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx25" xml:lang="da">Financials, net</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx25" unitRef="vDKK" decimals="-3">8000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx26" xml:lang="da">Financials, net</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx26" unitRef="vDKK" decimals="-3">-63000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx27" xml:lang="da">Financials, net</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities contextRef="ctx27" unitRef="vDKK" decimals="-3">-595000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInOperatingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInFinancingActivities contextRef="ctx28" xml:lang="da">Reduction of non-current liabilities</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInFinancingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInFinancingActivities contextRef="ctx28" unitRef="vDKK" decimals="-3">-157000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInFinancingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInFinancingActivities contextRef="ctx29" xml:lang="da">Reduction of non-current liabilities</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInFinancingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInFinancingActivities contextRef="ctx29" unitRef="vDKK" decimals="-3">-5000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInFinancingActivities>
+  <ifrs-dk:NameOfComponentOfCashFlowsFromUsedInFinancingActivities contextRef="ctx30" xml:lang="da">Reduction of non-current liabilities</ifrs-dk:NameOfComponentOfCashFlowsFromUsedInFinancingActivities>
+  <ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInFinancingActivities contextRef="ctx30" unitRef="vDKK" decimals="-3">-24000</ifrs-dk:AmountOfComponentOfCashFlowsFromUsedInFinancingActivities>
+  <ifrs-full:CashAndCashEquivalents contextRef="ctx31" unitRef="vDKK" decimals="-3">47080000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents contextRef="ctx32" unitRef="vDKK" decimals="-3">35641000</ifrs-full:CashAndCashEquivalents>
+</xbrli:xbrl>

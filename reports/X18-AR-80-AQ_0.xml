@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:dst="http://xbrl.dcca.dk/dst" xml:lang="uk">
+  <link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20161001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20161001.xsd"/>
+  <context id="D-2017">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+  </context>
+  <context id="D-2017-dim-Direktionsmedlem01">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Direktionsmedlem 01</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem1">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 1</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem2">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 2</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem3">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 3</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem4">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 4</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem5">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 5</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem6">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 6</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Bestyrelsesmedlem7">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension">
+        <memberOfBoardIdentifier xmlns="http://xbrl.dcca.dk/cmn">Bestyrelsesmedlem 7</memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+  </context>
+  <context id="I-2016-E">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2016-12-31</instant>
+    </period>
+  </context>
+  <context id="D-2016">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2016-01-01</startDate>
+      <endDate>2016-12-31</endDate>
+    </period>
+  </context>
+  <context id="I-2017-E-dim-InvestmentsInGroupEn">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfInvestmentsDimension">fsa:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2016-E-dim-InvestmentsInGroupEn">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2016-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfInvestmentsDimension">fsa:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-InvestmentsInGroupEn">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfInvestmentsDimension">fsa:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2016-dim-InvestmentsInGroupEn">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2016-01-01</startDate>
+      <endDate>2016-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfInvestmentsDimension">fsa:InvestmentsInGroupEnterprisesMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-LongtermDebtToBanksM">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfLongTermLiabilitiesDimension">fsa:LongtermDebtToBanksMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-LongtermEquityLoanMe">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfLongTermLiabilitiesDimension">fsa:LongtermEquityLoanMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-RetainedEarningsMemb">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2016-dim-RetainedEarningsMemb">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2016-01-01</startDate>
+      <endDate>2016-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2016-dim-ContributedCapitalMe">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2016-01-01</startDate>
+      <endDate>2016-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:ContributedCapitalMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-RetainedEarningsMemb.1">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2016-dim-RetainedEarningsMemb.1">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2016-01-01</startDate>
+      <endDate>2016-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-ContributedCapitalMe">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:ContributedCapitalMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2016-E-dim-ContributedCapitalMe">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2016-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:ContributedCapitalMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-RetainedEarningsMemb">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2016-E-dim-RetainedEarningsMemb">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2016-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfEquityDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-ParentOfSmallestGrou">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:TypeOfRelatedEntityDimension">fsa:ParentOfSmallestGroupInWhichReportingEntityIsSubsidiaryMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-Kapitalklasse01">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="fsa:IdentificationOfClassOfSharesDimension">
+        <classOfSharesIdentifier xmlns="http://xbrl.dcca.dk/fsa">Kapitalklasse 01</classOfSharesIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-Kapitalklasse02">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="fsa:IdentificationOfClassOfSharesDimension">
+        <classOfSharesIdentifier xmlns="http://xbrl.dcca.dk/fsa">Kapitalklasse 02</classOfSharesIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-Kapitalklasse03">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="fsa:IdentificationOfClassOfSharesDimension">
+        <classOfSharesIdentifier xmlns="http://xbrl.dcca.dk/fsa">Kapitalklasse 03</classOfSharesIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-FADattervirksomhed01-SubsidiaryMember">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:TypeOfRelatedEntityDimension">fsa:SubsidiaryMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="fsa:IdentificationOfRelatedEntityDimension">
+        <relatedEntityIdentifier xmlns="http://xbrl.dcca.dk/fsa">FA Dattervirksomhed 01</relatedEntityIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-FADattervirksomhed01-SubsidiaryMember">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:TypeOfRelatedEntityDimension">fsa:SubsidiaryMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="fsa:IdentificationOfRelatedEntityDimension">
+        <relatedEntityIdentifier xmlns="http://xbrl.dcca.dk/fsa">FA Dattervirksomhed 01</relatedEntityIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-Aktieklasse01">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="fsa:IdentificationOfClassOfSharesDimension">
+        <classOfSharesIdentifier xmlns="http://xbrl.dcca.dk/fsa">Aktieklasse 01</classOfSharesIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Revisionsvirksomhed0">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <auditorIdentifier xmlns="http://xbrl.dcca.dk/cmn">Revisionsvirksomhed 01</auditorIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="I-2017-E-dim-InvestmentsInJointVe">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <instant>2017-12-31</instant>
+    </period>
+    <scenario>
+      <xbrldi:explicitMember dimension="fsa:ClassesOfInvestmentsDimension">fsa:InvestmentsInJointVenturesMember</xbrldi:explicitMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Revisionsvirksomhed0.1">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <auditorIdentifier xmlns="http://xbrl.dcca.dk/cmn">Revisionsvirksomhed 01 - Revisor 01</auditorIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <context id="D-2017-dim-Revisionsvirksomhed0.2">
+    <entity>
+      <identifier scheme="http://www.dcca.dk/cvr">31592720</identifier>
+    </entity>
+    <period>
+      <startDate>2017-01-01</startDate>
+      <endDate>2017-12-31</endDate>
+    </period>
+    <scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfAuditorDimension">
+        <auditorIdentifier xmlns="http://xbrl.dcca.dk/cmn">Revisionsvirksomhed 01 - Revisor 02</auditorIdentifier>
+      </xbrldi:typedMember>
+    </scenario>
+  </context>
+  <unit id="u-DKK">
+    <measure>iso4217:DKK</measure>
+  </unit>
+  <unit id="u-pure">
+    <measure>pure</measure>
+  </unit>
+  <unit id="u-shares">
+    <measure>shares</measure>
+  </unit>
+  <mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="D-2017">The Company’s objective is to acquire and hold investments in Danish limited liability companies and related business.</mrv:DescriptionOfPrimaryActivitiesOfEntity>
+  <mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="D-2017">The financial year showed a loss of DKK 52,204k. The financial performance is positively affected by a profit of DKK 14,952k from the sale of investments in Hydratech Industries A/S to a minority shareholder.
+
+In December 2017, the Company’s owners made a capital increase in the Company of DKK 56,125k in connection with repayment of the Company’s non-current liabilities etc.
+
+The Group continues to see a slight decline in revenue due to the global recession within Oil and Gas. The negative impact of this is partly eliminated as the Group now sees the full effect of the restructuring implemented in 2016.
+Uncertainty relating to recognition and measurement
+Investments in group enterprises
+Investments in the subsidiary, Hydratech Industries A/S, include a significant added value in the form of goodwill, which is recognised in the balance sheet. The assumptions of the valuation of goodwill in balance sheet are disclosed in note 1.
+</mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs>
+  <mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="D-2017">After the balance sheet date, agreements have been renegotiated with the Group’s financial business partners and investors to secure the necessary funding to finance 
+A new factory in China as well as a ramp up of the operation in China.
+
+The agreement will add 40 mDKK in liquidity.
+
+Based on the signed agreements, the Group has ensured continued operations and performance of its financial obligations in the year ahead.
+</mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="D-2017-dim-Direktionsmedlem01">Søren Kringelholt Nielsen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <sob:IdentificationOfApprovedAnnualReport contextRef="D-2017">The Board of Directors and the Executive Board have today considered and approved the annual report of Hydratech Industries Holding A/S for the financial year 01.01.2017 - 31.12.2017.</sob:IdentificationOfApprovedAnnualReport>
+  <sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="D-2017">The annual report is presented in accordance with the Danish Financial Statements Act. </sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement>
+  <sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="D-2017">We recommend the annual report for adoption at the Annual General Meeting.</sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting>
+  <sob:ManagementsStatementAboutManagementsReview contextRef="D-2017">We believe that the management commentary contains a fair review of the affairs and conditions referred to therein. </sob:ManagementsStatementAboutManagementsReview>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem1">John Staunsbjerg Dueholm</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem2">Christina Aabo</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem3">Henrik Tyge Krabbe</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem4">Esben Bay Jørgensen</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem5">Peter Kjærsgaard Sørensen</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem6">Mikkel Zachariassen</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:NameAndSurnameOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem7">Ove Østergaard</cmn:NameAndSurnameOfMemberOfSupervisoryBoard>
+  <cmn:TitleOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem1">Chairman</cmn:TitleOfMemberOfSupervisoryBoard>
+  <cmn:TitleOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem5">Employee Representative</cmn:TitleOfMemberOfSupervisoryBoard>
+  <cmn:TitleOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem6">Employee Representative</cmn:TitleOfMemberOfSupervisoryBoard>
+  <cmn:TitleOfMemberOfSupervisoryBoard contextRef="D-2017-dim-Bestyrelsesmedlem7">Employee Representative</cmn:TitleOfMemberOfSupervisoryBoard>
+  <fsa:LongtermInvestmentsAndReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">228369000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:LongtermInvestmentsAndReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">304912000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:ShorttermReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">29551000</fsa:ShorttermReceivables>
+  <fsa:ShorttermReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">50221000</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">138000</fsa:CashAndCashEquivalents>
+  <fsa:CashAndCashEquivalents unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">90000</fsa:CashAndCashEquivalents>
+  <fsa:Assets unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">258058000</fsa:Assets>
+  <fsa:Assets unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">355223000</fsa:Assets>
+  <fsa:NoncurrentAssets unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">228369000</fsa:NoncurrentAssets>
+  <fsa:NoncurrentAssets unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">304912000</fsa:NoncurrentAssets>
+  <fsa:CurrentAssets unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">29689000</fsa:CurrentAssets>
+  <fsa:CurrentAssets unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">50311000</fsa:CurrentAssets>
+  <fsa:LongtermInvestmentsInGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">228369000</fsa:LongtermInvestmentsInGroupEnterprises>
+  <fsa:LongtermInvestmentsInGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">304912000</fsa:LongtermInvestmentsInGroupEnterprises>
+  <fsa:ShorttermReceivablesFromGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">16203000</fsa:ShorttermReceivablesFromGroupEnterprises>
+  <fsa:ShorttermReceivablesFromGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">35496000</fsa:ShorttermReceivablesFromGroupEnterprises>
+  <fsa:CurrentDeferredTaxAssets unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">10517000</fsa:CurrentDeferredTaxAssets>
+  <fsa:CurrentDeferredTaxAssets unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">13554000</fsa:CurrentDeferredTaxAssets>
+  <fsa:OtherShorttermReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">350000</fsa:OtherShorttermReceivables>
+  <fsa:OtherShorttermReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">71000</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermTaxReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">2175000</fsa:ShorttermTaxReceivables>
+  <fsa:DeferredIncomeAssets unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">306000</fsa:DeferredIncomeAssets>
+  <fsa:DeferredIncomeAssets unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">1100000</fsa:DeferredIncomeAssets>
+  <fsa:LiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">168175000</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">271753000</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LongtermDebtToBanks unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">67000000</fsa:LongtermDebtToBanks>
+  <fsa:LongtermEquityLoan unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">104420000</fsa:LongtermEquityLoan>
+  <fsa:LongtermEquityLoan unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">149447000</fsa:LongtermEquityLoan>
+  <fsa:ShorttermPartOfLongtermLiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">18250000</fsa:ShorttermPartOfLongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermPartOfLongtermLiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">15000000</fsa:ShorttermPartOfLongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermDebtToBanks unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">8280000</fsa:ShorttermDebtToBanks>
+  <fsa:ShorttermTradePayables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">4905000</fsa:ShorttermTradePayables>
+  <fsa:ShorttermTradePayables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">6752000</fsa:ShorttermTradePayables>
+  <fsa:ShorttermPayablesToGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">13171000</fsa:ShorttermPayablesToGroupEnterprises>
+  <fsa:OtherShorttermPayables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">291000</fsa:OtherShorttermPayables>
+  <fsa:OtherOperatingIncome unitRef="u-DKK" decimals="-3" contextRef="D-2017">2994000</fsa:OtherOperatingIncome>
+  <fsa:OtherFinanceIncome unitRef="u-DKK" decimals="-3" contextRef="D-2016">3326000</fsa:OtherFinanceIncome>
+  <fsa:RestOfOtherFinanceExpenses unitRef="u-DKK" decimals="-3" contextRef="D-2017">21988000</fsa:RestOfOtherFinanceExpenses>
+  <fsa:RestOfOtherFinanceExpenses unitRef="u-DKK" decimals="-3" contextRef="D-2016">29870000</fsa:RestOfOtherFinanceExpenses>
+  <fsa:IncomeFromInvestmentsInGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="D-2017">-27786000</fsa:IncomeFromInvestmentsInGroupEnterprises>
+  <fsa:IncomeFromInvestmentsInGroupEnterprises unitRef="u-DKK" decimals="-3" contextRef="D-2016">-27835000</fsa:IncomeFromInvestmentsInGroupEnterprises>
+  <fsa:GrossResult unitRef="u-DKK" decimals="-3" contextRef="D-2017">-2536000</fsa:GrossResult>
+  <fsa:GrossResult unitRef="u-DKK" decimals="-3" contextRef="D-2016">-8509000</fsa:GrossResult>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities unitRef="u-DKK" decimals="-3" contextRef="D-2017">-6358000</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities unitRef="u-DKK" decimals="-3" contextRef="D-2016">-14521000</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax unitRef="u-DKK" decimals="-3" contextRef="D-2017">-56132000</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax unitRef="u-DKK" decimals="-3" contextRef="D-2016">-68900000</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:WagesAndSalaries unitRef="u-DKK" decimals="-3" contextRef="D-2017">3816000</fsa:WagesAndSalaries>
+  <fsa:WagesAndSalaries unitRef="u-DKK" decimals="-3" contextRef="D-2016">5896000</fsa:WagesAndSalaries>
+  <fsa:OtherEmployeeExpense unitRef="u-DKK" decimals="-3" contextRef="D-2017">6000</fsa:OtherEmployeeExpense>
+  <fsa:OtherEmployeeExpense unitRef="u-DKK" decimals="-3" contextRef="D-2016">54000</fsa:OtherEmployeeExpense>
+  <fsa:InformationOnReportingClassOfEntity contextRef="D-2017">This annual report has been presented in accordance with the provisions of the Danish Financial Statements Act governing reporting class B enterprises with addition of certain provisions for reporting class C.</fsa:InformationOnReportingClassOfEntity>
+  <fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="D-2017">Assets are recognised in the balance sheet when it is probable as a result of a prior event that future economic benefits will flow to the Entity, and the value of the asset can be measured reliably.
+Liabilities are recognised in the balance sheet when the Entity has a legal or constructive obligation as a result of a prior event, and it is probable that future economic benefits will flow out of the Entity, and the value of the liability can be measured reliably.
+On initial recognition, assets and liabilities are measured at cost. Measurement subsequent to initial recognition is effected as described below for each financial statement item.
+Anticipated risks and losses that arise before the time of presentation of the annual report and that confirm or invalidate affairs and conditions existing at the balance sheet date are considered at recognition and measurement.
+Income is recognised in the income statement when earned, whereas costs are recognised by the amounts attributable to this financial year.</fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="D-2017">Receivables are measured at amortised cost, usually equalling nominal value less writedowns for bad and doubtful debts. </fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax contextRef="D-2017">Deferred tax is recognised on all temporary differences between the carrying amount and tax-based value of assets and liabilities, for which the tax-based value of assets is calculated based on the planned use of each asset.
+Deferred tax assets, including the tax base of tax loss carryforwards, are recognised in the balance sheet at their estimated realisable value, either as a set-off against deferred tax liabilities or as net tax assets.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax>
+  <fsa:DescriptionOfMethodsOfCurrentTaxReceivablesAndLiabilities contextRef="D-2017">Current tax payable or receivable is recognised in the balance sheet, stated as tax computed on this year's taxable income, adjusted for prepaid tax. </fsa:DescriptionOfMethodsOfCurrentTaxReceivablesAndLiabilities>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets contextRef="D-2017">Prepayments comprise incurred costs relating to subsequent financial years. Prepayments are measured at cost.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfDeferredIncomeAssets>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCashAndCashEquivalents contextRef="D-2017">Cash comprises bank deposits.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfCashAndCashEquivalents>
+  <fsa:DisclosureOfInvestments contextRef="D-2017">The carrying amount of goodwill is DKK 228.369k.</fsa:DisclosureOfInvestments>
+  <fsa:InvestmentsGross unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-InvestmentsInGroupEn">543250000</fsa:InvestmentsGross>
+  <fsa:InvestmentsGross unitRef="u-DKK" decimals="-3" contextRef="I-2016-E-dim-InvestmentsInGroupEn">594861000</fsa:InvestmentsGross>
+  <fsa:AdditionsToInvestments unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-InvestmentsInGroupEn">8750000</fsa:AdditionsToInvestments>
+  <fsa:DisposalsOfInvestments unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-InvestmentsInGroupEn">-60361000</fsa:DisposalsOfInvestments>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="D-2017">Other financial liabilities are measured at amortised cost, which usually corresponds to nominal value.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEquity contextRef="D-2017">Treasury shares Acquisition and selling prices and dividends for treasury shares are classified directly as equity under retained earnings. Gains and losses on sale are not recognised in the income statement. </fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEquity>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses contextRef="D-2017">Other external expenses include expenses relating to the Entity’s ordinary activities, including administration etc. This item also includes writedowns of receivables recognised in current assets.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfExternalExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates contextRef="D-2017">Income from investments in group enterprises comprises the pro rata share of the individual enterprises’ profit/loss after full elimination of intra-group profits or losses. </fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeAndExpensesFromInvestmentsInGroupEnterprisesAndAssociates>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses contextRef="D-2017">Other financial income comprises dividends etc received on other investments, interest income, including interest income on receivables from group enterprises, net capital gains on payables and transactions in foreign currenciesas well as amortisation of financial assets etc. Other financial expenses comprise interest expenses, including interest expenses on payables to group enterprises, net capital losses on securities, payables and transactions in foreign currencies, amortisation of financial liabilities as well as tax surcharge under the Danish Tax Prepayment Scheme etc.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceIncomeAndExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="D-2017">Tax for the year, which consists of current tax for the year and changes in deferred tax, is recognised in the income statement by the portion attributable to the profit for the year and recognised directly in equity by the portion attributable to entries directly in equity. The Entity is jointly taxed with all Danish subsidiaries. The current Danish income tax is allocated among the jointly taxed entities proportionally to their taxable income (full allocation with a refund concerning tax losses). </fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense contextRef="D-2017">Staff costs comprise salaries and wages as well as social security contributions, pension contributions, etc for entity staff.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfEmployeeBenefitExpense>
+  <fsa:DescriptionOfMethodsOfImpairmentLossesAndDepreciation contextRef="D-2017">Amortisation, depreciation and impairment losses relating to intangible assets comprise amortisation, depreciation and impairment losses for the financial year, calculated on the basis of the residual values and useful lives of the individual assets and impairment testing as well as gains and losses from the sale of intangible assets.  </fsa:DescriptionOfMethodsOfImpairmentLossesAndDepreciation>
+  <fsa:AccumulatedImpairmentLossesAndDepreciationOfInvestments unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-InvestmentsInGroupEn">-314881000</fsa:AccumulatedImpairmentLossesAndDepreciationOfInvestments>
+  <fsa:AccumulatedImpairmentLossesAndDepreciationOfInvestments unitRef="u-DKK" decimals="-3" contextRef="I-2016-E-dim-InvestmentsInGroupEn">-289949000</fsa:AccumulatedImpairmentLossesAndDepreciationOfInvestments>
+  <fsa:AmortisationOfGoodwillOfInvestments unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-InvestmentsInGroupEn">-23130000</fsa:AmortisationOfGoodwillOfInvestments>
+  <fsa:IncreaseDecreaseOfImpairmentLossesAndDepreciationOfInvestmentsThroughNetExchangeDifferences unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-InvestmentsInGroupEn">2493000</fsa:IncreaseDecreaseOfImpairmentLossesAndDepreciationOfInvestmentsThroughNetExchangeDifferences>
+  <fsa:ReversalsOfImpairmentLossesAndDepreciationOfDisposedInvestments unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-InvestmentsInGroupEn">14953000</fsa:ReversalsOfImpairmentLossesAndDepreciationOfDisposedInvestments>
+  <fsa:LongtermLiabilitiesOtherThanProvisionsDueInOneYear unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-LongtermDebtToBanksM">18250000</fsa:LongtermLiabilitiesOtherThanProvisionsDueInOneYear>
+  <fsa:CurrentTaxExpense unitRef="u-DKK" decimals="-3" contextRef="D-2017">-2175000</fsa:CurrentTaxExpense>
+  <fsa:AdjustmentsForDeferredTax unitRef="u-DKK" decimals="-3" contextRef="D-2017">-1753000</fsa:AdjustmentsForDeferredTax>
+  <fsa:AdjustmentsForDeferredTax unitRef="u-DKK" decimals="-3" contextRef="D-2016">-2693000</fsa:AdjustmentsForDeferredTax>
+  <fsa:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-LongtermDebtToBanksM">0</fsa:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore>
+  <fsa:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-LongtermEquityLoanMe">0</fsa:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore>
+  <fsa:AverageNumberOfEmployees unitRef="u-pure" decimals="0" contextRef="D-2017">2</fsa:AverageNumberOfEmployees>
+  <fsa:AverageNumberOfEmployees unitRef="u-pure" decimals="0" contextRef="D-2016">6</fsa:AverageNumberOfEmployees>
+  <fsa:OtherReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">350000</fsa:OtherReceivables>
+  <fsa:OtherReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">71000</fsa:OtherReceivables>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="D-2017">31592720</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:NameOfReportingEntity contextRef="D-2017">Hydratech Industries Holding A/S</gsd:NameOfReportingEntity>
+  <gsd:RegisteredOfficeOfReportingEntity contextRef="D-2017">Hjørring</gsd:RegisteredOfficeOfReportingEntity>
+  <gsd:DateOfGeneralMeeting contextRef="D-2017">2018-06-18</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="D-2017">Martin Christian Kruhl</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults contextRef="D-2017">In our opinion, the financial statements give a true and fair view of the Entity’s financial position at 31.12.2017 and of the results of its operations for the financial year 01.01.2017 - 31.12.2017.</sob:ConfirmationThatFinancialStatementGivesTrueAndFairViewOfAssetsLiabilitiesEquityFinancialPositionAndResults>
+  <sob:DateOfApprovalOfAnnualReport contextRef="D-2017">2018-06-18</sob:DateOfApprovalOfAnnualReport>
+  <sob:PlaceOfSignatureOfStatement contextRef="D-2017">Vrå</sob:PlaceOfSignatureOfStatement>
+  <fsa:DisclosureOfLongtermLiabilities contextRef="D-2017"> All non-current debt falls due for payment within 5 financial years.</fsa:DisclosureOfLongtermLiabilities>
+  <fsa:DisclosureOfShorttermLiabilities contextRef="D-2017">            </fsa:DisclosureOfShorttermLiabilities>
+  <fsa:DisclosureOfContingentLiabilities contextRef="D-2017">The Entity participates in a Danish joint taxation arrangement in which Anpartsselskabet af 4. Juli 2008 serves as the administration company. According to the joint taxation provisions of the Danish Corporation Tax Act, the Entity is therefore liable from the financial year 2013 for income taxes etc for the jointly taxed entities, and from 1 July 2012 for obligations, if any, relating to the withholding of tax on interest, royalties and dividend for the jointly taxed entities. The total known net liability of the jointly taxed entities under the joint taxation arrangement is evident from the administration company’s financial statements.</fsa:DisclosureOfContingentLiabilities>
+  <fsa:DisclosureOfMortgagesAndCollaterals contextRef="D-2017">Investments in the subsidiary are pledged as collateral for the Group's debt to Skandinaviska Enskilda Banken AB (SEB). The carrying amount of mortgaged investments amounts to DKK 228.369k. The Group's debt to SEB amounts to DKK 140.913k.
+Collateral security provided for subsidiaries and other group enterprises
+The Entity has provided a guarantee for subsidiaries’ debt to Skandinaviska Enskilda Banken AB (SEB). The subsidiaries’ debt to SEB amounts to DKK 120.874k.</fsa:DisclosureOfMortgagesAndCollaterals>
+  <gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="D-2017">33963556</gsd:IdentificationNumberCvrOfSubmittingEnterprise>
+  <gsd:NameOfSubmittingEnterprise contextRef="D-2017">Deloitte Statsautoriseret Revisionspartnerselskab</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="D-2017">City Tower, Værkmestergade </gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="D-2017">8000 Aarhus C</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <fsa:LiabilitiesAndEquity unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">258058000</fsa:LiabilitiesAndEquity>
+  <fsa:LiabilitiesAndEquity unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">355223000</fsa:LiabilitiesAndEquity>
+  <fsa:Equity unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">89883000</fsa:Equity>
+  <fsa:Equity unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">83470000</fsa:Equity>
+  <fsa:ContributedCapital unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">15079000</fsa:ContributedCapital>
+  <fsa:ContributedCapital unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">15079000</fsa:ContributedCapital>
+  <fsa:RetainedEarnings unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">74804000</fsa:RetainedEarnings>
+  <fsa:RetainedEarnings unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">68391000</fsa:RetainedEarnings>
+  <fsa:LongtermLiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">131558000</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:LongtermLiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">241721000</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">36617000</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">30032000</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2017">-52204000</fsa:ProfitLoss>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2016">-66207000</fsa:ProfitLoss>
+  <fsa:OtherExternalExpenses unitRef="u-DKK" decimals="-3" contextRef="D-2017">5530000</fsa:OtherExternalExpenses>
+  <fsa:OtherExternalExpenses unitRef="u-DKK" decimals="-3" contextRef="D-2016">8509000</fsa:OtherExternalExpenses>
+  <fsa:EmployeeBenefitsExpense unitRef="u-DKK" decimals="-3" contextRef="D-2017">3822000</fsa:EmployeeBenefitsExpense>
+  <fsa:EmployeeBenefitsExpense unitRef="u-DKK" decimals="-3" contextRef="D-2016">5950000</fsa:EmployeeBenefitsExpense>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss unitRef="u-DKK" decimals="-3" contextRef="D-2016">62000</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:TaxExpenseOnOrdinaryActivities unitRef="u-DKK" decimals="-3" contextRef="D-2017">-3928000</fsa:TaxExpenseOnOrdinaryActivities>
+  <fsa:TaxExpenseOnOrdinaryActivities unitRef="u-DKK" decimals="-3" contextRef="D-2016">-2693000</fsa:TaxExpenseOnOrdinaryActivities>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-RetainedEarningsMemb">-52204000</fsa:ProfitLoss>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2016-dim-RetainedEarningsMemb">-66207000</fsa:ProfitLoss>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2017">-52204000</fsa:ProfitLoss>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2016">-66207000</fsa:ProfitLoss>
+  <fsa:IncreaseOfCapital unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-RetainedEarningsMemb.1">56125000</fsa:IncreaseOfCapital>
+  <fsa:IncreaseDecreaseOfInvestmentsThroughNetExchangeDifferencesEquity unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-RetainedEarningsMemb.1">2492000</fsa:IncreaseDecreaseOfInvestmentsThroughNetExchangeDifferencesEquity>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-RetainedEarningsMemb.1">-52204000</fsa:ProfitLoss>
+  <fsa:ProfitLoss unitRef="u-DKK" decimals="-3" contextRef="D-2016-dim-RetainedEarningsMemb.1">-66207000</fsa:ProfitLoss>
+  <fsa:Equity unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-ContributedCapitalMe">15079000</fsa:Equity>
+  <fsa:Equity unitRef="u-DKK" decimals="-3" contextRef="I-2016-E-dim-ContributedCapitalMe">15079000</fsa:Equity>
+  <fsa:Equity unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-RetainedEarningsMemb">74804000</fsa:Equity>
+  <fsa:Equity unitRef="u-DKK" decimals="-3" contextRef="I-2016-E-dim-RetainedEarningsMemb">68391000</fsa:Equity>
+  <fsa:RelatedEntityNameConsolidatedFinancialStatements contextRef="D-2017-dim-ParentOfSmallestGrou">Anpartsselskabet af 4. Juli 2008, Kokkedal</fsa:RelatedEntityNameConsolidatedFinancialStatements>
+  <fsa:DescriptionOfClassOfIssuedShares contextRef="I-2017-E-dim-Kapitalklasse01">A Shares</fsa:DescriptionOfClassOfIssuedShares>
+  <fsa:DescriptionOfClassOfIssuedShares contextRef="I-2017-E-dim-Kapitalklasse02">B Shares</fsa:DescriptionOfClassOfIssuedShares>
+  <fsa:DescriptionOfClassOfIssuedShares contextRef="I-2017-E-dim-Kapitalklasse03">C Shares</fsa:DescriptionOfClassOfIssuedShares>
+  <fsa:NumberOfIssuedShares unitRef="u-shares" decimals="0" contextRef="I-2017-E-dim-Kapitalklasse01">2009492</fsa:NumberOfIssuedShares>
+  <fsa:NumberOfIssuedShares unitRef="u-shares" decimals="0" contextRef="I-2017-E-dim-Kapitalklasse02">70464</fsa:NumberOfIssuedShares>
+  <fsa:NumberOfIssuedShares unitRef="u-shares" decimals="0" contextRef="I-2017-E-dim-Kapitalklasse03">12998589</fsa:NumberOfIssuedShares>
+  <fsa:NominalValueOfIssuedShares unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-Kapitalklasse01">2010000</fsa:NominalValueOfIssuedShares>
+  <fsa:NominalValueOfIssuedShares unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-Kapitalklasse02">70000</fsa:NominalValueOfIssuedShares>
+  <fsa:NominalValueOfIssuedShares unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-Kapitalklasse03">12999000</fsa:NominalValueOfIssuedShares>
+  <arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements contextRef="D-2017">Management is responsible for the preparation of financial statements that give a true and fair view in accordance with the Danish Financial Statements Act, and for such internal control as Management determines is necessary to enable the preparation of financial statements that are free from material misstatement, whether due to fraud or error.
+In preparing the financial statements, Management is responsible for assessing the Entity’s ability to continue as a going concern, for disclosing, as applicable, matters related to going concern, and for using the going concern basis of accounting in preparing the financial statements unless Management either intends to liquidate the Entity or to cease operations, or has no realistic alternative but to do so.</arr:StatementOfExecutiveAndSupervisoryBoardsResponsibilityForFinancialStatements>
+  <arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed contextRef="D-2017">Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, and to issue an auditor’s report that includes our opinion. Reasonable assurance is a high level of assurance, but is not a guarantee that an audit conducted in accordance with ISAs and the additional requirements applicable in Denmark will always detect a material misstatement when it exists. Misstatements can arise from fraud or error and are considered material if, individually or in the aggregate, they could reasonably be expected to influence the economic decisions of users taken on the basis of these financial statements.
+As part of an audit conducted in accordance with ISAs and the additional requirements applicable in Denmark, we exercise professional judgement and maintain professional scepticism throughout the audit. We also:
+•	Identify and assess the risks of material misstatement of the financial statements, whether due to fraud or error, design and perform audit procedures responsive to those risks, and obtain audit evidence that is sufficient and appropriate to provide a basis for our opinion. The risk of not detecting a material misstatement resulting from fraud is higher than for one resulting from error, as fraud may involve collusion, forgery, intentional omissions, misrepresentations, or the override of internal control.
+•	Obtain an understanding of internal control relevant to the audit in order to design audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the Entity’s internal control.
+•	Evaluate the appropriateness of accounting policies used and the reasonableness of accounting estimates and related disclosures made by Management.
+•	Conclude on the appropriateness of Management’s use of the going concern basis of accounting in preparing the financial statements, and, based on the audit evidence obtained, whether a material uncertainty exists related to events or conditions that may cast significant doubt on the Entity’s ability to continue as a going concern. If we conclude that a material uncertainty exists, we are required to draw attention in our auditor’s report to the related disclosures in the financial statements or, if such disclosures are inadequate, to modify our opinion. Our conclusions are based on the audit evidence obtained up to the date of our auditor’s report. However, future events or conditions may cause the Entity to cease to continue as a going concern.
+•	Evaluate the overall presentation, structure and content of the financial statements, including the disclosures in the notes, and whether the financial statements represent the underlying transactions and events in a manner that gives a true and fair view.
+We communicate with those charged with governance regarding, among other matters, the planned scope and timing of the audit and significant audit findings, including any significant deficiencies in internal control that we identify during our audit.</arr:StatementOfAuditorsResponsibilityForAuditAndAuditPerformed>
+  <arr:DescriptionOfQualificationsOfAuditedFinancialStatements contextRef="D-2017">We conducted our audit in accordance with International Standards on Auditing (ISAs) and additional requirements applicable in Denmark. Our responsibilities under those standards and requirements are further described in the Auditor’s responsibilities for the audit of the financial statements section of this auditor’s report. We are independent of the Entity in accordance with the International Ethics Standards Board of Accountants' Code of Ethics for Professional Accountants (IESBA Code) and the additional requirements applicable in Denmark, and we have fulfilled our other ethical responsibilities in accordance with these requirements. We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our opinion.</arr:DescriptionOfQualificationsOfAuditedFinancialStatements>
+  <arr:OpinionOnAuditedFinancialStatements contextRef="D-2017">We have audited the financial statements of Hydratech Industries Holding A/S for the financial year 01.01.2017 - 31.12.2017, which comprise the income statement, balance sheet, statement of changes in equity and notes, including a summary of significant accounting policies. The financial statements are prepared in accordance with the Danish Financial Statements Act.
+In our opinion, the financial statements give a true and fair view of the Entity’s financial position at 31.12.2017 and of the results of its operations for the financial year 01.01.2017 - 31.12.2017 in accordance with the Danish Financial Statements Act.</arr:OpinionOnAuditedFinancialStatements>
+  <arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements contextRef="D-2017">Management is responsible for the management commentary.
+Our opinion on the financial statements does not cover the management commentary, and we do not express any form of assurance conclusion thereon.
+In connection with our audit of the financial statements, our responsibility is to read the management commentary and, in doing so, consider whether the management commentary is materially inconsistent with the financial statements or our knowledge obtained in the audit or otherwise appears to be materially misstated.
+Moreover, it is our responsibility to consider whether the management commentary provides the information required under the Danish Financial Statements Act.Based on the work we have performed, we conclude that the management commentary is in accordance with the financial statements and has been prepared in accordance with the requirements of the Danish Financial Statements Act. We did not identify any material misstatement of the management commentary.</arr:StatementOnManagementsReviewAuditorsReportOnAuditedFinancialStatements>
+  <fsa:InformationOnRelatedEntities contextRef="D-2017">HTHH ApS, Vrå, owns the majority of the shares in the Company and thus has a controlling interest on the Company.
+Anpartsselskabet af 4. Juli 2008, Kokkedal, owns the majority of the shares in HTHH ApS and thus has a controlling interest on the Company. 
+BWB Partners I K/S, Kokkedal, owns the majority of the shares in Anpartsselskabet af 4. Juli 2008 and thus has a controlling interest on the Company.</fsa:InformationOnRelatedEntities>
+  <fsa:RelatedEntityName contextRef="D-2017-dim-FADattervirksomhed01-SubsidiaryMember">Hydratech Industries A/S</fsa:RelatedEntityName>
+  <fsa:RelatedEntityRegisteredOffice contextRef="D-2017-dim-FADattervirksomhed01-SubsidiaryMember">Silkeborg</fsa:RelatedEntityRegisteredOffice>
+  <fsa:ShareHeldByEntityOrConsolidatedEnterprisesInRelatedEntity unitRef="u-pure" decimals="2" contextRef="I-2017-E-dim-FADattervirksomhed01-SubsidiaryMember">90</fsa:ShareHeldByEntityOrConsolidatedEnterprisesInRelatedEntity>
+  <gsd:InformationOnTypeOfSubmittedReport contextRef="D-2017">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <fsa:LongtermInvestmentsAndReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-InvestmentsInGroupEn">228369000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:LongtermInvestmentsAndReceivables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E-dim-InvestmentsInGroupEn">304912000</fsa:LongtermInvestmentsAndReceivables>
+  <fsa:ClassOfReportingEntity contextRef="D-2017">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements contextRef="D-2017">To the shareholders of Hydratech Industries Holding A/S</arr:AddresseeOfAuditorsReportOnAuditedFinancialStatements>
+  <fsa:DisclosureOfAnyUncertaintyConnectedWithRecognitionOrMeasurement contextRef="D-2017">Goodwill:
+Investments in group enterprises include recognition of goodwill at a total value of DKK 228.4m. An impairment test has been prepared to assess the valuation of the recognised goodwill.
+
+Management regards the subsidiary as one CGU. The Group strategy is to use resources, knowledge and production facilities across the business areas. Consequently, there is increased intra-group trading among the divisions, and therefore the impairment test must be made on the basis of a CGU.
+
+The most significant assumptions of the impairment test are as follows:
+Joint assumptions:
+WACC fixed at 11.41 %.
+A forecast horizon of 5 years, and subsequently a terminal period.
+An expected average growth rate of 13.4% in revenue in the forecast horizon.
+
+The group consists of three divisions: The Fluid Division, the Wind Division and the Service Division.
+
+For the Fluid Division, the following significant assumptions apply:
+There is a general expectation that the market conditions in the offshore segment will not improve in the short term but have settled at a low level. The increasing price of oil, however, is expected to have a positive impact on revenue but without revenue regaining the previous level. The general growth in revenue will be based on increased intra-group trading as a result of increased growth in the Wind Division and an increase in revenue in the new business areas such as mining. 
+An unchanged contribution ratio in the forecast horizon is assumed. 
+Continuous adjustment of fixed costs similar to the last two years, thus reflecting the level of activity in the forecast horizon.
+
+For the Wind Division, the following significant assumptions apply:
+Growth in revenue is expected to increase as the Chinese customers will be onboarded in 2018 and a large customer in the spring of 2019. Revenue will show the strongest growth in the period from 2019 to 2020 when these customers are ramping up after which the growth rate is expected to be at a somewhat lower level. 
+Revenue to the largest customer on the group is expected to stagnate in the period. 
+A slight decline in contribution ratio is assumed at the beginning of the forecast horizon after which this is expected to settle as a result of the current cost-out projects and off-shoring of production to Asia and Eastern Europe.
+Continued focus on fixed costs, thus reflecting the level of activity in the forecast horizon.
+
+For the Service Division, the following significant assumptions apply:
+The low level of activity in the off-shore segment has resulted in an increase in the market for servicing of existing parts. In relation to wind turbine development, there will be an increasing market for servicing existing parts in the next few years.
+Increased focus, among other things, with the employment of a dedicated service director is expected to generate strong growth in revenue within the Wind Division. 
+Retention of the contribution ratio over the period up to the terminal period.
+Continued focus on fixed costs, thus reflecting the Group’s activities.
+
+The calculation of the value of the recorded goodwill is sensitive to changes in the assumptions applied. If the expected increase in intra-group revenue and reduction in fixed costs differs significantly from expectations, it may prove necessary to record a not insignificant goodwill impairment.
+
+Based on the above assumptions and the impairment test performed, it is Management’s assessment that there is no indication of impairment of the recognised goodwill.</fsa:DisclosureOfAnyUncertaintyConnectedWithRecognitionOrMeasurement>
+  <fsa:NumberOfTreasurySharesHold unitRef="u-shares" decimals="0" contextRef="I-2017-E-dim-Aktieklasse01">14826</fsa:NumberOfTreasurySharesHold>
+  <arr:SignatureOfAuditorsPlace contextRef="D-2017">Aarhus</arr:SignatureOfAuditorsPlace>
+  <arr:SignatureOfAuditorsDate contextRef="D-2017">2018-06-18</arr:SignatureOfAuditorsDate>
+  <fsa:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">0</fsa:LongtermLiabilitiesOtherThanProvisionsDueAfterFiveYearsAndMore>
+  <fsa:NominalValueOfTreasurySharesHold unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-Aktieklasse01">15000</fsa:NominalValueOfTreasurySharesHold>
+  <fsa:PercentageOfContributedCapitalOfTreasurySharesHold unitRef="u-pure" decimals="2" contextRef="I-2017-E-dim-Aktieklasse01">0.09</fsa:PercentageOfContributedCapitalOfTreasurySharesHold>
+  <gsd:AddressOfReportingEntityStreetName contextRef="D-2017">Sigenvej</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="D-2017">2</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="D-2017">9760</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="D-2017">Vrå</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:AddressOfAuditorStreetName contextRef="D-2017-dim-Revisionsvirksomhed0">City Tower, Værkmestergade</gsd:AddressOfAuditorStreetName>
+  <gsd:AddressOfAuditorStreetBuildingIdentifier contextRef="D-2017-dim-Revisionsvirksomhed0">2</gsd:AddressOfAuditorStreetBuildingIdentifier>
+  <gsd:AddressOfAuditorPostCodeIdentifier contextRef="D-2017-dim-Revisionsvirksomhed0">8000</gsd:AddressOfAuditorPostCodeIdentifier>
+  <gsd:AddressOfAuditorDistrictName contextRef="D-2017-dim-Revisionsvirksomhed0">Aarhus C</gsd:AddressOfAuditorDistrictName>
+  <fsa:NumberOfIssuedShares unitRef="u-shares" decimals="0" contextRef="I-2017-E">15078545</fsa:NumberOfIssuedShares>
+  <fsa:NominalValueOfIssuedShares unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">15079000</fsa:NominalValueOfIssuedShares>
+  <fsa:NumberOfTreasurySharesHold unitRef="u-shares" decimals="0" contextRef="I-2017-E">14826</fsa:NumberOfTreasurySharesHold>
+  <fsa:NominalValueOfTreasurySharesHold unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">15000</fsa:NominalValueOfTreasurySharesHold>
+  <fsa:PercentageOfContributedCapitalOfTreasurySharesHold unitRef="u-pure" decimals="2" contextRef="I-2017-E">0.09</fsa:PercentageOfContributedCapitalOfTreasurySharesHold>
+  <fsa:DescriptionOfMethodsOfTranslationOfForeignCurrencies contextRef="D-2017">  </fsa:DescriptionOfMethodsOfTranslationOfForeignCurrencies>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfOtherOperatingIncome contextRef="D-2017">Other operating income comprises income of a secondary nature as viewed in relation to the Entity’s primary activities.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfOtherOperatingIncome>
+  <fsa:ProfitLossRelatedToInvestmentsImpairmentLossesAndDepreciation unitRef="u-DKK" decimals="-3" contextRef="D-2017-dim-InvestmentsInGroupEn">-19248000</fsa:ProfitLossRelatedToInvestmentsImpairmentLossesAndDepreciation>
+  <fsa:ProfitLossRelatedToInvestmentsImpairmentLossesAndDepreciation unitRef="u-DKK" decimals="-3" contextRef="D-2016-dim-InvestmentsInGroupEn">-4705000</fsa:ProfitLossRelatedToInvestmentsImpairmentLossesAndDepreciation>
+  <cmn:TypeOfAuditorAssistance contextRef="D-2017">Revisionspåtegning</cmn:TypeOfAuditorAssistance>
+  <fsa:AccumulatedImpairmentLossesAndDepreciationOfInvestments unitRef="u-DKK" decimals="-3" contextRef="I-2017-E-dim-InvestmentsInJointVe">0</fsa:AccumulatedImpairmentLossesAndDepreciationOfInvestments>
+  <fsa:ProfitLossAfterAttributableToMinorityInterest unitRef="u-DKK" decimals="-3" contextRef="D-2017">-52204000</fsa:ProfitLossAfterAttributableToMinorityInterest>
+  <fsa:ProfitLossAfterAttributableToMinorityInterest unitRef="u-DKK" decimals="-3" contextRef="D-2016">-66207000</fsa:ProfitLossAfterAttributableToMinorityInterest>
+  <fsa:DisclosureOfAccountingPolicies contextRef="D-2017">The accounting policies applied to these financial statements are consistent with those applied last year. </fsa:DisclosureOfAccountingPolicies>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisForInvestmentsInSubsidiariesAndAssociates contextRef="D-2017">Investments in group enterprises are recognised and measured according to the equity method. This means that investments are measured at the pro rata share of the enterprises’ equity value plus or minus unamortised goodwill and plus or minus unrealised intra-group profits or losses.
+Upon distribution of profit or loss, net revaluation of investments in group enterprises is transferred to Reserve for net revaluation according to the equity method under equity.
+Goodwill is calculated as the difference between cost of the investments and fair value of the pro rata share of assets and liabilities acquired. Goodwill is amortised straight-line over its estimated useful life, which is fixed based on the experience gained by Management for each business area. Useful life is determined based on an assessment of whether the enterprises are strategically acquired enterprises with a strong market position and a long-term earnings profile and whether the amount of goodwill includes intangible resources of a temporary nature that cannot be separated and recognised as separate assets. If the useful life cannot be estimated reliably, it is fixed at 10 years. Useful lives are reassessed annually. The amortisation periods used are 20 years.
+Investments in group enterprises are written down to the lower of recoverable amount and carrying amount.</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisForInvestmentsInSubsidiariesAndAssociates>
+  <arr:InformationOnSignatureInternalAudit contextRef="D-2017"> </arr:InformationOnSignatureInternalAudit>
+  <fsa:OtherLongtermPayables unitRef="u-DKK" decimals="-3" contextRef="I-2017-E">27138000</fsa:OtherLongtermPayables>
+  <fsa:OtherLongtermPayables unitRef="u-DKK" decimals="-3" contextRef="I-2016-E">25274000</fsa:OtherLongtermPayables>
+  <cmn:DescriptionOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0.1">State Authorised Public Accountant</cmn:DescriptionOfAuditor>
+  <cmn:DescriptionOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0.2">State Authorised Public Accountant</cmn:DescriptionOfAuditor>
+  <cmn:NameAndSurnameOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0.1">Jacob Nørmark</cmn:NameAndSurnameOfAuditor>
+  <cmn:NameAndSurnameOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0.2">Kasper Vestergaard Jessen</cmn:NameAndSurnameOfAuditor>
+  <gsd:TelephoneNumberOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0">89 41 41 41</gsd:TelephoneNumberOfAuditor>
+  <gsd:ReportingPeriodStartDate contextRef="D-2017">2017-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="D-2017">2017-12-31</gsd:ReportingPeriodEndDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="D-2017">2016-12-31</gsd:PredingReportingPeriodEndDate>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="D-2017">2016-01-01</gsd:PrecedingReportingPeriodStartDate>
+  <cmn:IdentificationNumberOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0.1">mne30176</cmn:IdentificationNumberOfAuditor>
+  <cmn:IdentificationNumberOfAuditor contextRef="D-2017-dim-Revisionsvirksomhed0.2">mne42784</cmn:IdentificationNumberOfAuditor>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="D-2017-dim-Revisionsvirksomhed0.1">33963556</cmn:IdentificationNumberCvrOfAuditFirm>
+  <cmn:IdentificationNumberCvrOfAuditFirm contextRef="D-2017-dim-Revisionsvirksomhed0.2">33963556</cmn:IdentificationNumberCvrOfAuditFirm>
+  <cmn:NameOfAuditFirm contextRef="D-2017-dim-Revisionsvirksomhed0.1">Deloitte Statsautoriseret Revisionspartnerselskab</cmn:NameOfAuditFirm>
+  <cmn:NameOfAuditFirm contextRef="D-2017-dim-Revisionsvirksomhed0.2">Deloitte Statsautoriseret Revisionspartnerselskab</cmn:NameOfAuditFirm>
+</xbrl>

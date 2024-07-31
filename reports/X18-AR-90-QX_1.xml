@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Version: 1.1.748.0 --><!-- Document created: 21-06-2018 16:43:37 --><!-- Created by:  XBRL Wizard, EasyX --><xbrli:xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:entry="http://xbrl.dcca.dk/entryBalanceSheetAccountFormIncomeStatementByNature" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:tax="http://xbrl.dcca.dk/tax" xmlns:tch="http://xbrl.dcca.dk/tch" xmlns:gen="http://xbrl.org/2008/generic" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:variable="http://xbrl.org/2008/variable" xmlns:eogs="http://xbrl.dcca.dk/eogs" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:msg="http://xbrl.org/2010/message" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:label="http://xbrl.org/2008/label" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:sob="http://xbrl.dcca.dk/sob" xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd">
+  <link:schemaRef xlink:type="simple" xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd"/>
+  <xbrli:context id="ctx1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension">
+        <cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2017-01-01</xbrli:startDate>
+      <xbrli:endDate>2017-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-01-01</xbrli:startDate>
+      <xbrli:endDate>2016-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ctx8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2017-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ctx9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.dcca.dk/cvr">78335416</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="vDKK">
+    <xbrli:measure>iso4217:DKK</xbrli:measure>
+  </xbrli:unit>
+  <gsd:ReportingPeriodStartDate contextRef="ctx1">2017-01-01</gsd:ReportingPeriodStartDate>
+  <gsd:ReportingPeriodEndDate contextRef="ctx1">2017-12-31</gsd:ReportingPeriodEndDate>
+  <gsd:IdentificationNumberCvrOfReportingEntity contextRef="ctx1">78335416</gsd:IdentificationNumberCvrOfReportingEntity>
+  <gsd:DateOfGeneralMeeting contextRef="ctx1">2018-06-16</gsd:DateOfGeneralMeeting>
+  <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="ctx1" xml:lang="da">Claus Schmidt</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+  <sob:StatementByExecutiveAndSupervisoryBoards contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ledelsespåtegning&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:StatementByExecutiveAndSupervisoryBoards>
+  <sob:IdentificationOfApprovedAnnualReport contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Direktionen har dags dato behandlet og godkendt årsrapporten for 2017 for&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Udviklingsgruppen Sønderborg ApS&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:IdentificationOfApprovedAnnualReport>
+  <sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven. Vi anser den valgte regnskabspraksis for hensigtsmæssig, således at årsrapporten giver et retvisende billede af selskabets aktiver, passiver, og finansielle stilling pr. 31. december 2017 samt af resultatet af selskabets aktiviteter for regnskabsåret 1. januar - 31. december 2017.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:ConfirmationThatAnnualReportIsPresentedInAccordanceWithRequirementsProvidedForByLegislationAnyStandardsAndRequirementsProvidedByArticlesOfAssociationOrByAgreement>
+  <sob:ConfirmationThatFinancialStatementsAreExemptedFromAuditing contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ledelsen har fravalgt revision&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ledelsen anser, at bebetingelserne herfor er opfyldt.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:ConfirmationThatFinancialStatementsAreExemptedFromAuditing>
+  <sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årsrapporten indstilles til generalforsamlingens godkendelse.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</sob:RecommendationForApprovalOfAnnualReportByGeneralMeeting>
+  <sob:PlaceOfSignatureOfStatement contextRef="ctx1" xml:lang="da">Sønderborg</sob:PlaceOfSignatureOfStatement>
+  <sob:DateOfApprovalOfAnnualReport contextRef="ctx1">2018-06-16</sob:DateOfApprovalOfAnnualReport>
+  <gsd:NameOfReportingEntity contextRef="ctx1" xml:lang="da">Udviklingsgruppen Sønderborg ApS</gsd:NameOfReportingEntity>
+  <gsd:AddressOfReportingEntityStreetName contextRef="ctx1" xml:lang="da">Hørup Klint</gsd:AddressOfReportingEntityStreetName>
+  <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="ctx1" xml:lang="da">5</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+  <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="ctx1" xml:lang="da">6470</gsd:AddressOfReportingEntityPostCodeIdentifier>
+  <gsd:AddressOfReportingEntityDistrictName contextRef="ctx1" xml:lang="da">Sydals</gsd:AddressOfReportingEntityDistrictName>
+  <gsd:RegisteredOfficeOfReportingEntity contextRef="ctx1" xml:lang="da">Sydals</gsd:RegisteredOfficeOfReportingEntity>
+  <mrv:ManagementsReview contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ledelsesberetning&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</mrv:ManagementsReview>
+  <mrv:DescriptionOfPrimaryActivitiesOfEntity contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Hovedaktivitet&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Selskabets hovedaktivitet består i eje af og udlejning af fast ejendom og dertil knyttet virksomhed. og dermed beslægtet virksomhed.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</mrv:DescriptionOfPrimaryActivitiesOfEntity>
+  <mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Udviklingen i aktiviteter og økonomiske forhold&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årets resultat anses for tilfredsstillende.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Selskabet arbejder løbende for at optimere driften gennem udlejning af selskabets ejendomsportefølje. For det kommende år forventer selskabet er positivt resultat.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</mrv:DescriptionOfDevelopmentInActivitiesAndFinancialAffairs>
+  <mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Begivenheder efter regnskabsårets afslutning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Der er efter regnskabsårets afslutning ikke indtruffet begivenheder, som væsentlig vil kunne påvirke selskabets finansielle stilling.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</mrv:DescriptionOfSignificantEventsOccurringAfterEndOfReportingPeriod>
+  <fsa:DisclosureOfAccountingPolicies contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Anvendt regnskabspraksis&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfAccountingPolicies>
+  <fsa:InformationOnReportingClassOfEntity contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Årsrapporten for Udviklingsgruppen Sønderborg ApS for 2017 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for klasse B-virksomheder.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Den anvendte regnskabspraksis er sædvanlig.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:InformationOnReportingClassOfEntity>
+  <fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Generelt om indregning og måling&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå sel- skabet, og forpligtelsens værdi kan måles pålideligt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ved indregningen og måling tages hensyn til gevinster, tab og risici, der fremkommer, inden årsrapporten aflægges og som be- eller afkræfter forhold, der eksisterede på balancedagen.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger, nedskrivninger og hensatte forpligtelser.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfGeneralMattersRelatedToRecognitionMeasurementAndChangesInAccountingPolicies>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Resultatopgørelsen&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Bruttoresultat omfatter nettoomsætning, omkostninger til drift af ejendomme og eksterne omkostninger.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Nettoomsætning omfatter udlejningsindtægter fratrukket moms og afgifter.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Omkostninger til drift af selskabets ejendomme omfatter ejendomsskatter, forsikringer, forbrugsafgifter og vedligeholdelse-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Andre eksterne omkostninger omfatter omkostninger til administration.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfIncomeStatementItems>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceExpenses contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Finansielle omkostninger&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Omfater renteudgifter til realkreditlån og andre gældsposter.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfFinanceExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfSpecialItems contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Ekstraordinære poster&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Indtægter og udgifter, der adskiller sig fra selskabets ordinære drift, opføres som ekstraordinære poster.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfSpecialItems>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Skat&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Skat af årets resultat omfatter aktuel skat og udskudt skat.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Aktuel skat er beregnet med udgangspunkt i årets resultat før skat, korrigeret for ikke skattepligtige ind- tægter og omkostninger.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxExpenses>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="2"&gt;Materielle anlægsaktiver&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2"&gt;Grunde og bygninger samt andre anlæg,&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2"&gt;driftsmateriel og inventar måles til kostpris med fradrag af akkumulerede afskrivninger.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2"&gt;Der foretages lineære afskrivninger, baseret på følgende vurdering af aktivernes forventede brugstider&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Bygninger&lt;/td&gt;&lt;td&gt;50 år&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2"&gt;Driftsmateriel og inventar 5 år&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2"&gt;Aktiver med en kostpris på under 12.800 kr. indregnes som omkostninger i resultatopgørelsen i anskaffel- sesåret.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfPropertyPlantAndEquipment>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Tilgodehavender&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Tilgodehavender måles til kostpris. Der nedskrives til imødegåelse af forventede tab.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfReceivables>
+  <fsa:DescriptionOfMethodsOfInvestmentsAsCurrentAssets contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Værdipapirer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Værdipapirer opført som omsætningsaktiver måles til balancedagens børskurs.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Mindre, midlertidige køb af egne aktier er værdiansat til købspris.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Såvel realiserede som urealiserede kursgevinster og kurstab medtages i resultatopgørelsen under finan- sielle poster.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfInvestmentsAsCurrentAssets>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Udskudt skat og selskabsskat&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Udskudt skat indregnes af alle midlertidige forskelle mellem regnskabsmæssige og skattemæssige værdier af aktiver og forpligtelser. Der beregnes ikke udskudt skat af midlertidige forskelle.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Aktuelle skatteforpligtelser indregnes i balancen opgjort som beregnet skat af årets skattepligtige indkomst.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfTaxPayablesAndDeferredTax>
+  <fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Gældsforpligtelser&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="1"&gt;Gæld i øvrigt måles til amortiseret kostpris svarende til nominel værdi.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DescriptionOfMethodsOfRecognitionAndMeasurementBasisOfLiabilitiesOtherThanProvisions>
+  <fsa:GrossResult contextRef="ctx1" unitRef="vDKK" decimals="0">1813949</fsa:GrossResult>
+  <fsa:WagesAndSalaries contextRef="ctx1" unitRef="vDKK" decimals="0">389941</fsa:WagesAndSalaries>
+  <fsa:SocialSecurityContributions contextRef="ctx1" unitRef="vDKK" decimals="0">0</fsa:SocialSecurityContributions>
+  <fsa:OtherOperatingExpenses contextRef="ctx1" unitRef="vDKK" decimals="0">188908</fsa:OtherOperatingExpenses>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="ctx1" unitRef="vDKK" decimals="0">6500</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="ctx1" unitRef="vDKK" decimals="0">1228599</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceIncome contextRef="ctx1" unitRef="vDKK" decimals="0">0</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceExpenses contextRef="ctx1" unitRef="vDKK" decimals="0">1248561</fsa:OtherFinanceExpenses>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="ctx1" unitRef="vDKK" decimals="0">0</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="ctx1" unitRef="vDKK" decimals="0">-19962</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:TaxExpense contextRef="ctx1" unitRef="vDKK" decimals="0">0</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="ctx1" unitRef="vDKK" decimals="0">-19962</fsa:ProfitLoss>
+  <fsa:DisclosureOfDepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td width="100%" colspan="3" align="left" valign="middle" &gt;&lt;b&gt;Noter&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Af- og nedskrivninger&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;2017&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;2016&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;kr.&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;t.kr.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Afskrivninger op materielle anlægsaktiver&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;6.500&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;6.500&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;7&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfDepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:DisclosureOfTaxExpenses contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Skat af årets resultat&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;2017&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;2016&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;kr.&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;t.kr.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Aktuel skat&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;-59&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Regulering skat tidligere år&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;-59&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfTaxExpenses>
+  <fsa:DisclosureOfPropertyPlantAndEquipment contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Materielle anlægsaktiver&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;Grunde&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;Andre anlæg&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;og&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;driftsmaeriel&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;bygninger&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;og inventar&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Kostpris primo&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;53.713.934&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;39.000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Afgang&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;-1.775.150&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Tilgang&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;26.000&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Kostpris ultimo&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;51.964.784&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;39.000&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Opskrivninger primo&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Opskrivninger ultimo&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Af-og nedskrivninger, primo&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;-6.500&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Årets afskrivninger&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;0&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;-6.500&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Af-og nedskrivninger, ultimo&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;0&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;-13.000&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Regnskabsmæssig værdi ultimo&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;51.964.784&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;26.000&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfPropertyPlantAndEquipment>
+  <fsa:DisclosureOfEquity contextRef="ctx1" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" style="border-right: 0px; border-top: 0px; border-left: 0px; width: 650px; border-bottom: 0px; border-collapse: collapse"  width="100%"&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;&lt;b&gt;Overført resultat&lt;/b&gt;&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;2017&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;2016&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" &gt;&lt;/td&gt;&lt;td width="26%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;kr.&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" colspan="1" align="right" valign="middle" &gt;&lt;b&gt;t.kr.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Saldo primo&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;6.861.117&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;6.546&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Overført af årets resultat&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;-19.962&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;315&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="47%" colspan="1" align="left" valign="middle" &gt;Saldo ultimo&lt;/td&gt;&lt;td width="26%" align="right" valign="middle" &gt;&lt;b&gt;6.841.155&lt;/b&gt;&lt;/td&gt;&lt;td width="27%" align="right" valign="middle" &gt;&lt;b&gt;6.861&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</fsa:DisclosureOfEquity>
+  <gsd:InformationOnTypeOfSubmittedReport contextRef="ctx1">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+  <gsd:IdentificationNumberCvrOfSubmittingEnterprise contextRef="ctx1">30356489</gsd:IdentificationNumberCvrOfSubmittingEnterprise>
+  <gsd:NameOfSubmittingEnterprise contextRef="ctx1" xml:lang="da">Niels Kristian Ladefoged Statsautoriseret Revisionsanpartselskab</gsd:NameOfSubmittingEnterprise>
+  <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="ctx1" xml:lang="da">St. Rådhusgade  15 B</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+  <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="ctx1" xml:lang="da">6400 Sønderborg</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+  <gsd:PrecedingReportingPeriodStartDate contextRef="ctx1">2016-01-01</gsd:PrecedingReportingPeriodStartDate>
+  <gsd:PredingReportingPeriodEndDate contextRef="ctx1">2016-12-31</gsd:PredingReportingPeriodEndDate>
+  <cmn:TypeOfAuditorAssistance contextRef="ctx1">Ingen bistand</cmn:TypeOfAuditorAssistance>
+  <fsa:ClassOfReportingEntity contextRef="ctx1">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+  <cmn:NameAndSurnameOfMemberOfExecutiveBoard contextRef="ctx2" xml:lang="da">Niels Bisgaard Frantzen</cmn:NameAndSurnameOfMemberOfExecutiveBoard>
+  <fsa:GrossResult contextRef="ctx3" unitRef="vDKK" decimals="-3">3042000</fsa:GrossResult>
+  <fsa:WagesAndSalaries contextRef="ctx3" unitRef="vDKK" decimals="-3">404000</fsa:WagesAndSalaries>
+  <fsa:SocialSecurityContributions contextRef="ctx3" unitRef="vDKK" decimals="-3">1000</fsa:SocialSecurityContributions>
+  <fsa:OtherOperatingExpenses contextRef="ctx3" unitRef="vDKK" decimals="-3">242000</fsa:OtherOperatingExpenses>
+  <fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss contextRef="ctx3" unitRef="vDKK" decimals="-3">7000</fsa:DepreciationAmortisationExpenseAndImpairmentLossesOfPropertyPlantAndEquipmentAndIntangibleAssetsRecognisedInProfitOrLoss>
+  <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="ctx3" unitRef="vDKK" decimals="-3">2388000</fsa:ProfitLossFromOrdinaryOperatingActivities>
+  <fsa:OtherFinanceIncome contextRef="ctx3" unitRef="vDKK" decimals="-3">0</fsa:OtherFinanceIncome>
+  <fsa:OtherFinanceExpenses contextRef="ctx3" unitRef="vDKK" decimals="-3">2014000</fsa:OtherFinanceExpenses>
+  <fsa:ExtraordinaryProfitLossBeforeTax contextRef="ctx3" unitRef="vDKK" decimals="-3">0</fsa:ExtraordinaryProfitLossBeforeTax>
+  <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="ctx3" unitRef="vDKK" decimals="-3">374000</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+  <fsa:TaxExpense contextRef="ctx3" unitRef="vDKK" decimals="-3">59000</fsa:TaxExpense>
+  <fsa:ProfitLoss contextRef="ctx3" unitRef="vDKK" decimals="-3">315000</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="ctx4" unitRef="vDKK" decimals="0">0</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="ctx5" unitRef="vDKK" decimals="-3">0</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="ctx6" unitRef="vDKK" decimals="0">-19962</fsa:ProfitLoss>
+  <fsa:ProfitLoss contextRef="ctx7" unitRef="vDKK" decimals="-3">315000</fsa:ProfitLoss>
+  <fsa:LandAndBuildings contextRef="ctx8" unitRef="vDKK" decimals="0">51964784</fsa:LandAndBuildings>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="ctx8" unitRef="vDKK" decimals="0">26000</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="ctx8" unitRef="vDKK" decimals="0">51990784</fsa:PropertyPlantAndEquipment>
+  <fsa:NoncurrentAssets contextRef="ctx8" unitRef="vDKK" decimals="0">51990784</fsa:NoncurrentAssets>
+  <fsa:ShorttermTradeReceivables contextRef="ctx8" unitRef="vDKK" decimals="0">515081</fsa:ShorttermTradeReceivables>
+  <fsa:OtherShorttermReceivables contextRef="ctx8" unitRef="vDKK" decimals="0">840180</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="ctx8" unitRef="vDKK" decimals="0">1355260</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents contextRef="ctx8" unitRef="vDKK" decimals="0">103324</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="ctx8" unitRef="vDKK" decimals="0">1458585</fsa:CurrentAssets>
+  <fsa:Assets contextRef="ctx8" unitRef="vDKK" decimals="0">53449369</fsa:Assets>
+  <fsa:ContributedCapital contextRef="ctx8" unitRef="vDKK" decimals="0">250000</fsa:ContributedCapital>
+  <fsa:RevaluationReserve contextRef="ctx8" unitRef="vDKK" decimals="0">0</fsa:RevaluationReserve>
+  <fsa:RetainedEarnings contextRef="ctx8" unitRef="vDKK" decimals="0">6841155</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="ctx8" unitRef="vDKK" decimals="0">7091155</fsa:Equity>
+  <fsa:LongtermMortgageDebt contextRef="ctx8" unitRef="vDKK" decimals="0">34957854</fsa:LongtermMortgageDebt>
+  <fsa:LongtermDebtToBanks contextRef="ctx8" unitRef="vDKK" decimals="0">2339584</fsa:LongtermDebtToBanks>
+  <fsa:LongtermTaxPayables contextRef="ctx8" unitRef="vDKK" decimals="0">324095</fsa:LongtermTaxPayables>
+  <fsa:OtherLongtermPayables contextRef="ctx8" unitRef="vDKK" decimals="0">801956</fsa:OtherLongtermPayables>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="ctx8" unitRef="vDKK" decimals="0">38423489</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermTaxPayables contextRef="ctx8" unitRef="vDKK" decimals="0">0</fsa:ShorttermTaxPayables>
+  <fsa:OtherShorttermPayables contextRef="ctx8" unitRef="vDKK" decimals="0">4223209</fsa:OtherShorttermPayables>
+  <fsa:ShorttermPrepaymentsOfWorkInProgress contextRef="ctx8" unitRef="vDKK" decimals="0">18001</fsa:ShorttermPrepaymentsOfWorkInProgress>
+  <fsa:ShorttermDebtToBanks contextRef="ctx8" unitRef="vDKK" decimals="0">3693515</fsa:ShorttermDebtToBanks>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="ctx8" unitRef="vDKK" decimals="0">7934724</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="ctx8" unitRef="vDKK" decimals="0">46358214</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="ctx8" unitRef="vDKK" decimals="0">53449369</fsa:LiabilitiesAndEquity>
+  <fsa:LandAndBuildings contextRef="ctx9" unitRef="vDKK" decimals="-3">53714000</fsa:LandAndBuildings>
+  <fsa:FixturesFittingsToolsAndEquipment contextRef="ctx9" unitRef="vDKK" decimals="-3">33000</fsa:FixturesFittingsToolsAndEquipment>
+  <fsa:PropertyPlantAndEquipment contextRef="ctx9" unitRef="vDKK" decimals="-3">53747000</fsa:PropertyPlantAndEquipment>
+  <fsa:NoncurrentAssets contextRef="ctx9" unitRef="vDKK" decimals="-3">53747000</fsa:NoncurrentAssets>
+  <fsa:ShorttermTradeReceivables contextRef="ctx9" unitRef="vDKK" decimals="-3">349000</fsa:ShorttermTradeReceivables>
+  <fsa:OtherShorttermReceivables contextRef="ctx9" unitRef="vDKK" decimals="-3">951000</fsa:OtherShorttermReceivables>
+  <fsa:ShorttermReceivables contextRef="ctx9" unitRef="vDKK" decimals="-3">1300000</fsa:ShorttermReceivables>
+  <fsa:CashAndCashEquivalents contextRef="ctx9" unitRef="vDKK" decimals="-3">29000</fsa:CashAndCashEquivalents>
+  <fsa:CurrentAssets contextRef="ctx9" unitRef="vDKK" decimals="-3">1329000</fsa:CurrentAssets>
+  <fsa:Assets contextRef="ctx9" unitRef="vDKK" decimals="-3">55076000</fsa:Assets>
+  <fsa:ContributedCapital contextRef="ctx9" unitRef="vDKK" decimals="-3">250000</fsa:ContributedCapital>
+  <fsa:RevaluationReserve contextRef="ctx9" unitRef="vDKK" decimals="-3">0</fsa:RevaluationReserve>
+  <fsa:RetainedEarnings contextRef="ctx9" unitRef="vDKK" decimals="-3">6861000</fsa:RetainedEarnings>
+  <fsa:Equity contextRef="ctx9" unitRef="vDKK" decimals="-3">7111000</fsa:Equity>
+  <fsa:LongtermMortgageDebt contextRef="ctx9" unitRef="vDKK" decimals="-3">37344000</fsa:LongtermMortgageDebt>
+  <fsa:LongtermDebtToBanks contextRef="ctx9" unitRef="vDKK" decimals="-3">2040000</fsa:LongtermDebtToBanks>
+  <fsa:LongtermTaxPayables contextRef="ctx9" unitRef="vDKK" decimals="-3">252000</fsa:LongtermTaxPayables>
+  <fsa:OtherLongtermPayables contextRef="ctx9" unitRef="vDKK" decimals="-3">791000</fsa:OtherLongtermPayables>
+  <fsa:LongtermLiabilitiesOtherThanProvisions contextRef="ctx9" unitRef="vDKK" decimals="-3">40427000</fsa:LongtermLiabilitiesOtherThanProvisions>
+  <fsa:ShorttermTaxPayables contextRef="ctx9" unitRef="vDKK" decimals="-3">72000</fsa:ShorttermTaxPayables>
+  <fsa:OtherShorttermPayables contextRef="ctx9" unitRef="vDKK" decimals="-3">2799000</fsa:OtherShorttermPayables>
+  <fsa:ShorttermPrepaymentsOfWorkInProgress contextRef="ctx9" unitRef="vDKK" decimals="-3">40000</fsa:ShorttermPrepaymentsOfWorkInProgress>
+  <fsa:ShorttermDebtToBanks contextRef="ctx9" unitRef="vDKK" decimals="-3">4627000</fsa:ShorttermDebtToBanks>
+  <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="ctx9" unitRef="vDKK" decimals="-3">7538000</fsa:ShorttermLiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesOtherThanProvisions contextRef="ctx9" unitRef="vDKK" decimals="-3">47965000</fsa:LiabilitiesOtherThanProvisions>
+  <fsa:LiabilitiesAndEquity contextRef="ctx9" unitRef="vDKK" decimals="-3">55076000</fsa:LiabilitiesAndEquity>
+</xbrli:xbrl>
