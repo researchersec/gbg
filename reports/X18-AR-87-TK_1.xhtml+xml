@@ -1,13 +1,5582 @@
-<html>
-<head><title>500 Internal Server Error</title></head>
-<body>
-<h1>500 Internal Server Error</h1>
-<ul>
-<li>Code: InternalError</li>
-<li>Message: We encountered an internal error. Please try again.</li>
-<li>RequestId: TFXPGGX7WJJZPJ9Y</li>
-<li>HostId: +areEYHiekMhZe5qp8M96nWYQjg4/SvIXozFGfkKbZZHqfvHRGB2H0AEcRZBwuaQElmFn2Du0VU=</li>
-</ul>
-<hr/>
-</body>
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.xbrl.org/2008/inlineXBRL/xhtml-inlinexbrl-1_0.xsd" xml:lang="da">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		
+		
+		
+		<title>35677089 STUDYSTAIRS IVS 1. januar 2017 - 31. december 2017 årsrapport</title>
+		
+
+
+
+<style type="text/css" media="print">
+@page :first {
+    @top-right {
+    }
+}
+@page {
+    size: A4 portrait;
+    
+    @top-right {
+        content: "Side " counter(page) " af " counter(pages);
+    }
+    @bottom-center {
+        border-top: 1px solid;
+        content: "CVR-nr. 35677089";
+    }
+}
+a {
+    border:0;
+    color:black;
+    text-decoration: none;
+}
+.toc a::after {
+    content: leader('.') target-counter(attr(href), page);
+}
+.toc {
+    list-style-type: none;
+    padding: 0;
+    margin: 10 0 0;
+    page-break-after: always;
+}
+.toc li {
+    padding:2px;
+}
+.screen_only {
+    display:none;
+}
+</style>
+<style type="text/css" media="all">
+body,div { margin: 0; padding:0; }
+h3{
+    border-top:1.5em;
+    border-bottom:1em;
+    border-left:0px;
+    border-right:0px;
+}
+p {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+img {
+    border:0px;
+}
+#front_page {
+    width: 100%;
+    height: 700px;
+}
+#front_page #company{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+#messageNote{
+    padding:10px;
+    position: absolute;
+    width: 600px;
+    top: 20px;
+    left:50px;
+    border: 2px solid;
+}
+#message{
+    padding:10px;
+    position: absolute;
+    width: 780px;
+    top: 250px;
+    left:200px;
+    border: 2px solid;
+}
+#pdf_link{
+    position: fixed;
+    top: 40px;
+    right: 300px;
+    padding: 5px;
+    border:1px dashed black;
+    width: 170px;
+    z-index: 9999; /*--Keeps the panel on top of all other elements--*/
+}
+#pdf_link a, #pdf_link a.visited{
+    color:black;
+}
+#pdf_link #pdf_tekst{
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 32px;
+    vertical-align: top;
+}
+.col1 {
+    padding-right: 10px;
+    width:500px;
+}
+.col2 {
+    width: 120px;
+}
+.upper td:first-of-type {
+	text-transform: uppercase;
+}
+.space_before{
+    padding-top: 12px;
+}
+li.space_before{
+    padding-top: 25px;
+}
+.dotted span::after{
+    content: leader('.');
+}
+.generelInfo .col1 {
+    font-weight: bold;
+    width: 150px;
+}
+.incomeStatement .col1 {
+    width: 500px;
+}
+.incomeStatement .col2 {
+    text-align: center;
+    width: 70px
+}
+.incomeStatement .col3 {
+    text-align: right;
+    width: 100px
+}
+.incomeStatement .col4 {
+    text-align: right;
+    width: 100px
+}
+.incomeStatement .beloebcol {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.incomeStatement td.beloebcol {
+    white-space: nowrap;
+}
+
+.incomeStatement .header_row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.incomeStatement .header2 TH {
+    font-weight: normal;
+}
+.incomeStatement .title {
+    background-color: #ffffff;
+    padding-right: 5px;
+}
+.incomeStatement .container {
+    position: relative;
+    top: -9px;
+}
+.italic {
+	font-style: italic;
+}
+.strong {
+  font-weight: bold;
+}
+
+#revisor_list{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#liquidator{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#liquidator td{
+    padding:40px 0px 10px;
+}
+
+#executive_list{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#executive_list td{
+    padding:40px 0px 10px;
+}
+#board_list{
+    width:85%;
+    border:0;
+    border-collapse: collapse;
+    padding-left:20px;
+}
+#board_list td{
+    padding:40px 0px 10px;
+}
+
+.underline{
+    border-bottom: 1px solid;
+}
+
+#generalMeeting {
+    height:120px;
+    width: 350px;
+    display: block;
+}
+#generalMeeting div{
+    margin-top: 35px;
+    width:350px;
+}
+#dirigent{
+    margin-top: 20px;
+    height: 50px;
+    width: 350px;
+    display: inline-block;
+}
+#dirigent div{
+    vertical-align: bottom;
+    width:350px;
+}
+div.group{
+    margin:0;
+    padding:0;
+    page-break-inside: avoid;
+}
+#regnskabspraksis h2{
+    page-break-after: avoid;
+}
+
+#revisor_list tr td{
+    padding-bottom:15px;
+}
+</style>
+<style type="text/css" media="screen">
+
+.print_only {
+    display:none;
+}
+</style>
+
+	</head>
+	<body>
+		
+
+
+
+
+
+<div id="front_page" style="page-break-after:always;">
+    
+    
+    <div id="company">
+        <h1>STUDYSTAIRS IVS</h1>
+        <p>Amagerfælledvej 14, st tv</p>
+        <p>2300 København S</p>
+        <p><br /></p>
+        <p><ix:nonNumeric name="gsd:InformationOnTypeOfSubmittedReport" contextRef="c0" basis:version="3" xml:lang="da">Årsrapport</ix:nonNumeric></p>
+        <p>1. januar 2017 - 31. december 2017</p>
+    </div>
+    
+
+
+
+
+<div style="font-weight: bold; margin-top:55px;page-break-inside: avoid;">
+  <div id="generalMeeting">
+  
+    Årsrapporten er fremlagt og godkendt på selskabets ordinære generalforsamling den
+    <div class="underline">
+        <ix:nonNumeric name="gsd:DateOfGeneralMeeting" contextRef="c0" format="ixt:dateslasheu">01/05/2018</ix:nonNumeric>
+    </div>
+  
+  </div>
+  <div id="dirigent">
+    <div class="underline">
+      
+        <ix:nonNumeric name="gsd:NameAndSurnameOfChairmanOfGeneralMeeting" contextRef="c0" xml:lang="da">Lars Larsen Black</ix:nonNumeric>
+      
+    </div>
+    Dirigent
+  </div>
+</div>
+    
+</div>
+
+		
+
+
+
+<div class="print_only" style="page-break-before:always;">
+  <b>Indhold</b>
+  <ul class="toc">
+    <li class="space_before"><b>Virksomhedsoplysninger</b></li>
+    <li><a href="#virksomhedsoplysninger">Virksomhedsoplysninger</a></li>
+    
+      <li class="space_before"><b>Påtegninger</b></li>
+      <li><a href="#ledelsespaategning">Ledelsespåtegning</a></li>
+    
+    
+    
+      
+        <li class="space_before"><b>Ledelsesberetning</b></li>
+        <li><a href="#ledelsesberetning">Ledelsesberetning</a></li>
+      
+      
+      
+      
+      
+      
+      
+    
+    
+      <li class="space_before"><b>Årsregnskab</b></li>
+      
+        <li><a href="#regnskabspraksis">Anvendt regnskabspraksis</a></li>
+      
+      
+        <li><a href="#resultatopgoerelse">Resultatopgørelse</a></li>
+      
+      
+        <li><a href="#balance">Balance</a></li>
+      
+      
+      
+      
+    
+  </ul>
+</div>
+
+		
+
+
+
+
+<div class="step" style="page-break-before:always;">
+  <h1 id="virksomhedsoplysninger">Virksomhedsoplysninger</h1>
+  <table style="border:0;" class="generelInfo">
+    <tbody>
+    <tr>
+      <td class="col1"><b>Virksomheden</b></td><td colspan="2"><ix:nonNumeric name="gsd:NameOfReportingEntity" contextRef="c0" xml:lang="da">STUDYSTAIRS IVS</ix:nonNumeric></td>
+    </tr>
+    
+      <tr>
+        <td class="col1"></td><td colspan="2"><ix:nonNumeric name="gsd:AddressOfReportingEntityStreetName" contextRef="c0" xml:lang="da">Amagerfælledvej</ix:nonNumeric> <ix:nonNumeric name="gsd:AddressOfReportingEntityStreetBuildingIdentifier" contextRef="c0" xml:lang="da">14, st tv</ix:nonNumeric></td>
+      </tr>
+      <tr>
+         <td class="col1"></td><td colspan="2"><ix:nonNumeric name="gsd:AddressOfReportingEntityPostCodeIdentifier" contextRef="c0" xml:lang="da">2300</ix:nonNumeric> <ix:nonNumeric name="gsd:AddressOfReportingEntityDistrictName" contextRef="c0" xml:lang="da">København S</ix:nonNumeric></td>
+      </tr>
+      <tr>
+        <td class="col1"></td><td colspan="2">
+          
+        </td>
+      </tr>
+    
+    <tr>
+      <td class="col1"></td><td colspan="2"></td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td class="col1"></td><td colspan="2"></td>
+    </tr>
+    <tr>
+      <td class="col1"></td><td colspan="2"></td>
+    </tr>
+    <tr>
+      <td class="col1"></td><td class="col2">CVR-nr:</td><td class="col3"><ix:nonNumeric name="gsd:IdentificationNumberCvrOfReportingEntity" contextRef="c0" xml:lang="da">35677089</ix:nonNumeric></td>
+    </tr>
+    <tr>
+      <td class="col1"></td><td class="col2">Regnskabsår:</td><td class="col3"><ix:nonNumeric name="gsd:ReportingPeriodStartDate" contextRef="c0" format="ixt:dateslasheu">01/01/2017</ix:nonNumeric> - <ix:nonNumeric name="gsd:ReportingPeriodEndDate" contextRef="c0" format="ixt:dateslasheu">31/12/2017</ix:nonNumeric></td>
+    </tr>
+    <tr><td colspan="3"> </td></tr>
+    <tr><td colspan="3"> </td></tr>
+    
+    
+    
+    </tbody>
+  </table>
+</div>
+
+		
+			
+
+
+
+
+<div style="page-break-before:always;">
+  <h1 id="ledelsespaategning">Ledelsespåtegning</h1>
+  <ix:nonNumeric name="sob:StatementByExecutiveAndSupervisoryBoards" contextRef="c0" escape="true" xml:lang="da"><h2>Ledelsespåtegning</h2>
+<p>
+<br />Studystairs og direktion har dags dato behandlet og vedtaget årsrapporten for 2017 for Studystairs I/S.
+<br />
+<br />Årsrapporten er aflagt i overensstemmelse med årsregnskabsloven og danske regnskabsstandarder. Vi anser den valgte regnskabspraksis for hensigtsmæssig, således at årsrapporten giver et retvisende billede af koncernens og moderselskabets aktiver, passiver, finansielle stilling samt resultat.
+<br />
+<br />Årsrapporten indstilles til generalforsamlingens godkendelse</p></ix:nonNumeric>
+  <br />
+  <ix:nonNumeric name="sob:PlaceOfSignatureOfStatement" contextRef="c0" xml:lang="da">København</ix:nonNumeric>, den <ix:nonNumeric name="sob:DateOfApprovalOfAnnualReport" contextRef="c0" format="ixt:dateslasheu">01/05/2018</ix:nonNumeric>
+  <br /><br />
+
+    
+        <div style="page-break-inside: avoid">
+        <b>Direktion</b>
+        <br />
+        
+
+
+
+
+    <table id="executive_list">
+        
+            <tr>
+            <td valign="top">
+                
+                <ix:nonNumeric name="cmn:NameAndSurnameOfMemberOfExecutiveBoard" contextRef="c1" xml:lang="da">Lars Larsen Black</ix:nonNumeric>
+                <br />
+                
+                
+            </td>
+            </tr>
+        
+    </table>
+
+        <br />
+        </div>
+        <br /><br />
+    
+    
+        <div style="page-break-inside: avoid">
+        <b>Bestyrelse</b>
+        <br />
+        
+
+
+
+
+    <table id="board_list">
+        
+            <tr>
+            <td valign="top">
+                
+                <ix:nonNumeric name="cmn:NameAndSurnameOfMemberOfSupervisoryBoard" contextRef="c2" xml:lang="da">William Holm JAcobsen</ix:nonNumeric>
+                <br />
+                
+                
+            </td>
+            
+        
+            
+            <td valign="top">
+                
+                <ix:nonNumeric name="cmn:NameAndSurnameOfMemberOfSupervisoryBoard" contextRef="c3" xml:lang="da">Hallur Dalsgaard</ix:nonNumeric>
+                <br />
+                
+                
+            </td>
+            </tr>
+        
+    </table>
+
+        <br />
+        </div>
+    
+    
+
+
+
+  <div style="page-break-inside: avoid">
+    <br /><br />
+    <b>Fravalg af revision for det kommende regnskabsår</b>
+    <br /><br />
+    <ix:nonNumeric name="sob:StatementOnOptingOutOfAuditingFinancialStatementsInNextReportingPeriodDueToExemption" contextRef="c0" xml:lang="da">Virksomheden fravælger af revision for det kommende regnskabsår</ix:nonNumeric>
+    <br />
+  </div>
+
+</div>
+
+
+		
+		
+			
+
+
+
+
+
+
+		
+		
+			
+
+
+
+
+<div style="page-break-before: always;">
+    
+        <h1 id="ledelsesberetning">Ledelsesberetning</h1>
+        <ix:nonNumeric name="mrv:ManagementsReview" contextRef="c0" escape="true" xml:lang="da"><h3>Hovedaktiviteter</h3>
+<p>Udvikling af nyt/nye IT systemer</p>
+<h3>Udviklingen i aktiviteter og økonomiske forhold</h3>
+<p>Der er ingenting at berette omkring de økonomiske forhold. Aktiviteterne er på 'hobby' niveau og aktiviteterne foregår på tegnebrættet og ved at brainstorming</p>
+<h3>Begivenheder efter regnskabets afslutning</h3>
+<p>Der er ikke planlagt nogle markante begivenheder efter regnskabets afslutning.</p></ix:nonNumeric>
+        <br />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+		
+		
+			
+
+
+
+
+<div class="step" style="page-break-before:always;">
+    <h1 id="regnskabspraksis">Anvendt regnskabspraksis</h1>
+
+    
+    
+    
+
+    
+        
+    
+
+
+    
+        
+    
+
+
+    
+
+    <ix:nonNumeric name="fsa:InformationOnReportingClassOfEntity" contextRef="c0" escape="true" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for <ix:nonNumeric name="fsa:ClassOfReportingEntity" contextRef="c0" xml:lang="da">Regnskabsklasse B</ix:nonNumeric>.</ix:nonNumeric>
+
+    
+        <ix:nonNumeric name="fsa:DisclosureOfAccountingPolicies" contextRef="c0" escape="true" xml:lang="da"><p>
+<strong>Generelt</strong>
+<br />Ingen nye forhold er af økonomisk eller finansiell natur.
+<br />
+<strong>Resultatopgørelse</strong>
+<br />0.00 DKK
+<br />
+<strong>Balance</strong>
+<br />0.00 DKK
+<br /> </p></ix:nonNumeric>
+    
+</div>
+		
+		
+			
+
+
+
+
+
+
+
+<div class="step" style="page-break-before:always;">
+    <h1 id="resultatopgoerelse">Resultatopgørelse 1. jan. 2017 - 31. dec. 2017</h1>
+    <table style="border:0;" class="incomeStatement">
+        <thead>
+            <tr class="header1">
+                <th class="col1"></th>
+                <th class="col2">Note</th>
+                <th class="col3">2017</th>
+                <th class="col4 lastyear">2016</th>
+            </tr>
+            <tr class="header2">
+                <th class="col1"></th>
+                <th class="col2"></th>
+                <th class="col3">kr.</th>
+                <th class="col4 lastyear">kr.</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Nettoomsætning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Revenue" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Revenue" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Produktionsomkostninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CostOfProduction" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:CostOfProduction" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Bruttoresultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:GrossResult" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:GrossResult" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Distributionsomkostninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:DistributionCosts" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:DistributionCosts" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Administrationsomkostninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:AdministrativeExpenses" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:AdministrativeExpenses" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre driftsindtægter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherOperatingIncome" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherOperatingIncome" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre driftsomkostninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherOperatingExpenses" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherOperatingExpenses" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Resultat af ordinær primær drift
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLossFromOrdinaryOperatingActivities" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLossFromOrdinaryOperatingActivities" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre finansielle indtægter fra tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherFinanceIncomeFromGroupEnterprises" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherFinanceIncomeFromGroupEnterprises" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre finansielle indtægter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherFinanceIncome" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherFinanceIncome" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Øvrige finansielle omkostninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherFinanceExpenses" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherFinanceExpenses" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Ordinært resultat før skat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLossFromOrdinaryActivitiesBeforeTax" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLossFromOrdinaryActivitiesBeforeTax" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Skat af årets resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:TaxExpense" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:TaxExpense" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Årets resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLoss" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLoss" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+	
+
+
+
+
+
+
+
+
+<tr class="strong">
+    <td class="header_row">
+        Forslag til resultatdisponering
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Foreslået udbytte indregnet under egenkapitalen
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLoss" contextRef="c5" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLoss" contextRef="c6" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Reserve for nettoopskrivning efter indre værdis metode
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLoss" contextRef="c7" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLoss" contextRef="c8" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overført resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLoss" contextRef="c9" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLoss" contextRef="c10" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                I alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProfitLoss" contextRef="c0" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProfitLoss" contextRef="c4" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+
+
+            
+            
+        </tbody>
+    </table>
+
+    
+
+    
+</div>
+
+		
+		
+			
+
+
+
+<h1 id="balance" style="page-break-before: always;">Balance 31. december 2017</h1>
+
+    
+
+
+
+
+
+
+
+
+<h3>Aktiver</h3>
+<table style="border:0;" class="incomeStatement">
+	<thead>
+		<tr class="header1">
+			<th class="col1"></th>
+			<th class="col2">Note</th>
+			<th class="col3">2017</th>
+			<th class="col4 lastyear">2016</th>
+		</tr>
+		<tr class="header2">
+			<th class="col1"></th>
+			<th class="col2"></th>
+			<th class="col3">kr.</th>
+			<th class="col4 lastyear">kr.</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Færdiggjorte udviklingsprojekter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CompletedDevelopmentProjects" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Erhvervede immaterielle anlægsaktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:AcquiredIntangibleAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Goodwill
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Goodwill" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Goodwill" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Udviklingsprojekter under udførelse og forudbetalinger for immaterielle anlægsaktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:DevelopmentProjectsInProgressAndPrepaymentsForIntangibleAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Immaterielle anlægsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:IntangibleAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:IntangibleAssets" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Grunde og bygninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LandAndBuildings" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LandAndBuildings" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Investeringsejendomme
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:InvestmentProperty" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre investeringsaktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherInvestmentAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Produktionsanlæg og maskiner
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:PlantAndMachinery" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:PlantAndMachinery" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre anlæg, driftsmateriel og inventar
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:FixturesFittingsToolsAndEquipment" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:FixturesFittingsToolsAndEquipment" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Biologiske aktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:BiologicalAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Indretning af lejede lokaler
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LeaseholdImprovements" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Materielle anlægsaktiver under udførelse og forudbetalinger for materielle anlægsaktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:PropertyPlantAndEquipmentInProgressAndPrepaymentsForPropertyPlantAndEquipment" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Materielle anlægsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:PropertyPlantAndEquipment" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:PropertyPlantAndEquipment" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Kapitalandele i tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermInvestmentsInGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermInvestmentsInGroupEnterprises" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender hos tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermReceivablesFromGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Kapitalandele i associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermInvestmentsInAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermInvestmentsInAssociates" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender hos associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermReceivablesFromAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre værdipapirer og kapitalandele
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherLongtermInvestments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherLongtermInvestments" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre tilgodehavender
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherLongtermReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender hos virksomhedsdeltagere og ledelse
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermReceivablesFromOwnersAndManagement" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Udskudte skatteaktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:NoncurrentDeferredTaxAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Deposita
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:DepositsLongtermInvestmentsAndReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Krav på indbetaling af registreret kapital mv.
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ContributedCapitalInArrearsLongTerm" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Finansielle anlægsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermInvestmentsAndReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermInvestmentsAndReceivables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Anlægsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:NoncurrentAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:NoncurrentAssets" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Råvarer og hjælpematerialer
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:RawMaterialsAndConsumables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:RawMaterialsAndConsumables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Varer under fremstilling
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:WorkInProgress" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Fremstillede varer og handelsvarer
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ManufacturedGoodsAndGoodsForResale" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ManufacturedGoodsAndGoodsForResale" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Forudbetalinger for varer
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:PrepaymentsForGoods" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Varebeholdninger i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Inventories" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Inventories" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender fra salg og tjenesteydelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermTradeReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermTradeReceivables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Igangværende arbejder for fremmed regning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ContractWorkInProgress" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ContractWorkInProgress" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender hos tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivablesFromGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermReceivablesFromGroupEnterprises" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Udbytte hos tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivablesDividendsFromGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender hos associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivablesFromAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermReceivablesFromAssociates" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Udbytte hos associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivablesDividendsFromAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Udskudte skatteaktiver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CurrentDeferredTaxAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavende skat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermTaxReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermTaxReceivables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre tilgodehavender
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherShorttermReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherShorttermReceivables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Krav på indbetaling af virksomhedskapital
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ContributedCapitalInArrears" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Tilgodehavender hos virksomhedsdeltagere og ledelse
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivablesFromOwnersAndManagement" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Periodeafgrænsningsposter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:DeferredIncomeAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Underdækning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CostExceedsIncomeForTheFinancialYearShorttermReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Tilgodehavender i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermReceivables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermReceivables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Kapitalandele i tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermInvestmentsInGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Kapitalandele i associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermInvestmentsInAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre værdipapirer og kapitalandele
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherShorttermInvestments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherShorttermInvestments" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Værdipapirer og kapitalandele i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermInvestments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermInvestments" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Likvide beholdninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CashAndCashEquivalents" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:CashAndCashEquivalents" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Omsætningsaktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:CurrentAssets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:CurrentAssets" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong upper">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Aktiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Assets" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Assets" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+        
+	</tbody>
+</table>
+
+
+<h1 style="page-break-before: always;">Balance 31. december 2017</h1>
+
+    
+
+
+
+
+
+
+
+<h3>Passiver</h3>
+<table style="border:0;" class="incomeStatement">
+	<thead>
+		<tr class="header1">
+			<th class="col1"></th>
+			<th class="col2">Note</th>
+			<th class="col3">2017</th>
+			<th class="col4 lastyear">2016</th>
+		</tr>
+		<tr class="header2">
+			<th class="col1"></th>
+			<th class="col2"></th>
+			<th class="col3">kr.</th>
+			<th class="col4 lastyear">kr.</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Registreret kapital mv.
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ContributedCapital" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ContributedCapital" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Indbetalt registreret kapital mv.
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:PaidContributedCapital" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Ikke indbetalt registreret kapital mv.
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:NotPaidContributedCapital" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overkurs ved emission
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:SharePremium" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Reserve for opskrivninger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:RevaluationReserve" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre reserver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherReserves" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherReserves" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overført resultat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:RetainedEarnings" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:RetainedEarnings" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Forslag til udbytte
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProposedDividendRecognisedInEquity" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProposedDividendRecognisedInEquity" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Uddelinger
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Distributions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Sikringsfond
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:HedgeFund" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Reservefond
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ReserveFund" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Disponible reserver
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:TransferredToFromReservesAvailable" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Aktuarmæssige gevinster (tab), som indgår i opgørelsen af pensionsforpligtelsen
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ActuarialProfitLossWhichIsAPartOfTheCalculationOfContingentPensions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Egenkapital i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Equity" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Equity" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Hensættelse til pensioner og lignende forpligtelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProvisionsForPensionsAndSimilarLiabilities" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Hensættelse til udskudt skat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProvisionsForDeferredTax" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProvisionsForDeferredTax" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Andre hensatte forpligtelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherProvisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Hensættelser vedrørende kapitalandele i tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProvisionsForInvestmentsInGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Hensættelser vedrørende kapitalandele i associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProvisionsForInvestmentsInGroupAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Hensættelser til overdækning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProvisionsForIncomeExceedCostForTheFinancialYear" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Hensatte forpligtelser i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:Provisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:Provisions" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til realkreditinstitutter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermMortgageDebt" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermMortgageDebt" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til banker
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermDebtToBanks" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermDebtToBanks" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Anden gæld, der er optaget ved udstedelse af obligationer
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherLongtermDebtRaisedByIssuanceOfBonds" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Kreditinstitutter i øvrigt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermDebtToOtherCreditInstitutions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Konvertible og udbyttegivende gældsbreve
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ConvertibleProfitYieldingOrDividendYieldingLongtermDebtInstruments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Modtagne forudbetalinger fra kunder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermPrepaymentsReceivedFromCustomers" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Modtagne forudbetalinger vedrørende igangværende arbejder for fremmed regning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermContractWorkInProgressLiabilities" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Leverandører af varer og tjenesteydelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermTradePayables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Vekselgæld
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermBillsOfExchangePayable" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermPayablesToGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermPayablesToAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Skyldig selskabsskat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermTaxPayables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermTaxPayables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Anden gæld, herunder skyldige skatter og skyldige bidrag til social sikring
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherLongtermPayables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Ansvarlig lånekapital
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermEquityLoan" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Periodeafgrænsningsposter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermDeferredIncome" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Negativ goodwill
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermNegativeGoodwill" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Leasingforpligtelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermLeaseCommitments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Deposita
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:DepositsLongtermLiabilitiesOtherThanProvisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overdækning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:IncomeExceedCostForTheFinancialYearLongterm" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Langfristede gældsforpligtelser i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LongtermLiabilitiesOtherThanProvisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LongtermLiabilitiesOtherThanProvisions" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til realkreditinstitutter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermMortgageDebt" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermMortgageDebt" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til banker
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermDebtToBanks" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermDebtToBanks" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Anden gæld, der er optaget ved udstedelse af obligationer
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherShorttermDebtRaisedByIssuanceOfBonds" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til kreditinstitutter i øvrigt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermDebtToOtherCreditInstitutions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Konvertible og udbyttegivende kortfristede gældsbreve
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ConvertibleProfitYieldingOrDividendYieldingShorttermDebtInstruments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Modtagne forudbetalinger fra kunder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermPrepaymentsReceivedFromCustomers" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Modtagne forudbetalinger vedrørende igangværende arbejder for fremmed regning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermContractWorkInProgressLiabilities" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Leverandører af varer og tjenesteydelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermTradePayables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermTradePayables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Vekselgæld
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermBillsOfExchangePayable" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gældsforpligtelser til tilknyttede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermPayablesToGroupEnterprises" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermPayablesToGroupEnterprises" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gældsforpligtelser til associerede virksomheder
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermPayablesToAssociates" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermPayablesToAssociates" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Skyldig selskabsskat
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermTaxPayables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermTaxPayables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Anden gæld, herunder skyldige skatter og skyldige bidrag til social sikring
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:OtherShorttermPayables" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:OtherShorttermPayables" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Ansvarlig lånekapital
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermEquityLoan" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Gæld til selskabsdeltagere og ledelse
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermPayablesToShareholdersAndManagement" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Periodeafgrænsningsposter
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermDeferredIncome" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Negativ goodwill
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermNegativeGoodwill" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Leasingforpligtelser
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermLeaseCommitments" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Forslag til udbytte for regnskabsåret
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ProposedDividend" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ProposedDividend" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Deposita
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:DepositsShorttermLiabilitiesOtherThanProvisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr>
+
+    <td class="col1 dotted">
+        <span>
+            
+                Overdækning
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:IncomeExceedCostForTheFinancialYearShortterm" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Kortfristede gældsforpligtelser i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:ShorttermLiabilitiesOtherThanProvisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:ShorttermLiabilitiesOtherThanProvisions" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Gældsforpligtelser i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LiabilitiesOtherThanProvisions" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LiabilitiesOtherThanProvisions" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <tr class="strong upper">
+
+    <td class="col1 dotted header_row">
+        <span>
+            
+                Passiver i alt
+            
+        </span>
+    </td>
+    <td class="col2">
+        
+    </td>
+    <td class="col3">
+        <ix:nonFraction name="fsa:LiabilitiesAndEquity" contextRef="c11" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+    </td>
+    <td class="col4 lastyear">
+        
+            <ix:nonFraction name="fsa:LiabilitiesAndEquity" contextRef="c12" unitRef="u0" format="ixt:numdotcomma" decimals="0">0</ix:nonFraction>
+        
+    </td>
+</tr>
+
+        
+	</tbody>
+</table>
+
+
+
+		
+		
+		
+		
+		<div style="display:none;">
+			<ix:header>
+				<ix:hidden>
+<ix:nonNumeric name="sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+					
+
+
+
+    <ix:nonNumeric name="fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+
+    <ix:nonNumeric name="fsa:SelectedElementsFromReportingClassC" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+
+    <ix:nonNumeric name="fsa:SelectedElementsFromReportingClassD" contextRef="c0" escape="true" xml:lang="da">false</ix:nonNumeric>
+
+
+    <ix:nonNumeric name="fsa:AccountingPoliciesAreUnchangedFromPreviousPeriod" contextRef="c0" escape="true" xml:lang="da">true</ix:nonNumeric>
+
+					
+
+
+
+
+
+
+  <ix:nonNumeric name="gsd:PrecedingReportingPeriodStartDate" contextRef="c0" format="ixt:dateslasheu">01/01/2016</ix:nonNumeric>
+  <ix:nonNumeric name="gsd:PredingReportingPeriodEndDate" contextRef="c0" format="ixt:dateslasheu">31/12/2016</ix:nonNumeric>
+
+
+					
+
+
+
+
+
+
+    
+    <ix:nonNumeric name="cmn:TypeOfAuditorAssistance" contextRef="c0" xml:lang="da">Ingen bistand</ix:nonNumeric>
+    
+    
+    
+    
+
+					
+
+
+
+
+<ix:nonNumeric name="gsd:NameOfSubmittingEnterprise" contextRef="c0" xml:lang="da">Lars Larsen Black</ix:nonNumeric>
+<ix:nonNumeric name="gsd:AddressOfSubmittingEnterpriseStreetAndNumber" contextRef="c0" xml:lang="da">Nicolai Mohrsgøta 8</ix:nonNumeric>
+<ix:nonNumeric name="gsd:AddressOfSubmittingEnterprisePostcodeAndTown" contextRef="c0" xml:lang="da">100 Tórshavn</ix:nonNumeric>
+</ix:hidden>
+				<ix:references>
+					<lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByFunctionIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"></lnk:schemaRef>
+				</ix:references>
+				<ix:resources>
+					<xbrli:context id="c0"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="c1"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfExecutiveBoardDimension"><cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c2"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension"><cmn:memberOfBoardIdentifier>0</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c3"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:typedMember dimension="cmn:IdentificationOfMemberOfSupervisoryBoardDimension"><cmn:memberOfBoardIdentifier>1</cmn:memberOfBoardIdentifier></xbrldi:typedMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c4"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2016-01-01</xbrli:startDate><xbrli:endDate>2016-12-31</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:context id="c5"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c6"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2016-01-01</xbrli:startDate><xbrli:endDate>2016-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ProposedDividendRecognisedInEquityMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c7"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c8"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2016-01-01</xbrli:startDate><xbrli:endDate>2016-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:ReserveForNetRevaluationAccordingToEquityMethodMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c9"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2017-01-01</xbrli:startDate><xbrli:endDate>2017-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c10"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2016-01-01</xbrli:startDate><xbrli:endDate>2016-12-31</xbrli:endDate></xbrli:period><xbrli:scenario><xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember></xbrli:scenario></xbrli:context>
+<xbrli:context id="c11"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2017-12-31</xbrli:instant></xbrli:period></xbrli:context>
+<xbrli:context id="c12"><xbrli:entity><xbrli:identifier scheme="http://www.dcca.dk/cvr">35677089</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2016-12-31</xbrli:instant></xbrli:period></xbrli:context>
+					<xbrli:unit id="u0"><xbrli:measure>iso4217:DKK</xbrli:measure></xbrli:unit>
+				</ix:resources>
+			</ix:header>
+		</div>
+	</body>
 </html>

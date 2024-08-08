@@ -1,13 +1,247 @@
-<html>
-<head><title>500 Internal Server Error</title></head>
-<body>
-<h1>500 Internal Server Error</h1>
-<ul>
-<li>Code: InternalError</li>
-<li>Message: We encountered an internal error. Please try again.</li>
-<li>RequestId: DB0Y6REA98696CRP</li>
-<li>HostId: zFZHLog6DMx6oHFQ3RpU5Y+FZDeKoR+U/igo/dK8XxdVH42W3lxTOR5MvX8N6NWHIun1Yb3c4fk=</li>
-</ul>
-<hr/>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:dst="http://xbrl.dcca.dk/dst" xmlns:cmn="http://xbrl.dcca.dk/cmn" xmlns:sob="http://xbrl.dcca.dk/sob" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/" xmlns:arr="http://xbrl.dcca.dk/arr" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2010-04-20" xmlns:lnk="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:basis="http://xbrl.dcca.dk/Regnskab%202.0%20Basis" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs" xmlns:ix="http://www.xbrl.org/2008/inlineXBRL" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mrv="http://xbrl.dcca.dk/mrv" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fsa="http://xbrl.dcca.dk/fsa" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:gsd="http://xbrl.dcca.dk/gsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <lnk:schemaRef xlink:href="http://archprod.service.eogs.dk/taxonomy/20171001/entryDanishGAAPBalanceSheetAccountFormIncomeStatementByNatureIncludingManagementsReviewStatisticsAndTax20171001.xsd" xlink:type="simple"/>
+   <xbrli:context id="c0">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38730126</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-06-21</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:context id="c1">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38730126</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:startDate>2017-06-21</xbrli:startDate>
+         <xbrli:endDate>2017-12-31</xbrli:endDate>
+      </xbrli:period>
+      <xbrli:scenario>
+         <xbrldi:explicitMember dimension="fsa:ResultDistributionDimension">fsa:RetainedEarningsMember</xbrldi:explicitMember>
+      </xbrli:scenario>
+   </xbrli:context>
+   <xbrli:context id="c2">
+      <xbrli:entity>
+         <xbrli:identifier scheme="http://www.dcca.dk/cvr">38730126</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+         <xbrli:instant>2017-12-31</xbrli:instant>
+      </xbrli:period>
+   </xbrli:context>
+   <xbrli:unit id="u0">
+      <xbrli:measure>iso4217:DKK</xbrli:measure>
+   </xbrli:unit>
+   <gsd:InformationOnTypeOfSubmittedReport basis:version="3" contextRef="c0" xml:lang="da">Årsrapport</gsd:InformationOnTypeOfSubmittedReport>
+   <gsd:DateOfGeneralMeeting contextRef="c0">2018-06-21</gsd:DateOfGeneralMeeting>
+   <gsd:NameAndSurnameOfChairmanOfGeneralMeeting contextRef="c0" xml:lang="da">Hamza Khan</gsd:NameAndSurnameOfChairmanOfGeneralMeeting>
+   <gsd:NameOfReportingEntity contextRef="c0" xml:lang="da">Coffee'N'Candy ApS</gsd:NameOfReportingEntity>
+   <gsd:AddressOfReportingEntityStreetName contextRef="c0" xml:lang="da">Marmorvej</gsd:AddressOfReportingEntityStreetName>
+   <gsd:AddressOfReportingEntityStreetBuildingIdentifier contextRef="c0" xml:lang="da">21, st tv</gsd:AddressOfReportingEntityStreetBuildingIdentifier>
+   <gsd:AddressOfReportingEntityPostCodeIdentifier contextRef="c0" xml:lang="da">2100</gsd:AddressOfReportingEntityPostCodeIdentifier>
+   <gsd:AddressOfReportingEntityDistrictName contextRef="c0" xml:lang="da">København Ø</gsd:AddressOfReportingEntityDistrictName>
+   <gsd:IdentificationNumberCvrOfReportingEntity contextRef="c0" xml:lang="da">38730126</gsd:IdentificationNumberCvrOfReportingEntity>
+   <gsd:ReportingPeriodStartDate contextRef="c0">2017-06-21</gsd:ReportingPeriodStartDate>
+   <gsd:ReportingPeriodEndDate contextRef="c0">2017-12-31</gsd:ReportingPeriodEndDate>
+   <fsa:InformationOnReportingClassOfEntity contextRef="c0" xml:lang="da">Årsrapporten er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for Regnskabsklasse B.</fsa:InformationOnReportingClassOfEntity>
+   <fsa:ClassOfReportingEntity contextRef="c0" xml:lang="da">Regnskabsklasse B</fsa:ClassOfReportingEntity>
+   <fsa:DisclosureOfAccountingPolicies contextRef="c0" xml:lang="da">&lt;table xmlns="http://www.w3.org/1999/xhtml" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; width:532pt"&gt;
+  &lt;colgroup&gt;
+    &lt;col style="mso-width-source:userset;mso-width-alt:22698;width:532pt" width="709"/&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr style="height:30.0pt; mso-height-source:userset"&gt;
+      &lt;td class="xl78" style="height:30.0pt; width:532pt"&gt;Årsrapporten for Coffe'N'Candy ApS for 2017 er aflagt i overensstemmelse med årsregnskabslovens bestemmelser for klasse B-virksomheder.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl76" style="height:13.0pt"&gt;Den anvendte regnskabspraksis er uændret i forhold til tidligere år.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Generelt om indregning og måling&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:39.0pt"&gt;
+      &lt;td class="xl79" style="height:39.0pt; width:532pt"&gt;I resultatopgørelsen indregnes indtægter i takt med, at de indtjenes, herunder indregnes værdireguleringer af finansielle aktiver og forpligtelser. I resultatopgørelsen indregnes ligeledes alle omkostninger, herunder afskrivninger og nedskrivninger.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:26.0pt"&gt;
+      &lt;td class="xl79" style="height:26.0pt; width:532pt"&gt;Aktiver indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil tilflyde selskabet, og aktivets værdi kan måles pålideligt.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:26.0pt"&gt;
+      &lt;td class="xl79" style="height:26.0pt; width:532pt"&gt;Forpligtelser indregnes i balancen, når det er sandsynligt, at fremtidige økonomiske fordele vil fragå selskabet, og forpligtelsens værdi kan måles pålideligt.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:26.0pt"&gt;
+      &lt;td class="xl79" style="height:26.0pt; width:532pt"&gt;Ved første indregning måles aktiver og forpligtelser til kostpris. Efterfølgende måles aktiver og forpligtelser som beskrevet for hver enkelt regnskabspost nedenfor.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:38.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl79" style="height:38.25pt; width:532pt"&gt;Visse finansielle aktiver og forpligtelser måles til amortiseret kostpris, hvorved der indregnes en konstant effektiv rente over løbetiden. Amortiseret kostpris opgøres som oprindelig kostpris med fradrag af eventuelle afdrag og tillæg/fradrag af den akkumulerede amortisering af forskellen mellem kostpris og nominelt beløb.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:26.0pt"&gt;
+      &lt;td class="xl79" style="height:26.0pt; width:532pt"&gt;Ved indregning og måling tages hensyn til forudsigelige tab og risici, der fremkommer inden årsrapporten aflægges, og som be- eller afkræfter forhold, der eksisterede på balancedagen.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;RESULTATOPGØRELSEN&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Bruttoresultat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:39.0pt"&gt;
+      &lt;td class="xl79" style="height:39.0pt; width:532pt"&gt;Bruttoresultat udgøres af nettoomsætning med fradrag af det til nettoomsætningen direkte henførbare vareforbrug og med fradrag af andre eksterne omkostninger. Herudover indgår driftsindtægter af sekundær karakter i forhold til selskabets hovedaktivitet.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:39.0pt"&gt;
+      &lt;td class="xl79" style="height:39.0pt; width:532pt"&gt;Nettoomsætningen ved salg af tjenesteydelser indregnes i resultatopgørelsen, såfremt levering og risikoovergang til køber har fundet sted inden regnskabsårets udgang. Nettoomsætning indregnes ekskl. moms og med fradrag af rabatter i forbindelse med salget.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl79" style="height:13.0pt; width:532pt"&gt;Andre eksterne omkostninger omfatter omkostninger til autodrift, småanskaffelser, administration m.v.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Finansielle poster&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:26.0pt"&gt;
+      &lt;td class="xl79" style="height:26.0pt; width:532pt"&gt;Finansielle indtægter og omkostninger indregnes i resultatopgørelsen med de beløb, der vedrører regnskabsåret. Finansielle poster omfatter renteindtægter og -omkostninger.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Skat af årets resultat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:39.0pt"&gt;
+      &lt;td class="xl79" style="height:39.0pt; width:532pt"&gt;Årets skat, som består af årets aktuelle skat og forskydning i udskudt skat, indregnes i resultatopgørelsen med den del, der kan henføres til årets resultat, og direkte på egenkapitalen med den del, der kan henføres til posteringer direkte på egenkapitalen.
+      &lt;span style="mso-spacerun:yes"&gt; &lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt; page-break-before:always"&gt;
+      &lt;td class="xl79" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;BALANCEN&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl79" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Tilgodehavender&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:26.0pt"&gt;
+      &lt;td class="xl78" style="height:26.0pt; width:532pt"&gt;Tilgodehavender måles til amortiseret kostpris, der sædvanligvis svarer til nominel værdi. Værdien reduceres med nedskrivning til imødegåelse af forventede tab.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Skyldig skat og udskudt skat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:39.0pt"&gt;
+      &lt;td class="xl78" style="height:39.0pt; width:532pt"&gt;Aktuelle skatteforpligtelser og tilgodehavende aktuel skat indregnes i balancen som beregnet skat af årets skattepligtige indkomst reguleret for skat af tidligere års skattepligtige indkomster samt for betalte acontoskatter.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt;
+        &lt;span style="mso-spacerun:yes"&gt; &lt;/span&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl77" style="height:13.0pt; width:532pt"&gt;Gældsforpligtelser&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:2.25pt; mso-height-source:userset"&gt;
+      &lt;td class="xl77" style="height:2.25pt; width:532pt"&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr style="height:13.0pt"&gt;
+      &lt;td class="xl78" style="height:13.0pt; width:532pt"&gt;Gæld er målt til amortiseret kostpris svarende til nominel værdi.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</fsa:DisclosureOfAccountingPolicies>
+   <fsa:GrossResult contextRef="c0" decimals="0" unitRef="u0">-193435</fsa:GrossResult>
+   <fsa:ProfitLossFromOrdinaryOperatingActivities contextRef="c0" decimals="0" unitRef="u0">-193435</fsa:ProfitLossFromOrdinaryOperatingActivities>
+   <fsa:ProfitLossFromOrdinaryActivitiesBeforeTax contextRef="c0" decimals="0" unitRef="u0">-193435</fsa:ProfitLossFromOrdinaryActivitiesBeforeTax>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-193435</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c1" decimals="0" unitRef="u0">-193435</fsa:ProfitLoss>
+   <fsa:ProfitLoss contextRef="c0" decimals="0" unitRef="u0">-193435</fsa:ProfitLoss>
+   <fsa:FixturesFittingsToolsAndEquipment contextRef="c2" decimals="0" unitRef="u0">450000</fsa:FixturesFittingsToolsAndEquipment>
+   <fsa:PropertyPlantAndEquipment contextRef="c2" decimals="0" unitRef="u0">450000</fsa:PropertyPlantAndEquipment>
+   <fsa:NoncurrentAssets contextRef="c2" decimals="0" unitRef="u0">450000</fsa:NoncurrentAssets>
+   <fsa:CashAndCashEquivalents contextRef="c2" decimals="0" unitRef="u0">3253</fsa:CashAndCashEquivalents>
+   <fsa:CurrentAssets contextRef="c2" decimals="0" unitRef="u0">3253</fsa:CurrentAssets>
+   <fsa:Assets contextRef="c2" decimals="0" unitRef="u0">453253</fsa:Assets>
+   <fsa:ContributedCapital contextRef="c2" decimals="0" unitRef="u0">50000</fsa:ContributedCapital>
+   <fsa:Equity contextRef="c2" decimals="0" unitRef="u0">50000</fsa:Equity>
+   <fsa:OtherShorttermPayables contextRef="c2" decimals="0" unitRef="u0">403253</fsa:OtherShorttermPayables>
+   <fsa:ShorttermLiabilitiesOtherThanProvisions contextRef="c2" decimals="0" unitRef="u0">403253</fsa:ShorttermLiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesOtherThanProvisions contextRef="c2" decimals="0" unitRef="u0">403253</fsa:LiabilitiesOtherThanProvisions>
+   <fsa:LiabilitiesAndEquity contextRef="c2" decimals="0" unitRef="u0">453253</fsa:LiabilitiesAndEquity>
+   <fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters contextRef="c0" xml:lang="da">&lt;p xmlns="http://www.w3.org/1999/xhtml"&gt;Selskabets formål er at drive cafévirksomhed med salg af kaffe og kager samt hermed beslægtet virksomhed.&lt;/p&gt;</fsa:DisclosureOfMainActivitiesAndAccountingAndFinancialMatters>
+   <sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc contextRef="c0" xml:lang="da">true</sob:TheReportingEntityAppliesTheExceptionConcerningOptingOutOfTheStatementByManagementEtc>
+   <fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB contextRef="c0" xml:lang="da">false</fsa:TheCompanyHasPresentedTheAnnualReportEtcWithReferenceToTheDanishFinancialStatementsAct78aConcerningTheExceptionForReportingClassCMediumsizeSubsidiariesWhichChoosesToPresentTheAnnualReportEtcAccordingToReportingClassB>
+   <fsa:SelectedElementsFromReportingClassC contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassC>
+   <fsa:SelectedElementsFromReportingClassD contextRef="c0" xml:lang="da">false</fsa:SelectedElementsFromReportingClassD>
+   <cmn:TypeOfAuditorAssistance contextRef="c0" xml:lang="da">Ingen bistand</cmn:TypeOfAuditorAssistance>
+   <gsd:NameOfSubmittingEnterprise contextRef="c0" xml:lang="da">Hamza Khan</gsd:NameOfSubmittingEnterprise>
+   <gsd:AddressOfSubmittingEnterpriseStreetAndNumber contextRef="c0" xml:lang="da">Margrethevænget 12, 2. 003.</gsd:AddressOfSubmittingEnterpriseStreetAndNumber>
+   <gsd:AddressOfSubmittingEnterprisePostcodeAndTown contextRef="c0" xml:lang="da">2665 Vallensbæk Strand</gsd:AddressOfSubmittingEnterprisePostcodeAndTown>
+</xbrli:xbrl>
