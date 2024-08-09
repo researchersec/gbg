@@ -2,7 +2,6 @@ name: Download and Process Reports
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This will run daily at midnight
   workflow_dispatch:  # This allows manual triggering of the workflow
 
 jobs:
